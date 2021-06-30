@@ -114,3 +114,45 @@ body{
     font-size: x-large;
     font-weight: 900;
 }
+.quiz-main-body{
+    background-color: rgba(255, 255, 255, 0.623);
+    height: 100vh;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.quiz-page-heading{
+    width: 60%;
+    margin: auto;
+    border-radius: 30px;
+    height: 80px;
+}
+.quiz-question{
+    width: 70%;
+    height: 80px;
+    margin: 20px auto;
+    line-height: 80px;
+    font-size: x-large;
+}
+.answer-box{
+    width: 60%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: 20px auto;
+    line-height: 120px;
+}
+.answer-1:hover{
+    background-color: rgba(248, 120, 120, 0.815);
+}
+.quiz-score{
+    margin: auto;
+}
+.next-question{
+    float: right;
+    position: relative;
+    bottom: 410px;
+    right: 80px;
+}
