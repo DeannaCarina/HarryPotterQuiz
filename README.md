@@ -39,17 +39,16 @@ This is my submission for Code Institute's (5P) Portfolio Project Two. It will b
 The wireframes for the Harry Potter Quiz website were made with the Balsamiq Desktop Applictaion, they can be found by viewing the images below. As the layout of the quiz will change between device screen sizes, I have made a wireframe for all devices; with PC being in landscape, and tablet and phones being in portrait orientation. 
 <br><br>
 The wireframe below is for the landing page on PC but also for other devices when in landscape orientation.
-<img src="assets/images/readme-images/pc-main.png" alt="Wireframe for landing page on PC"><br><br>
+<img src="assets/images/readme-images/pc-main.png" alt="Wireframe for landing page on PC" width="100%"><br><br>
 The wireframe below is for the quiz page on PC but also for other devices when in landscape orientation.
-<img src="assets/images/readme-images/pc-question.png" alt="Wireframe for quiz page on PC"><br><br>
-The wireframe below is for the landing page on tablets when in portrait orientation.
-<img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet"><br><br>
-The wireframe below is for the quiz page on tablets when in portrait orientation.
-<img src="assets/images/readme-images/tablet-question.png" alt="Wireframe for quiz page on tablet"><br><br>
-The wireframe below is for the landing page on phones when in portrait orientation.
-<img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones"><br><br>
-The wireframe below is for the quiz page on phones when in portrait orientation.
-<img src="assets/images/readme-images/phone-question.png" alt="Wireframe for quiz page on phones"><br><br>
+<img src="assets/images/readme-images/pc-question.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
+The wireframes below are for tablets when in portrait orientation for the landing and quiz pages.
+<img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
+<img src="assets/images/readme-images/tablet-question.png" alt="Wireframe for quiz page on tablet" width="45%">
+The wireframes below are for phones when in portrait orientation for the landing and quiz pages.
+<img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
+<img src="assets/images/readme-images/phone-question.png" alt="Wireframe for quiz page on phones" width="30%">
+<br><br>
 
 # Surface
 
