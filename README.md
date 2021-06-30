@@ -61,16 +61,13 @@ The main colours used on the website are the links for the specific quizes (orga
 ## Content
 
 ## Images
-There are only three images used throughout the website - these are the background images used for different screen sizes - one for a more landscape orientation (for all devises) and two further images for portrait orientations (one for tablets and one for phones). Two images on the website came from <a href="https://unsplash.com/" target="_blank">Unsplash</a>:
+There are only two images used throughout the website - these are the background images used for different screen sizes - one for a more landscape orientation (for all devises) and one further image for portrait orientations. One images on the website came from <a href="https://unsplash.com/" target="_blank">Unsplash</a>:
 <ul>
     <li>
         <a href="https://unsplash.com/photos/cADpgwU6Fm4" target="_blank">Jules Marvin Eguilos</a> - background image for portrait orientation on small mobile devices.
     </li>
-    <li>
-        <a href="https://unsplash.com/photos/v-IkXXcQ0Eo" target="_blank">Bryan Walker</a> - background image for portrait orientation on medium mobile devices (such as tablets and iPads).
-    </li>
 </ul>    
-And one image on the website came from <a href="https://www.pexels.com/" target="_blank">Pexels</a>:
+And the other image on the website came from <a href="https://www.pexels.com/" target="_blank">Pexels</a>:
 <ul>
     <li>
         <a href="https://www.pexels.com/photo/train-with-smoke-507410/" target="_blank">Gabriela Palai</a> - background image for landscape orientation on all devices.
