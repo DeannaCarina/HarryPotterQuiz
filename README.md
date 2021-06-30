@@ -44,7 +44,7 @@ The wireframe below is for the quiz page on PC but also for other devices when i
 <img src="assets/images/readme-images/pc-question.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
 The wireframes below are for tablets when in portrait orientation for the landing and quiz pages.
 <img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
-<img src="assets/images/readme-images/tablet-question.png" alt="Wireframe for quiz page on tablet" width="45%">
+<img src="assets/images/readme-images/tablet-question.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
 The wireframes below are for phones when in portrait orientation for the landing and quiz pages.
 <img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
 <img src="assets/images/readme-images/phone-question.png" alt="Wireframe for quiz page on phones" width="30%">
