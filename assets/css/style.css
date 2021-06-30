@@ -32,6 +32,9 @@ body{
     width: 70%;
     margin: 5px;
 }
+.landing-quiz:hover{
+    background-color: rgba(153, 153, 153, 0.568);
+}
 .book-1{
     background-color: rgb(160, 20, 20);
     color: rgb(235, 193, 54);
@@ -146,6 +149,9 @@ body{
 }
 .answer-1:hover{
     background-color: rgba(248, 120, 120, 0.815);
+}
+.answer-2:hover{
+    background-color: rgba(120, 154, 248, 0.815);
 }
 .quiz-score{
     margin: auto;
