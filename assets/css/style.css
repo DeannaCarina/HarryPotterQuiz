@@ -162,6 +162,9 @@ body{
 .answer-5:hover{
     background-color: rgba(255, 223, 116, 0.829);
 }
+.answer-6:hover{
+    background-color: rgba(108, 109, 201, 0.829);
+}
 .quiz-score{
     margin: auto;
 }
