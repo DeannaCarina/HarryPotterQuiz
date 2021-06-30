@@ -42,7 +42,7 @@ body{
 }
 .book-2{
     background-color: rgb(39, 39, 110);
-    color: rgb(27, 143, 27);
+    color: rgb(34, 133, 34);
     border: 2px solid rgb(146, 26, 26);
 }
 .book-3{
@@ -62,7 +62,7 @@ body{
 }
 .book-6{
     background-color: rgb(53, 53, 145);
-    color: rgb(54, 148, 54);
+    color: rgb(46, 146, 46);
     border: 2px solid rgb(30, 82, 30);
 }
 .book-7{
@@ -155,6 +155,9 @@ body{
 }
 .answer-3:hover{
     background-color: rgba(169, 120, 248, 0.815);
+}
+.answer-4:hover{
+    background-color: rgba(253, 96, 56, 0.829);
 }
 .quiz-score{
     margin: auto;
