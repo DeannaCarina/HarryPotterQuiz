@@ -153,6 +153,9 @@ body{
 .answer-2:hover{
     background-color: rgba(120, 154, 248, 0.815);
 }
+.answer-3:hover{
+    background-color: rgba(169, 120, 248, 0.815);
+}
 .quiz-score{
     margin: auto;
 }
