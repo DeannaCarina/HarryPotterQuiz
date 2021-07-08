@@ -42,10 +42,10 @@ The wireframe below is for the landing page on PC.
 <img src="assets/images/readme-images/pc-main.png" alt="Wireframe for landing page on PC" width="100%"><br><br>
 The wireframe below is for the quiz page on PC.
 <img src="assets/images/readme-images/pc-quiz.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
-The wireframes below are for tablets.
+The wireframes below are for tablets.<br>
 <img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
 <img src="assets/images/readme-images/tablet-quiz.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
-The wireframes below are for smaller devices.
+The wireframes below are for smaller devices.<br>
 <img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
 <img src="assets/images/readme-images/phone-quiz.png" alt="Wireframe for quiz page on phones" width="30%">
 <br><br>
