@@ -19,6 +19,7 @@ body{
 }
 .landing-main-body{
     width: 100%;
+    padding-left: 5%;
 }
 .landing-quiz-options{
     width: 67%;
@@ -203,6 +204,9 @@ body{
     }
     .next-question{
         bottom: 330px;
+    }
+    .landing-main-body{
+        padding-left: 0%;
     }
 }
 @media screen and (max-width: 720px){
