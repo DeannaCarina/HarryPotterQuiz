@@ -36,18 +36,18 @@ This is my submission for Code Institute's (5P) Portfolio Project Two. It will b
 
 # Skeleton
 
-The wireframes for the Harry Potter Quiz website were made with the Balsamiq Desktop Applictaion, they can be found by viewing the images below. As the layout of the quiz will change between device screen sizes, I have made a wireframe for all devices; with PC being in landscape, and tablet and phones being in portrait orientation. 
+The wireframes for the Harry Potter Quiz website were made with the Balsamiq Desktop Applictaion, they can be found by viewing the images below. As the layout of the quiz will change between device screen sizes, I have made a wireframe for all devices; with PC being in landscape, and tablet and phones being in portrait orientation. As I have chosen an image that is square, it is able to act as the background for all screen sizes, inkeeping with device compatibility and responsiveness.
 <br><br>
-The wireframe below is for the landing page on PC but also for other devices when in landscape orientation.
+The wireframe below is for the landing page on PC.
 <img src="assets/images/readme-images/pc-main.png" alt="Wireframe for landing page on PC" width="100%"><br><br>
-The wireframe below is for the quiz page on PC but also for other devices when in landscape orientation.
-<img src="assets/images/readme-images/pc-question.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
-The wireframes below are for tablets when in portrait orientation for the landing and quiz pages.
+The wireframe below is for the quiz page on PC.
+<img src="assets/images/readme-images/pc-quiz.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
+The wireframes below are for tablets.
 <img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
-<img src="assets/images/readme-images/tablet-question.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
-The wireframes below are for phones when in portrait orientation for the landing and quiz pages.
+<img src="assets/images/readme-images/tablet-quiz.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
+The wireframes below are for smaller devices.
 <img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
-<img src="assets/images/readme-images/phone-question.png" alt="Wireframe for quiz page on phones" width="30%">
+<img src="assets/images/readme-images/phone-quiz.png" alt="Wireframe for quiz page on phones" width="30%">
 <br><br>
 
 # Surface
@@ -61,18 +61,12 @@ The main colours used on the website are the links for the specific quizes (orga
 ## Content
 
 ## Images
-There are only two images used throughout the website - these are the background images used for different screen sizes - one for a more landscape orientation (for all devises) and one further image for portrait orientations. One images on the website came from <a href="https://unsplash.com/" target="_blank">Unsplash</a>:
+There is only one image used throughout the website - which is the background image used for different screen sizes - this image came from <a href="https://unsplash.com/" target="_blank">Unsplash</a>:
 <ul>
     <li>
-        <a href="https://unsplash.com/photos/cADpgwU6Fm4" target="_blank">Jules Marvin Eguilos</a> - background image for portrait orientation on small mobile devices.
+        <a href="https://unsplash.com/photos/WE7YfTGpXlg" target="_blank">Rae Tian</a> - background image for portrait and landscape orientation on all devices.
     </li>
 </ul>    
-And the other image on the website came from <a href="https://www.pexels.com/" target="_blank">Pexels</a>:
-<ul>
-    <li>
-        <a href="https://www.pexels.com/photo/train-with-smoke-507410/" target="_blank">Gabriela Palai</a> - background image for landscape orientation on all devices.
-    </li>
-</ul>
 
 ## Acknowledgements
 
