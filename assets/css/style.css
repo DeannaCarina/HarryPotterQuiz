@@ -5,10 +5,8 @@ body{
     margin: 0px;
     background: url(../images/backgrounds/background.jpg) no-repeat center center;
     background-size: cover;
-    height: 100vh;
     border: 0px;
     overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5{
@@ -16,22 +14,23 @@ h1, h2, h3, h4, h5{
 }
 /* ----------------STYLINGS OF MAIN LANDING PAGE------------------- */
 .landing-heading{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 200%;
     text-align: center;
     padding-top: 40px;
+    margin-top: 0px;
 }
 .landing-sub-heading{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 .landing-main-body{
-    width: 60%;
-    background-color: rgba(255, 255, 255, 0.623);
-    box-shadow: 0 10px 50px 0 rgba(24, 24, 24, 0.747), 0 10px 50px 0 rgba(0,0,0,0.7);
+    width: 1100px;
+    /* background-color: rgba(255, 255, 255, 0.623); */
+    /* box-shadow: 0 10px 50px 0 rgba(24, 24, 24, 0.747), 0 10px 50px 0 rgba(0,0,0,0.7); */
     margin: auto;
     height: 100%;
-    padding-top: 1px;
+    padding-top: 0px;
 }
 .main-page-section{
     width: 900px;
@@ -170,13 +169,11 @@ h1, h2, h3, h4, h5{
     color: white;
 }
 .quiz-main-body{
-    background-color: rgba(255, 255, 255, 0.623);
     height: 100%;
     padding-top: 30px;
     width: 65%;
     margin: auto;
     text-align: center;
-    box-shadow: 0 40px 50px 0 rgba(24, 24, 24, 0.747), 0 10px 50px 0 rgba(0,0,0,0.7);
 }
 .quiz-page-heading{
     width: 60%;
@@ -186,13 +183,10 @@ h1, h2, h3, h4, h5{
     box-shadow: 0 40px 50px 0 rgba(24, 24, 24, 0.747), 0 10px 50px 0 rgba(0,0,0,0.7);
 }
 .quiz-tally{
-    list-style: none;
-    text-align: left;
     width: 20px;
-    position: fixed;
-    top: 70px;
     padding: 0px;
-    margin-left: 3%;
+    text-align: left;
+    display: inline;
 }
 .answer-tally{
     margin: 5px;
@@ -203,16 +197,20 @@ h1, h2, h3, h4, h5{
     text-align: center;
     border-radius: 17px;
     background-color: rgb(255, 255, 255);
+    list-style: none;
+    display: inline-block;
 }
 .quiz-question{
     width: 60%;
     height: auto;
-    margin: 20px auto;
+    margin: auto auto;
+    margin-top: 20px;
     font-size: x-large; 
     font-weight: 800;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
 }
 .answer-box{
     width: 60%;
@@ -280,6 +278,19 @@ h1, h2, h3, h4, h5{
         width: 50px;
     }
 }
+@media screen and (max-width: 1200px){
+    .landing-main-body{
+        width: 600px;
+    }
+    .main-page-section{
+        width: 530px;
+    }
+    .landing-quiz{
+        width: 300px;
+        margin-left: 10px;
+    }    
+
+}
 @media screen and (max-width: 850px){
     .answer-box{
         font-size: small;
@@ -305,6 +316,9 @@ h1, h2, h3, h4, h5{
         line-height: 20px;
         margin: 2px;
     }
+    body{
+        height: 100vh;
+    }
 }
 @media screen and (max-width: 720px){
     .quiz-page-heading{
@@ -322,26 +336,75 @@ h1, h2, h3, h4, h5{
     .next-question{
         bottom: 290px;
     }
+    .landing-quiz{
+        height: 60px;
+        border-radius: 25px;
+    } 
+    .book-image{
+        height: 60px;
+        width: 70px;
+        border-radius: 25px;
+    }
+    .landing-score{
+        height: 60px;
+        width: 70px;
+        border-radius: 25px;
+        line-height: 60px;
+        font-size: medium;
+    }
+    .landing-main-body{
+        width: 500px;
+    }
+    .main-page-section{
+        width: 475px;
+        padding: 5px;
+        height: 62px;
+    }
 }
 @media screen and (max-width: 600px){
     .quiz-main-body{
         width: 80%;
-        padding-top: 50px;
+        padding-top: 0px;
     }
     .quiz-tally{
         left: 0px;
         top: 30px;
     }
-    .quiz-main-body{
-        padding-top: 10px;
-    }
     .quiz-page-heading{
-        margin-top: 0px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 520px){
     .quiz-page-heading{
         width: 90%;
+    }
+    .title{
+        font-size: x-small;
+    }
+    .landing-quiz{
+        height: 50px;
+        width: 180px;
+        border-radius: 20px;
+    } 
+    .book-image{
+        height: 50px;
+        width: 60px;
+        border-radius: 20px;
+    }
+    .landing-score{
+        height: 50px;
+        width: 60px;
+        border-radius: 20px;
+        line-height: 50px;
+        font-size: medium;
+    }
+    .landing-main-body{
+        width: 350px;
+    }
+    .main-page-section{
+        width: 330px;
+        padding: 2px;
+        height: 52px;
     }
 }
 @media screen and (max-width: 500px){
@@ -360,9 +423,13 @@ h1, h2, h3, h4, h5{
         margin-top: 20px;
     }
     .next-question{
-        bottom: 74px;
+        bottom: 0px;
         height: 55px;
         line-height: 55px;
+        float: none;
+        margin: auto auto;
+        margin-top: 20px;
+        left: 0px;
     }
 }
 @media screen and (max-width: 400px){
@@ -373,14 +440,8 @@ h1, h2, h3, h4, h5{
         width: 70px;
         font-size: medium;
     }
-    .title{
-        font-size: small;
-    }
 }
 @media screen and (max-width: 340px){
-    .title{
-        font-size: x-small;
-    }
     .quiz-page-heading{
         height: 40px;
         width: 85%;
@@ -394,11 +455,9 @@ h1, h2, h3, h4, h5{
         float: left;
         margin-left: 30px;
     }
-    .next-question{
+    /* .next-question{
         height: 40px;
         line-height: 40px;
         font-size: medium;
-        float: right;
-        bottom: -15px;
-    }
+    } */
 }
