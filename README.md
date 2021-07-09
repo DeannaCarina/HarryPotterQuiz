@@ -54,7 +54,8 @@ The wireframes below are for smaller devices.<br>
 
 ### Colour Scheme
 The main colours used on the website are the links for the specific quizes (organised by Harry Potter book - one for each quiz.) These colours match the colours that are on the front of each book. I felt this would add familiarity for the user as the majority of visitors to the website will be Harry Potter fans. These were determined during the wireframe stage as I feel the colour scheme is a massive part of what keeps the user interested and more likely to stay on the website.<br><br>
-<img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers">
+<img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br><br>
+During development of the website, I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour; however I have kept the original colour scheme on the scores as I still like the idea of colour continuity - and these colours match the colours used on the separate quiz pages.
 
 # Credits
 
