@@ -14,7 +14,7 @@ const getJSON = async url => {
   }
   
   console.log("Fetching data...");
-  getJSON("https://8000-scarlet-caterpillar-4nnakuys.ws-eu11.gitpod.io/assets/js/book1QandA.json").then(data => {
+  getJSON("https://8000-scarlet-caterpillar-4nnakuys.ws-eu11.gitpod.io/assets/js/QandA.json").then(data => {
     console.log(data);
   }).catch(error => {
     console.error(error);
