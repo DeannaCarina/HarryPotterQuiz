@@ -1,5 +1,5 @@
 {
-    "book1Questions": 
+"book1Questions": 
 [
     {
     "question": "What is the title of the first chapter in Harry Potter and the Philosopher's Stone?",
@@ -205,34 +205,34 @@
 "book2Questions": 
 [
     {
-    "question": "Question here",
+    "question": "The Weasley's live in a house called 'The Burrow' but where is it?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Upper Flagley",
+    "Puddlemere",
+    "Ottery St. Catchpole",
+    "Tutshill"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "What book did Mrs Weasley refer to before the garden de-gnoming?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Where There’s a Wand There’s a Way",
+    "Weird Wizarding Dilemmas and Their Solutions",
+    "Olde and Forgotten Bewitchments and Charmes",
+    "Gilderoy Lockhart’s Guide to Household Pests"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "Which Quidditch team does Ron support?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "The Chudley Cannons",
+    "Falmouth Falcons",
+    "Holyhead Harpies",
+    "Wimbourne Wasps "
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
     "question": "Question here",
