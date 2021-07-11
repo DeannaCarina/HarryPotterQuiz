@@ -235,172 +235,172 @@
     "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What book was Hermione reading when Ron recieved the Howler from his mother?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Voages with Vampires",
+    "Wanderings with Werewolves",
+    "Gadding with Ghouls",
+    "Break with a Banshee"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "When re-potting madrakes in their first Herbology lesson of second year, who joined Harry, Ron and Hermione?",
+    "answers": [
+    "Neville Longbottom",
+    "Justin Finch-Fletchley",
+    "Dean Thomas",
+    "Ernie Macmillan"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What is Gilderoy Lockheart's favourite colour?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Teal",
+    "Lilac",
+    "Lavender",
+    "Turquoise"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "How many times did Nearly Headless Nick get hit with an axe during his attempted beheadding?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "17",
+    "23",
+    "45",
+    "63"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "Which deathday did Nearly Headless Nick invite Harry to celebrate?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "250th",
+    "430th",
+    "500th",
+    "665th"
     ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
    {
-    "question": "Question here",
+    "question": "Who is the only ghost teacher at Hogwarts?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Septima Vector",
+    "Aurora Sinistra",
+    "Silvanus Kettleburn",
+    "Cuthbert Binns"
+    ],
+    "correctIndex": 3
+    },
+    {
+    "question": "In which book can the Polyjuice Potion recipe be found?",
+    "answers": [
+    "Moste Potente Potions",
+    "Magical Drafts and Potions",
+    "Book of Potions",
+    "Advanced Potion-Making"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "Who was the first person to be petrified by the Basilisk?",
+    "answers": [
+    "Nearly Headless Nick",
+    "Colin Creevy",
+    "Justin Finch-Fletchley",
+    "Hermione Granger"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What Christmas present did the Dursley's send harry in his second year?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "A 50 pence piece",
+    "A coat hanger",
+    "A toothpick",
+    "A single tissue"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "Who's robe did Hermione get the cat fur off that she later used in the Polyjuice Potion?",
+    "answers": [
+    "Pansy Parkinson",
+    "Millicent Bulstrode",
+    "Daphne Greengrass",
+    "Tracey Davis"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "Who was the headmaster of Hogwarts when the Chamber of Secrets was last opened 50 years ago?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Professor Dumbledore",
+    "Phineas Nigellus Black",
+    "Brutus Scrimgeour",
+    "Professor Dippet"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "What is Aragog's wife called?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Moriel",
+    "Madgi",
+    "Mosag",
+    "Morag"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "Who used to tease Moaning Myrtle about her glasses?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Olive Hornby",
+    "Tom Riddle",
+    "Peeves",
+    "Cerelle Peach"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "Where in their home did the Malfoy's hide their dark magic artefacts?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "In the basement",
+    "Behind the tapestry in the dining room",
+    "Under the drawing room floor",
+    "In the attic"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "Who is the leader of the headless hunt?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Sir Patrick Delaney-Podmore",
+    "Sir Peter Duncan-Pangbourne",
+    "Sir Percy Douglas-Packwood",
+    "Sir Podric Damson-Portwell"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "Harry had to speak in Parsletongue to a tap in the bathroom to open the entrance to the Chamber of secrets, what kind of metal was it?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Pewter",
+    "Silver",
+    "Brass",
+    "Copper"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "Who did Ginny walk in on kissing Percy Weasley?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Angelina Johnson",
+    "Penelope Clearwater",
+    "Alicia Spinnet",
+    "Katie Bell"
     ],
     "correctIndex": 1
     }
