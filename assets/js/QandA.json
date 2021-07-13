@@ -408,204 +408,204 @@
 "book3Questions": 
 [
     {
-    "question": "Question here",
+    "question": "Who was looking after Aunt Marge's other dogs while she was staying with the Dursleys?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Colonel Fubster",
+    "Captain Freeman",
+    "Sergeant Fuller",
+    "General Franklin"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "Before Sirius Black was declared innocent, how many people was he said to have killed with a single curse?",
+    "answers": [
+    "11",
+    "13",
+    "15",
+    "17"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "After Harry left Privet Drive on the Knight Bus, where did he stay prior to the school term starting?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "At the Burrow",
+    "At Hogwarts",
+    "At the Three Broomsticks",
+    "At the Leaky Cauldron"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "What was the set book for Divination on Harry's book list?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Predicting the Unpredictable",
+    "Broken Balls: When Fortunes Turn Foul",
+    "Unfogging the Future",
+    "Omens, Oracles & the Goat"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "What is Professor Lupin's middle name?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "John",
+    "Charles'",
+    "Henry'",
+    "George"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What was the name of the Knight that showed Harry, Ron and Hermoine the way to the North Tower for their first Divination lesson?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Sir Waldegrave",
+    "Sir Abingdon",
+    "Sir Westmorland",
+    "Sir Cadogan"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "Which spell did Professor Lupin use on Peeves during his first Defence Against the Dark Arts class with the third years?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Waddiwasi",
+    "Oppugno",
+    "Ebublio",
+    "Vermiculus"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "Who is the seeker for the Hufflepuff Quidditch team in Harry's first match of third year?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Wayne Bostock",
+    "Robin Botesdale",
+    "Melvin Catterick",
+    "Cedric Diggory"
     ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
    {
-    "question": "Question here",
+    "question": "What did Professor Snape make Ron do for his detention?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Scrub out bedpans in the hospital wing",
+    "Disembowel a barrel full of horned toads",
+    "Pickle rats’ brains in the dungeons",
+    "Sorting out rotten Flobberworms from good ones"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "What position did Charlie Weasley play on the Gryffindor Quidditch team?",
+    "answers": [
+    "Beater",
+    "Seeker",
+    "Chaser",
+    "Keeper"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What is the incantation to open the one-eyed witch passageway? ",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Diminuendo",
+    "Diffindo",
+    "Dissendium",
+    "Descendo"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "How many 'turns' did Professor Dumbledore instruct Hermione to carry out on the Time Turner?",
+    "answers": [
+    "2",
+    "3",
+    "4",
+    "5"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What was the name of the executioner sent to kill Buckbeak?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Corban Yaxley",
+    "Thorfinn Rowle",
+    "Walden Macnair",
+    "Antonin Dolohov"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "On what floor is Professor Flitwick's office?",
+    "answers": [
+    "4th",
+    "5th",
+    "6th",
+    "7th"
+    ],
+    "correctIndex": 3
+    },
+    {
+    "question": "What's the total number of real predictions that Professor Trelawny has made as of the end of Harry'd 3rd year at Hogwarts?",
+    "answers": [
+    "1",
+    "2",
+    "3",
+    "4"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "Who are the Ravenclaw and Hufflepuff Seekers during Harry's 3rd year at Hogwarts?",
+    "answers": [
+    "Cho Chang and Cedric Diggory",
+    "Marcus Belby and Hannah Abbott",
+    "Roger Davies and Ernie Macmillan",
+    "Terry Boot and Zacharias Smith"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What name did Harry give himself when on the Knight Bus the night he left Privet Drive?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Dean Thomas",
+    "Ron Weasley",
+    "Vernon Dudley",
+    "Neville Longbottom"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "When staying at The Leaky Cauldron, where did Harry do most of his homework?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "In his bedroom at The Leaky Cauldron",
+    "Inside Flourish and Blotts book shop",
+    "Outside Florean Fortescue's Ice Cream Parlour",
+    "On the steps of Gringotts Bank"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "After Neville breaks his first cup in Divination, what colour does Professor Trelawny tell him to get for his second?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Blue",
+    "Green",
+    "Yellow",
+    "Pink"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "Who did Gryffindor beat in the final to win the Quidditch trophy?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "They didn't win the trophy!",
+    "Hufflepuff",
+    "Slytherin",
+    "Ravenclaw"
     ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
+    "correctIndex": 2
     }
 ],
 "book4Questions": 
