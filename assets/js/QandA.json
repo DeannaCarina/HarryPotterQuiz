@@ -478,12 +478,12 @@
     "correctIndex": 0
     },
     {
-    "question": "Who is the seeker for the Hufflepuff Quidditch team in Harry's first match of third year?",
+    "question": "What form does Seamus Finnigan's boggart take?",
     "answers": [
-    "Wayne Bostock",
-    "Robin Botesdale",
-    "Melvin Catterick",
-    "Cedric Diggory"
+    "A mummy",
+    "A spider",
+    "A snake",
+    "A banshee"
     ],
     "correctIndex": 3
     },
@@ -498,7 +498,7 @@
     "correctIndex": 0
     },
     {
-    "question": "What position did Charlie Weasley play on the Gryffindor Quidditch team?",
+    "question": "What position did Charlie Weasley play on the Gryffindor Quidditch team when he was a student at Hogwarts?",
     "answers": [
     "Beater",
     "Seeker",
@@ -565,7 +565,7 @@
     "Roger Davies and Ernie Macmillan",
     "Terry Boot and Zacharias Smith"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
     "question": "What name did Harry give himself when on the Knight Bus the night he left Privet Drive?",
