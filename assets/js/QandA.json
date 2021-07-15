@@ -555,7 +555,7 @@
     "3",
     "4"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
     },
     {
     "question": "Who are the Ravenclaw and Hufflepuff Seekers during Harry's 3rd year at Hogwarts?",
@@ -611,204 +611,204 @@
 "book4Questions": 
 [
     {
-    "question": "Question here",
+    "question": "Frank is the gardener at the Riddle House, what is his last name?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Bradley",
+    "Brentford",
+    "Bryce",
+    "Bridgeman"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "What did Dudley throw out of the window when he was threatened with the removal of his pocket money after smuggling donughts into his bedroom even though he was on a diet?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "His PlayStation",
+    "His Xbox",
+    "His computer",
+    "His Television"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What did Harry buy for Ron and Hermoine at the Quidditch World Cup for 10 Galleons each?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Irish player figurines that move",
+    "Programmes",
+    "Irish Quidditch shirts",
+    "Omnioculars"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "Which department at the Ministry of Magic is Ludovic Bagman head of?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Department of Magical Law Enforcement",
+    "Department of Magical Accidents and Catastrophes",
+    "Department of Magical Games and Sports",
+    "Department for the Regulation and Control of Magical Creatures"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "Where is the Portkey located that will transport Harry and the Weasleys to the Quidditch World Cup?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Stoatshead Hill",
+    "Ashton Hill",
+    "Beacon Hill",
+    "Seven Stones Hill"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What is the name of Barty Crouch's house elf?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Winky",
+    "Hokey",
+    "Gimkey",
+    "Vekey"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What does S.P.E.W stand for?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Society for the Promotion of Elfish Well-being",
+    "Society for the Prevention of Elfish Woe",
+    "Society for the Protection of Elfish Welfare",
+    "Society for the Promotion of Elfish Welfare"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "What fruit do you have to tickle to gain access to the kitchens at Hogwarts?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "A banana",
+    "An orange",
+    "A pear",
+    "An apple"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
    {
-    "question": "Question here",
+    "question": "What band had Dumbledore booked for the Yule Ball?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "The Hobgoblins",
+    "The Bent-Winged Snitches",
+    "Spellbound",
+    "The Wierd Sisters"
+    ],
+    "correctIndex": 3
+    },
+    {
+    "question": "What is the password to the prefect's bathroom where Cedric suggests Harry go with his golden egg?",
+    "answers": [
+    "Citrus Splash",
+    "Pine Fresh",
+    "Lemon Breeze",
+    "Cool Mint"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What is the name of Hagrid's mother?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Adrastea",
+    "Galatea",
+    "Orinthia",
+    "Fridwulfa"
+    ],
+    "correctIndex": 3
+    },
+    {
+    "question": "How do you say 'pickaxe' in Gobbledegook?",
+    "answers": [
+    "Bladvak",
+    "Kazma",
+    "Krumpache",
+    "Hakku"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "What colour are baby unicorns (less than two years old)?",
+    "answers": [
+    "Bronze",
+    "Silver",
+    "Gold",
+    "Black"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "Who gave Harry the Gillyweed on the day of the second task?",
+    "answers": [
+    "Cedric Diggory",
+    "Mad-eye Moody",
+    "Dobby",
+    "Neville Longbottom"
+    ],
+    "correctIndex": 2
+    },
+    {
+    "question": "In which magazine/newspaper did Rita Skeeter publish the article about the Hermione-Harry-Krum love triangle?",
+    "answers": [
+    "Witch Weekly",
+    "The Daily Prophet",
+    "Wizard Enquirer",
+    "Spellbound"
+    ],
+    "correctIndex": 0
+    },
+    {
+    "question": "What name does Sirius as Harry, Ron and Hermione to use when they talk about him?",
+    "answers": [
+    "Padfoot",
+    "Snuffles",
+    "Wolfie",
+    "Archer"
     ],
     "correctIndex": 1
     },
     {
-    "question": "Question here",
+    "question": "What is the Fat Lady's best friend called?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Iris",
+    "Rose",
+    "Violet",
+    "Poppy"
     ],
-    "correctIndex": 1
+    "correctIndex": 2
     },
     {
-    "question": "Question here",
+    "question": "Who came to Hogwarts the morning of the third task to show support for Harry along with Molly Weasley?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Bill Weasley",
+    "Charlie Weasley",
+    "Arthur Weasley",
+    "Percy Weasley"
     ],
-    "correctIndex": 1
+    "correctIndex": 0
     },
     {
-    "question": "Question here",
+    "question": "What creature did Harry meet in the maze that gave him a riddle to slove before he could continue?",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "A Manticore",
+    "A Satyr",
+    "A Centaur",
+    "A Sphinx"
     ],
-    "correctIndex": 1
+    "correctIndex": 3
     },
     {
-    "question": "Question here",
+    "question": "What did Harry do with the winnings from the Triwizard Tournament",
     "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
+    "Gave it all to Cedric's parents",
+    "Split it 50/50 with Cedric's parents",
+    "Gave it to Fred and George",
+    "Gave it to Dumbledore to help in the Anti-Voldemeort effort"
     ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
-    },
-    {
-    "question": "Question here",
-    "answers": [
-    "answer",
-    "answer",
-    "answer",
-    "answer"
-    ],
-    "correctIndex": 1
+    "correctIndex": 2
     }
 ],
 "book5Questions": 
