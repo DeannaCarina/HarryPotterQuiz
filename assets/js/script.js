@@ -1,54 +1,67 @@
 'use strict';
 
-const getJSON = async url => {
-    try {
-      const response = await fetch(url);
-      if(!response.ok) // check if response worked (no 404 errors etc...)
-        throw new Error(response.statusText);
-  
-      const data = await response.json(); // get JSON from the response
-      return data; // returns a promise, which resolves to this data value
-    } catch(error) {
-      return error;
+function getJSON(){
+  var Httpreq = new XMLHttpRequest();
+  Httpreq.open("GET","https://8000-scarlet-caterpillar-4nnakuys.ws-eu11.gitpod.io/assets/js/QandA.json",false);
+  Httpreq.send(null);
+  return Httpreq.responseText;          
+}
+var jsonObject = JSON.parse(getJSON("https://8000-scarlet-caterpillar-4nnakuys.ws-eu11.gitpod.io/assets/js/QandA.json"));
+
+/* Above method from https://stackoverflow.com/questions/2499567/ */
+
+// console.log(jsonObject);
+// console.log(jsonObject.book1Questions)
+
+
+function generateQuestion(questions){
+  // Potential question generated via JSON files in filename.json
+    for (var question in questions){
+      // console.log(questions[question])
     }
-  }
-  
-  console.log("Fetching data...");
-  getJSON("https://8000-scarlet-caterpillar-4nnakuys.ws-eu11.gitpod.io/assets/js/QandA.json").then(data => {
-    console.log(data);
-  }).catch(error => {
-    console.error(error);
-  });
+    const questionChange = document.getElementById("book-1-question");
+    questionChange.innerText = jsonObject.book1Questions[0].question;
+  };
 
-// URL WILL NEED UPDATING WHEN NOT IN DEVELOPMENT AS CURRENT LINK TO LOCALLY HOSTED SERVER!!!!!!!!!!!!!
-// MAYBE ALSO NOT CONSOLE.LOG TH DATA TO MINIMISE CHEATING...
-// Method abover from https://stackoverflow.com/questions/2499567/
+generateQuestion(jsonObject.book1Questions)
 
 
 
-
-let generateQuestion = function(){
-// Potential question generated via JSON files in filename.json
-}
-let generateAnswer = function(){
+function generateAnswer(answers){
 // Potential answers generated via JSON files in filename.json
-}
-let checkAnswer = function(){
+    for (var answer in answers){
+      // console.log(answers[answer])
+    }
+    const answerChangeA = document.getElementById("book-1-answerA");
+    answerChangeA.innerText = jsonObject.book1Questions[0].answers[0];
+    const answerChangeB = document.getElementById("book-1-answerB");
+    answerChangeB.innerText = jsonObject.book1Questions[0].answers[1];
+    const answerChangeC = document.getElementById("book-1-answerC");
+    answerChangeC.innerText = jsonObject.book1Questions[0].answers[2];
+    const answerChangeD = document.getElementById("book-1-answerD");
+    answerChangeD.innerText = jsonObject.book1Questions[0].answers[3];
+};
+
+generateAnswer(jsonObject.book1Questions)
+
+
+function checkAnswers(check){
 // Once user has selected answer, no other answers selectable, if correct, answer box will go green, if wrong, answer box will go red
+
 }
-let updateTally = function(){
+function updateTally(tally){
 // If user selects correct answer, tally number will go green, else it will go red
 }
-let nextQuestion = function(){
+function nextQuestion(next){
 // If use has attempted the question, the next question button will appear, selecting button will generate a new question and answers via relevant functions
 }
-let backToHome = function(){
+function backToHome(home){
 //Once the user has completed all questions, the last "next question" arrow will take the use back to main page    
 }
 
 //CODE FOR MAIN PAGE
 
-let updateScore = function(){
+function updateScore(score){
 //When the user has completed a quiz, the score will update in this page with their score    
 }
 
