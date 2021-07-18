@@ -202,3 +202,10 @@ const book1Questions = [
     }    
 ];
 
+
+
+
+let containerOfQuiz = document.getElementById('quiz');
+let containerOfResults = document.getElementById('results');
+let submitQuizButton = document.getElementById('submit');
+
