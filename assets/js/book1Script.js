@@ -202,10 +202,40 @@ const book1Questions = [
     }    
 ];
 
-
-
-
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
 
+generateQuiz(book1Questions, containerOfQuiz, containerOfResults, submitQuizButton);
+
+function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
+  // show questions right away
+  showQuizQuestions(questions, containerOfQuiz);
+  // store output and answer choices for each question
+  function showQuizQuestions(questions, containerOfQuiz){
+    let output = [];
+    let answers;
+    for(let i=0; i<questions.length; i++){
+      // reset the list of answers
+      answers = [];
+      // for each available answer, add a radio button for selection 
+      for(letter in questions[i].answers){
+        answers.push(
+          '<label>'
+            + '<input type="radio" id="radio-select" name="question'+i+'" value="'+letter+'">'
+            + questions[i].answers[letter]
+            + '</label>'
+        );
+      }
+      // add questions and its answers to the quiz 
+      output.push(
+        '<div class="question"><h3 id="quiz-questions">' + questions[i].question + '</h3></div><br>'
+        + '<div class="answers">' + answers.join('') + '</div><br>'
+      );
+    }
+    // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
+    containerOfQuiz.innerHTML = output.join('');
+  }
+
+ 
+}
