@@ -202,6 +202,9 @@ const book1Questions = [
     }    
 ];
 
+
+// Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
+
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
@@ -236,6 +239,35 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-
- 
+  function showResults(questions, containerOfQuiz, containerOfResults){
+    // gather answer containers from the quiz
+    let answerContainers = containerOfQuiz.querySelectorAll('.answers');
+    // keep track of user's answers
+    let userAnswer = '';
+    let numCorrect = 0;
+    // for each question...
+    for(let i=0; i<questions.length; i++){
+      // find selected answer
+      userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
+      // if answer is correct
+      if(userAnswer===questions[i].correctAnswer){
+        // add to the number of correct answers
+        numCorrect++;
+        // color the answer text green
+        answerContainers[i].style.color = 'green';
+      }
+      // if answer is wrong or blank
+      else{
+        // color the answer text red
+        answerContainers[i].style.color = 'red';
+      }
+    }
+    // show number of correct answers out of total
+    containerOfResults.innerHTML = numCorrect + ' out of ' + questions.length;
+  }
+  
+  // on submit, show results
+  submitQuizButton.onclick = function(){
+    showResults(questions, containerOfQuiz, containerOfResults);
+  }
 }
