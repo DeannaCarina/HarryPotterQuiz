@@ -4,64 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel='shortcut icon' type='image/x-icon' href='../assets/images/favicon-32x32.png'/> 
     <title>Harry Potter Quiz</title>
 </head>
 <body>
-    <div class="quiz-main-body">
+    <div id="quiz-container">
         <div class="quiz-page-heading book-6">
             <h2 class="select-quiz-heading">
                 Harry Potter
             </h2>
             <h4 class="book-6-title title">
-                and the Half-Blood Prince
+                and the Philosopher's Stone
             </h4>
         </div>
-        <div class="quiz-question" id="book-6-question">
-            Potential question here
-        </div>
-        <div class="answer-box answer-6" id="book-6-answerA">
-            Potential answer here
-        </div>
-        <div class="answer-box answer-6" id="book-6-answerB">
-            Potential answer here
-        </div>
-        <div class="answer-box answer-6" id="book-6-answerC">
-            Potential answer here
-        </div>
-        <div class="answer-box answer-6" id="book-6-answerD">
-            Potential answer here
-        </div>     
-        <div>
-            <ul id="book6-tally" class="quiz-tally">
-                <li id="6-q01-score" class="answer-tally">01</li>
-                <li id="6-q02-score" class="answer-tally">02</li>
-                <li id="6-q03-score" class="answer-tally">03</li>
-                <li id="6-q04-score" class="answer-tally">04</li>
-                <li id="6-q05-score" class="answer-tally">05</li>
-                <li id="6-q06-score" class="answer-tally">06</li>
-                <li id="6-q07-score" class="answer-tally">07</li>
-                <li id="6-q08-score" class="answer-tally">08</li>
-                <li id="6-q09-score" class="answer-tally">09</li>
-                <li id="6-q10-score" class="answer-tally">10</li>
-                <li id="6-q11-score" class="answer-tally">11</li>
-                <li id="6-q12-score" class="answer-tally">12</li>
-                <li id="6-q13-score" class="answer-tally">13</li>
-                <li id="6-q14-score" class="answer-tally">14</li>
-                <li id="6-q15-score" class="answer-tally">15</li>
-                <li id="6-q16-score" class="answer-tally">16</li>
-                <li id="6-q17-score" class="answer-tally">17</li>
-                <li id="6-q18-score" class="answer-tally">18</li>
-                <li id="6-q19-score" class="answer-tally">19</li>
-                <li id="6-q20-score" class="answer-tally">20</li>
-            </ul>
-        </div> 
-        <div class="book-6 next-question">
-            <i class="fas fa-arrow-circle-right"></i>
-        </div>  
+    <div id="quiz"></div>
+    <button id="submit">Get Results</button>
+    <div id="results"></div>
     </div>
-    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/book6Script.js"></script>
 </body>
 </html>
