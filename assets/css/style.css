@@ -226,4 +226,68 @@ input[type="radio"]:checked + label {
     border: solid 2px rgb(43, 43, 43);
     background-color: rgb(170, 170, 170);
   }
+
+  /*Responsiveness*/
+
+  @media screen and (max-width: 960px){
+    .landing-main-body{
+        width: 100%;
+    }
+    .main-page-section{
+        width: 500px;
+        margin: auto;
+    }  
+    .landing-quiz{
+        width: 300px;
+      }
+    #quiz-container{
+        width: 90%;
+    }  
+  }
+  @media screen and (max-width: 550px){
+    .landing-heading{
+        font-size: large;
+    }
+    .landing-sub-heading{
+        font-size: small;
+    }
+    .select-quiz-heading{
+        font-size: medium;
+        margin-top: 10px;
+    }
+    .title{
+        font-size: x-small;
+    }
+    .landing-quiz{
+        height: 50px;
+        width: 200px;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    .book-image{
+        height: 50px;
+        width: 60px;
+        border-radius: 20px;
+    }
+    .main-page-section{
+        width: 280px;
+        height: 55px;
+    }
+    #quiz-questions{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: medium;
+        padding-top: 20px;
+    }
+    label{
+        height: 30px;
+        margin-bottom: 5px;
+        font-size: small;
+    }
+  }
+  @media screen and (max-width: 330px){
+      .landing-heading{
+          font-size: medium;
+      }
+  }
   
