@@ -103,6 +103,18 @@ h1, h2, h3, h4, h5{
     background-size: cover;
 }
 /* ----------------STYLINGS OF Titles on Quiz pages------------------- */
+#home{
+    margin-top: 30px;
+}
+#home-link-1{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(160, 20, 20);
+    color: rgb(235, 193, 54);
+    border: 2px solid rgb(14, 122, 14);
+    padding: 10px;
+}
 .book-1{
     background-color: rgb(160, 20, 20);
     color: rgb(235, 193, 54);
@@ -147,7 +159,6 @@ h1, h2, h3, h4, h5{
     margin-top: 0px;
     margin-bottom: 10px;
     font-style: italic;
-    color: white;
 }
 .book-2-title{
     color: rgb(180, 38, 38);
@@ -197,7 +208,7 @@ label:hover{
     margin-right: 100px;
 }
 #submit{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     width: 50%;
     height: 50px;
     border-radius: 20px;
@@ -215,3 +226,4 @@ input[type="radio"]:checked + label {
     border: solid 2px rgb(43, 43, 43);
     background-color: rgb(170, 170, 170);
   }
+  

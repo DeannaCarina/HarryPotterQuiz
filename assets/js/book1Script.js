@@ -208,8 +208,9 @@ const book1Questions = [
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
+let containerOfHome = document.getElementById('home')
 
-generateQuiz(book1Questions, containerOfQuiz, containerOfResults, submitQuizButton);
+generateQuiz(book1Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfHome);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -221,7 +222,8 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     for(let i=0; i<questions.length; i++){
       // reset the list of answers
       answers = [];
-      // for each available answer, add a radio button for selection 
+      /* for each available answer, add a radio button for selection of only one answer (this will be 
+      removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
             '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
@@ -237,7 +239,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-  function showResults(questions, containerOfQuiz, containerOfResults){
+  function showResults(questions, containerOfQuiz, containerOfResults, containerOfHome){
     // gather answer containers from the quiz
     let answerContainers = containerOfQuiz.querySelectorAll('.answers');
     // keep track of user's answers
@@ -262,10 +264,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     }
     // show number of correct answers out of total
     containerOfResults.innerHTML = numCorrect + ' out of ' + questions.length;
+    containerOfHome.innerHTML = '<a href="../index.html" id="home-link-1"><i class="fas fa-home"></i></a>';
   }
   
-  // on submit, show results
+  // on submit, show results and home button
   submitQuizButton.onclick = function(){
-    showResults(questions, containerOfQuiz, containerOfResults);
+    showResults(questions, containerOfQuiz, containerOfResults, containerOfHome);
   }
 }
