@@ -224,10 +224,8 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // for each available answer, add a radio button for selection 
       for(letter in questions[i].answers){
         answers.push(
-          '<label>'
-            + '<input type="radio" id="radio-select" name="question'+i+'" value="'+letter+'">'
-            + questions[i].answers[letter]
-            + '</label>'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
       // add questions and its answers to the quiz 

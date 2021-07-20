@@ -170,27 +170,24 @@ h1, h2, h3, h4, h5{
     padding-bottom: 50px;
     padding-top: 30px;
 }
-input[type="radio"]{
-    width: 10px;
-    height: 10px;
+#radio-select{
+    margin-bottom: 10px;
 }
 label {
     display: inline-block;
     width: 80%;
     padding: 10px;
     border: solid 2px #ccc;
-    transition: all 0.3s;
     background-color: white;
     border-radius: 30px;
-    height: 30px;
-    padding-bottom: 20px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
     margin-bottom: 10px;
+    transition: all;
   }
-
 label:hover{
     background-color: rgba(177, 175, 175, 0.747);
 }
@@ -211,3 +208,10 @@ label:hover{
     margin: auto;
     margin-top: 30px;
 }
+input[type="radio"] {
+    display: none;
+  }
+input[type="radio"]:checked + label {
+    border: solid 2px rgb(43, 43, 43);
+    background-color: rgb(170, 170, 170);
+  }
