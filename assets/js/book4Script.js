@@ -206,6 +206,7 @@ const book4Questions = [
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
+let containerOfHome = document.getElementById('home')
 
 generateQuiz(book4Questions, containerOfQuiz, containerOfResults, submitQuizButton);
 
