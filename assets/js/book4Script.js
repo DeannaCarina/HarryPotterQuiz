@@ -145,7 +145,7 @@ const book4Questions = [
         a: "Witch Weekly",
         b: "The Daily Prophet",
         c: "Wizard Enquirer",
-        d: "Spellbound"
+        d: "Spell-bound"
     },
     correctAnswer: 'a'
   },
