@@ -264,7 +264,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     }
     // show number of correct answers out of total
     containerOfResults.innerHTML = numCorrect + ' out of ' + questions.length;
-    containerOfHome.innerHTML = '<a href="../index.html" id="home-link-1"><i class="fas fa-home"></i></a>';
+    containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-1"><i class="fas fa-home"></i></a>';
   }
   
   // on submit, show results and home button
