@@ -43,8 +43,8 @@ const book3Questions = [
     question: "What is Professor Lupin's middle name?",
     answers: {
         a: "John",
-        b: "Charles'",
-        c: "Henry'",
+        b: "Charles",
+        c: "Henry",
         d: "George"
     },
     correctAnswer: 'a'
