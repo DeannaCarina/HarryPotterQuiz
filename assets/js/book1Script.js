@@ -91,16 +91,6 @@ const book1Questions = [
       correctAnswer: 'd'
     },
     {
-      question: "On the train ride to Hogwarts, who did Scabbers bite?",
-      answers: {
-          a: "Vincent Crabbe",
-          b: "Draco Malfoy",
-          c: "Gregory Goyle",
-          d: "Neville Longbottom"
-      },
-      correctAnswer: 'c'
-    },
-    {
       question: "What is Nearly Headless Nick's full name?",
       answers: {
           a: "Sir Nicholas de Mimsy-Porpington",
@@ -109,6 +99,16 @@ const book1Questions = [
           d: "Sir Nicholas de Milton-Paddington"
       },
       correctAnswer: 'a'
+    },
+    {
+      question: "On the train ride to Hogwarts, who did Scabbers bite?",
+      answers: {
+          a: "Crabbe",
+          b: "Malfoy",
+          c: "Goyle",
+          d: "Neville"
+      },
+      correctAnswer: 'c'
     },
     {
       question: "What is the first password for Gryffindor common room that we learn of?",

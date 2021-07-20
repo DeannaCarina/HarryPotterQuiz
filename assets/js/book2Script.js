@@ -104,7 +104,7 @@ const book2Questions = [
       answers: {
           a: "Nearly Headless Nick",
           b: "Colin Creevy",
-          c: "Justin Finch-Fletchley",
+          c: "Argus Filch",
           d: "Hermione Granger"
       },
       correctAnswer: 'b'
