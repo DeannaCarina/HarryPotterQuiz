@@ -157,6 +157,9 @@ h1, h2, h3, h4, h5{
     margin-bottom: 10px;
     font-style: italic;
 }
+.book-1-title, .book-6-title, .book-7-title{
+    color: white;
+}
 .book-2-title{
     color: rgb(180, 38, 38);
 }
