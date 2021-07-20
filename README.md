@@ -57,6 +57,10 @@ The main colours used on the website are the links for the specific quizes (orga
 <img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br><br>
 During development of the website, I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour; however I have kept the original colour scheme on the scores as I still like the idea of colour continuity - and these colours match the colours used on the separate quiz pages.
 
+# Testing
+### Bug Fixes
+Unable to duplicate answers within the same JS file due to using the answers themselves as selector ID's in the CSS.
+
 # Credits
 
 ## Content
