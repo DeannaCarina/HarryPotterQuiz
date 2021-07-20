@@ -140,12 +140,12 @@ const book3Questions = [
     correctAnswer: 'd'
   },
   {
-    question: "What's the total number of real predictions that Professor Trelawny has made as of the end of Harry'd 3rd year at Hogwarts?",
+    question: "What's the total number of real predictions that Professor Trelawny has made as of the end of Harry's 3rd year at Hogwarts?",
     answers: {
-        a: "1",
-        b: "2",
-        c: "3",
-        d: "4"
+        a: "One",
+        b: "Two",
+        c: "Three",
+        d: "Four"
     },
     correctAnswer: 'b'
   },
@@ -221,7 +221,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // reset the list of answers
       answers = [];
       /* for each available answer, add a radio button for selection of only one answer (this will be 
-      removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */ 
+      removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
           '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
