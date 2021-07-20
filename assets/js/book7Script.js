@@ -1,5 +1,4 @@
 const book7Questions = [
-  //Book 1 Questions
     {
       question: "Question",
       answers: {
@@ -226,10 +225,8 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */ 
       for(letter in questions[i].answers){
         answers.push(
-          '<label>'
-            + '<input type="radio" id="radio-select" name="question'+i+'" value="'+letter+'">'
-            + questions[i].answers[letter]
-            + '</label>'
+          '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
       // add questions and its answers to the quiz 
