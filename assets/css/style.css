@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5{
 .landing-sub-heading{
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 30px;
 }
 .landing-main-body{
     width: 1100px;
@@ -101,7 +102,7 @@ h1, h2, h3, h4, h5{
     background: url(../images/book-covers/book7-cover.jpg) no-repeat center center;
     background-size: cover;
 }
-/* ----------------STYLINGS OF RECURING ELEMENTS------------------- */
+/* ----------------STYLINGS OF Titles on Quiz pages------------------- */
 .book-1{
     background-color: rgb(160, 20, 20);
     color: rgb(235, 193, 54);
@@ -146,6 +147,19 @@ h1, h2, h3, h4, h5{
     margin-top: 0px;
     margin-bottom: 10px;
     font-style: italic;
+    color: white;
+}
+.book-2-title{
+    color: rgb(180, 38, 38);
+}
+.book-3-title{
+    color: rgb(137, 185, 201);
+}
+.book-4-title{
+    color: rgb(0, 0, 0);
+}
+.book-5-title{
+    color: rgb(28, 29, 94);
 }
 /* ----------------STYLINGS OF QUIZ PAGES------------------- */
 #quiz-container{
@@ -157,8 +171,8 @@ h1, h2, h3, h4, h5{
     padding-top: 30px;
 }
 input[type="radio"]{
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
 }
 label {
     display: inline-block;
