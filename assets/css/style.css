@@ -103,11 +103,26 @@ h1, h2, h3, h4, h5{
     background-size: cover;
 }
 /* ----------------STYLINGS OF Titles on Quiz pages------------------- */
-#home{
+#bottomLinks, #topLinks{
+    display: none;
+}
+#home, #reveal, #refresh{
     margin-top: 30px;
+    display: inline-block;
+    width: 200px;
+}
+#reveal{
+    display: none;
+}
+.tick{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: none;
 }
 .home-link{
     height: 50px;
+    font-size: xx-large;
     width: 250px;
     border-radius: 20px;
     padding: 10px;
