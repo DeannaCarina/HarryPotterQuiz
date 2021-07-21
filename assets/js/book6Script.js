@@ -201,6 +201,9 @@ const book6Questions = [
     }    
 ];
 
+alert('This page is under construction, appologies for any inconvenience this causes!')
+window.location.replace('../index.html');
+
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
 
 let containerOfQuiz = document.getElementById('quiz');
