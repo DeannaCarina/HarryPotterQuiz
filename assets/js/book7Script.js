@@ -263,6 +263,20 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     }
     // show number of correct answers out of total
     containerOfResults.innerHTML = numCorrect + ' out of ' + questions.length;
+    // Add alert once submit button is pressed for a visual prompt and a nice message for the user
+    if (numCorrect <= 4){
+      alert('You scored ' + numCorrect +'! Better luck next time! Try reading the books a few more times.')
+    } else if (numCorrect >= 5 && numCorrect <= 7){
+      alert('You scored ' + numCorrect +'! Well done, you know a little bit about Harry Potter! Maybe try re-reading the books to get a better score.')
+    } else if (numCorrect >= 8 && numCorrect <= 12){
+      alert('You scored ' + numCorrect +'! Well done, you know quite a bit about Harry Potter! Try rereshing your Harry Potter know-how by re-reading the books for a better score.')
+    } else if (numCorrect >= 13 && numCorrect <= 16){
+      alert('You scored ' + numCorrect +'! Well done, you know loads about Harry Potter! You must have read the books a few times.')
+    } else if (numCorrect >= 17 && numCorrect <= 19){
+      alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
+    } else {
+      alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
+    };
     containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-7"><i class="fas fa-home"></i></a>';
   }
   // on submit, show results
