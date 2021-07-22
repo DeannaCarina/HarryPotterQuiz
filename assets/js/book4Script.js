@@ -4,7 +4,7 @@ const book4Questions = [
     answers: {
         a: "Bradley",
         b: "Brentford",
-        c: "Bryce",
+        c: "Bryce<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Bridgeman"
     },
     correctAnswer: 'c'
@@ -12,7 +12,7 @@ const book4Questions = [
   {
     question: "What did Dudley throw out of the window when he was threatened with the removal of his pocket money after smuggling donughts into his bedroom even though he was on a diet?",
     answers: {
-        a: "His PlayStation",
+        a: "His PlayStation<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "His Xbox",
         c: "His computer",
         d: "His Television"
@@ -25,7 +25,7 @@ const book4Questions = [
         a: "Irish player figurines that move",
         b: "Programmes",
         c: "Irish Quidditch shirts",
-        d: "Omnioculars"
+        d: "Omnioculars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -34,7 +34,7 @@ const book4Questions = [
     answers: {
         a: "Department of Magical Law Enforcement",
         b: "Department of Magical Accidents and Catastrophes",
-        c: "Department of Magical Games and Sports",
+        c: "Department of Magical Games and Sports<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Department for the Regulation and Control of Magical Creatures"
     },
     correctAnswer: 'c'
@@ -42,7 +42,7 @@ const book4Questions = [
   {
     question: "Where is the Portkey located that will transport Harry and the Weasleys to the Quidditch World Cup?",
     answers: {
-        a: "Stoatshead Hill",
+        a: "Stoatshead Hill<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Ashton Hill",
         c: "Beacon Hill",
         d: "Seven Stones Hill"
@@ -52,7 +52,7 @@ const book4Questions = [
   {
     question: "What is the name of Barty Crouch's house elf?",
     answers: {
-        a: "Winky",
+        a: "Winky<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Hokey",
         c: "Gimkey",
         d: "Vekey"
@@ -65,7 +65,7 @@ const book4Questions = [
         a: "Society for the Promotion of Elfish Well-being",
         b: "Society for the Prevention of Elfish Woe",
         c: "Society for the Protection of Elfish Welfare",
-        d: "Society for the Promotion of Elfish Welfare"
+        d: "Society for the Promotion of Elfish Welfare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -74,7 +74,7 @@ const book4Questions = [
     answers: {
         a: "A banana",
         b: "An orange",
-        c: "A pear",
+        c: "A pear<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "An apple"
     },
     correctAnswer: 'c'
@@ -85,7 +85,7 @@ const book4Questions = [
         a: "The Hobgoblins",
         b: "The Bent-Winged Snitches",
         c: "Spellbound",
-        d: "The Wierd Sisters"
+        d: "The Wierd Sisters<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -93,7 +93,7 @@ const book4Questions = [
     question: "What is the password to the prefect's bathroom where Cedric suggests Harry go with his golden egg?",
     answers: {
         a: "Citrus Splash",
-        b: "Pine Fresh",
+        b: "Pine Fresh<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "Lemon Breeze",
         d: "Cool Mint"
     },
@@ -105,14 +105,14 @@ const book4Questions = [
         a: "Adrastea",
         b: "Galatea",
         c: "Orinthia",
-        d: "Fridwulfa"
+        d: "Fridwulfa<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
   {
     question: "How do you say 'pickaxe' in Gobbledegook?",
     answers: {
-        a: "Bladvak",
+        a: "Bladvak<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Kazma",
         c: "Krumpache",
         d: "Hakku"
@@ -124,7 +124,7 @@ const book4Questions = [
     answers: {
         a: "Bronze",
         b: "Silver",
-        c: "Gold",
+        c: "Gold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Black"
     },
     correctAnswer: 'c'
@@ -134,7 +134,7 @@ const book4Questions = [
     answers: {
         a: "Cedric Diggory",
         b: "Mad-eye Moody",
-        c: "Dobby",
+        c: "Dobby<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Neville Longbottom"
     },
     correctAnswer: 'c'
@@ -142,7 +142,7 @@ const book4Questions = [
   {
     question: "In which magazine/newspaper did Rita Skeeter publish the article about the Hermione-Harry-Krum love triangle?",
     answers: {
-        a: "Witch Weekly",
+        a: "Witch Weekly<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "The Daily Prophet",
         c: "Wizard Enquirer",
         d: "Spell-bound"
@@ -153,7 +153,7 @@ const book4Questions = [
     question: "What name does Sirius as Harry, Ron and Hermione to use when they talk about him?",
     answers: {
         a: "Padfoot",
-        b: "Snuffles",
+        b: "Snuffles<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "Wolfie",
         d: "Archer"
     },
@@ -164,7 +164,7 @@ const book4Questions = [
     answers: {
         a: "Iris",
         b: "Rose",
-        c: "Violet",
+        c: "Violet<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Poppy"
     },
     correctAnswer: 'c'
@@ -172,7 +172,7 @@ const book4Questions = [
   {
     question: "Who came to Hogwarts the morning of the third task to show support for Harry along with Molly Weasley?",
     answers: {
-        a: "Bill Weasley",
+        a: "Bill Weasley<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Charlie Weasley",
         c: "Arthur Weasley",
         d: "Percy Weasley"
@@ -185,7 +185,7 @@ const book4Questions = [
         a: "A Manticore",
         b: "A Satyr",
         c: "A Centaur",
-        d: "A Sphinx"
+        d: "A Sphinx<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -194,21 +194,31 @@ const book4Questions = [
     answers: {
         a: "Gave it all to Cedric's parents",
         b: "Split it 50/50 with Cedric's parents",
-        c: "Gave it to Fred and George",
+        c: "Gave it to Fred and George<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Gave it to Dumbledore to help in the Anti-Voldemeort effort"
     },
     correctAnswer: 'c'
   }
 ];
 
+function displayTicks(){
+  const divArray = 
+  Array.from(document.getElementsByClassName('tick'));
+  const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
+divArray.forEach(div => {
+div.style.display = displayStyle;
+}); 
+}
+
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
-let containerOfHome = document.getElementById('home')
+let containerOfBottomLinks = document.getElementById('bottomLinks');
+let containerOfTopLinks = document.getElementById('topLinks');
 
-generateQuiz(book4Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfHome);
+generateQuiz(book4Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks, containerOfTopLinks);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -224,7 +234,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
-          '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
             + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
@@ -237,7 +247,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-  function showResults(questions, containerOfQuiz, containerOfResults, containerOfHome){
+  function showResults(questions, containerOfQuiz, containerOfResults){
     // gather answer containers from the quiz
     let answerContainers = containerOfQuiz.querySelectorAll('.answers');
     // keep track of user's answers
@@ -248,15 +258,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // find selected answer
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
       // if answer is correct
-      if(userAnswer===questions[i].correctAnswer){
-        // add to the number of correct answers
+      if(userAnswer===questions[i].correctAnswer) {
+        // add the total of correct answers together and color the answer text green of all the answer labels
         numCorrect++;
-        // color the answer text green
         answerContainers[i].style.color = 'green';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answer text red
+      } else /*if answer is wrong or blank, colour the text red*/ {
         answerContainers[i].style.color = 'red';
       }
     }
@@ -275,11 +281,12 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
     } else {
       alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
-    };
-    containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-4"><i class="fas fa-home"></i></a>';
+    };    
   }
-  // on submit, show results
+  // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
-    showResults(questions, containerOfQuiz, containerOfResults, containerOfHome);
-  }
+    showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
+    containerOfBottomLinks.style.display = "block";
+    containerOfTopLinks.style.display = "block";  
+    }    
 }

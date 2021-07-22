@@ -2,7 +2,7 @@ const book3Questions = [
   {
     question: "Who was looking after Aunt Marge's other dogs while she was staying with the Dursleys?",
     answers: {
-        a: "Colonel Fubster",
+        a: "Colonel Fubster<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Captain Freeman",
         c: "Sergeant Fuller",
         d: "General Franklin"
@@ -13,7 +13,7 @@ const book3Questions = [
     question: "Before Sirius Black was declared innocent, how many people was he said to have killed with a single curse?",
     answers: {
         a: "11",
-        b: "13",
+        b: "13<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "15",
         d: "17"
     },
@@ -25,7 +25,7 @@ const book3Questions = [
         a: "At the Burrow",
         b: "At Hogwarts",
         c: "At the Three Broomsticks",
-        d: "At the Leaky Cauldron"
+        d: "At the Leaky Cauldron<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -34,7 +34,7 @@ const book3Questions = [
     answers: {
         a: "Predicting the Unpredictable",
         b: "Broken Balls: When Fortunes Turn Foul",
-        c: "Unfogging the Future",
+        c: "Unfogging the Future<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Omens, Oracles & the Goat"
     },
     correctAnswer: 'c'
@@ -42,7 +42,7 @@ const book3Questions = [
   {
     question: "What is Professor Lupin's middle name?",
     answers: {
-        a: "John",
+        a: "John<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Charles",
         c: "Henry",
         d: "George"
@@ -55,14 +55,14 @@ const book3Questions = [
         a: "Sir Waldegrave",
         b: "Sir Abingdon",
         c: "Sir Westmorland",
-        d: "Sir Cadogan"
+        d: "Sir Cadogan<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
   {
     question: "Which spell did Professor Lupin use on Peeves during his first Defence Against the Dark Arts class with the third years?",
     answers: {
-        a: "Waddiwasi",
+        a: "Waddiwasi<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Oppugno",
         c: "Ebublio",
         d: "Vermiculus"
@@ -75,14 +75,14 @@ const book3Questions = [
         a: "A mummy",
         b: "A spider",
         c: "A snake",
-        d: "A banshee"
+        d: "A banshee<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
   {
     question: "What did Professor Snape make Ron do for his detention?",
     answers: {
-        a: "Scrub out bedpans in the hospital wing",
+        a: "Scrub out bedpans in the hospital wing<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Disembowel a barrel full of horned toads",
         c: "Pickle rats’ brains in the dungeons",
         d: "Sorting out rotten Flobberworms from good ones"
@@ -93,7 +93,7 @@ const book3Questions = [
     question: "What position did Charlie Weasley play on the Gryffindor Quidditch team when he was a student at Hogwarts?",
     answers: {
         a: "Beater",
-        b: "Seeker",
+        b: "Seeker<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "Chaser",
         d: "Keeper"
     },
@@ -104,7 +104,7 @@ const book3Questions = [
     answers: {
         a: "Diminuendo",
         b: "Diffindo",
-        c: "Dissendium",
+        c: "Dissendium<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Descendo"
     },
     correctAnswer: 'c'
@@ -113,7 +113,7 @@ const book3Questions = [
     question: "How many 'turns' did Professor Dumbledore instruct Hermione to carry out on the Time Turner?",
     answers: {
         a: "2",
-        b: "3",
+        b: "3<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "4",
         d: "5"
     },
@@ -124,7 +124,7 @@ const book3Questions = [
     answers: {
         a: "Corban Yaxley",
         b: "Thorfinn Rowle",
-        c: "Walden Macnair",
+        c: "Walden Macnair<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Antonin Dolohov"
     },
     correctAnswer: 'c'
@@ -135,7 +135,7 @@ const book3Questions = [
         a: "4th",
         b: "5th",
         c: "6th",
-        d: "7th"
+        d: "7th<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -143,7 +143,7 @@ const book3Questions = [
     question: "What's the total number of real predictions that Professor Trelawny has made as of the end of Harry's 3rd year at Hogwarts?",
     answers: {
         a: "One",
-        b: "Two",
+        b: "Two<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         c: "Three",
         d: "Four"
     },
@@ -152,7 +152,7 @@ const book3Questions = [
   {
     question: "Who are the Ravenclaw and Hufflepuff Seekers during Harry's 3rd year at Hogwarts?",
     answers: {
-        a: "Cho Chang and Cedric Diggory",
+        a: "Cho Chang and Cedric Diggory<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Marcus Belby and Hannah Abbott",
         c: "Roger Davies and Ernie Macmillan",
         d: "Terry Boot and Zacharias Smith"
@@ -165,7 +165,7 @@ const book3Questions = [
         a: "Dean Thomas",
         b: "Ron Weasley",
         c: "Vernon Dudley",
-        d: "Neville Longbottom"
+        d: "Neville Longbottom<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
     },
     correctAnswer: 'd'
   },
@@ -174,7 +174,7 @@ const book3Questions = [
     answers: {
         a: "In his bedroom at The Leaky Cauldron",
         b: "Inside Flourish and Blotts book shop",
-        c: "Outside Florean Fortescue's Ice Cream Parlour",
+        c: "Outside Florean Fortescue's Ice Cream Parlour<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "On the steps of Gringotts Bank"
     },
     correctAnswer: 'c'
@@ -182,7 +182,7 @@ const book3Questions = [
   {
     question: "After Neville breaks his first cup in Divination, what colour does Professor Trelawny tell him to get for his second?",
     answers: {
-        a: "Blue",
+        a: "Blue<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         b: "Green",
         c: "Yellow",
         d: "Pink"
@@ -194,21 +194,31 @@ const book3Questions = [
     answers: {
         a: "They didn't win the trophy!",
         b: "Hufflepuff",
-        c: "Slytherin",
+        c: "Slytherin<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
         d: "Ravenclaw"
     },
     correctAnswer: 'c'
   }
 ];
 
+function displayTicks(){
+  const divArray = 
+  Array.from(document.getElementsByClassName('tick'));
+  const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
+divArray.forEach(div => {
+div.style.display = displayStyle;
+}); 
+}
+
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
-let containerOfHome = document.getElementById('home')
+let containerOfBottomLinks = document.getElementById('bottomLinks');
+let containerOfTopLinks = document.getElementById('topLinks');
 
-generateQuiz(book3Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfHome);
+generateQuiz(book3Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks, containerOfTopLinks);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -224,7 +234,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
-          '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
             + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
@@ -237,7 +247,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-  function showResults(questions, containerOfQuiz, containerOfResults, containerOfHome){
+  function showResults(questions, containerOfQuiz, containerOfResults){
     // gather answer containers from the quiz
     let answerContainers = containerOfQuiz.querySelectorAll('.answers');
     // keep track of user's answers
@@ -248,15 +258,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // find selected answer
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
       // if answer is correct
-      if(userAnswer===questions[i].correctAnswer){
-        // add to the number of correct answers
+      if(userAnswer===questions[i].correctAnswer) {
+        // add the total of correct answers together and color the answer text green of all the answer labels
         numCorrect++;
-        // color the answer text green
         answerContainers[i].style.color = 'green';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answer text red
+      } else /*if answer is wrong or blank, colour the text red*/ {
         answerContainers[i].style.color = 'red';
       }
     }
@@ -275,11 +281,12 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
     } else {
       alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
-    };
-    containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-3"><i class="fas fa-home"></i></a>';
+    };    
   }
-  // on submit, show results
+  // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
-    showResults(questions, containerOfQuiz, containerOfResults, containerOfHome);
-  }
+    showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
+    containerOfBottomLinks.style.display = "block";
+    containerOfTopLinks.style.display = "block";  
+    }    
 }

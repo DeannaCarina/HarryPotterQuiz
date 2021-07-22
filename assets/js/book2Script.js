@@ -4,7 +4,7 @@ const book2Questions = [
       answers: {
           a: "Upper Flagley",
           b: "Puddlemere",
-          c: "Ottery St. Catchpole",
+          c: "Ottery St. Catchpole<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Tutshill"
       },
       correctAnswer: 'c'
@@ -15,14 +15,14 @@ const book2Questions = [
           a: "Where There’s a Wand There’s a Way",
           b: "Weird Wizarding Dilemmas and Their Solutions",
           c: "Olde and Forgotten Bewitchments and Charmes",
-          d: "Gilderoy Lockhart’s Guide to Household Pests"
+          d: "Gilderoy Lockhart’s Guide to Household Pests<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "Which Quidditch team does Ron support?",
       answers: {
-          a: "The Chudley Cannons",
+          a: "The Chudley Cannons<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Falmouth Falcons",
           c: "Holyhead Harpies",
           d: "Wimbourne Wasps "
@@ -32,7 +32,7 @@ const book2Questions = [
     {
       question: "What book was Hermione reading when Ron recieved the Howler from his mother?",
       answers: {
-          a: "Voages with Vampires",
+          a: "Voages with Vampires<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Wanderings with Werewolves",
           c: "Gadding with Ghouls",
           d: "Break with a Banshee"
@@ -43,7 +43,7 @@ const book2Questions = [
       question: "When re-potting madrakes in their first Herbology lesson of second year, who joined Harry, Ron and Hermione?",
       answers: {
           a: "Neville Longbottom",
-          b: "Justin Finch-Fletchley",
+          b: "Justin Finch-Fletchley<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Dean Thomas",
           d: "Ernie Macmillan"
       },
@@ -53,7 +53,7 @@ const book2Questions = [
       question: "What is Gilderoy Lockheart's favourite colour?",
       answers: {
           a: "Teal",
-          b: "Lilac",
+          b: "Lilac<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Lavender",
           d: "Turquoise"
       },
@@ -64,7 +64,7 @@ const book2Questions = [
       answers: {
           a: "17",
           b: "23",
-          c: "45",
+          c: "45<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "63"
       },
       correctAnswer: 'c'
@@ -74,7 +74,7 @@ const book2Questions = [
       answers: {
           a: "250th",
           b: "430th",
-          c: "500th",
+          c: "500th<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "665th"
       },
       correctAnswer: 'c'
@@ -85,14 +85,14 @@ const book2Questions = [
           a: "Septima Vector",
           b: "Aurora Sinistra",
           c: "Silvanus Kettleburn",
-          d: "Cuthbert Binns"
+          d: "Cuthbert Binns<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "In which book can the Polyjuice Potion recipe be found?",
       answers: {
-          a: "Moste Potente Potions",
+          a: "Moste Potente Potions<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Magical Drafts and Potions",
           c: "Book of Potions",
           d: "Advanced Potion-Making"
@@ -103,7 +103,7 @@ const book2Questions = [
       question: "Who was the first person to be petrified by the Basilisk?",
       answers: {
           a: "Nearly Headless Nick",
-          b: "Colin Creevy",
+          b: "Colin Creevy<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Argus Filch",
           d: "Hermione Granger"
       },
@@ -114,7 +114,7 @@ const book2Questions = [
       answers: {
           a: "A 50 pence piece",
           b: "A coat hanger",
-          c: "A toothpick",
+          c: "A toothpick<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "A single tissue"
       },
       correctAnswer: 'c'
@@ -123,7 +123,7 @@ const book2Questions = [
       question: "Who's robe did Hermione get the cat fur off that she later used in the Polyjuice Potion?",
       answers: {
           a: "Pansy Parkinson",
-          b: "Millicent Bulstrode",
+          b: "Millicent Bulstrode<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Daphne Greengrass",
           d: "Tracey Davis"
       },
@@ -135,7 +135,7 @@ const book2Questions = [
           a: "Professor Dumbledore",
           b: "Phineas Nigellus Black",
           c: "Brutus Scrimgeour",
-          d: "Professor Dippet"
+          d: "Professor Dippet<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
@@ -144,7 +144,7 @@ const book2Questions = [
       answers: {
           a: "Moriel",
           b: "Madgi",
-          c: "Mosag",
+          c: "Mosag<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Morag"
       },
       correctAnswer: 'c'
@@ -152,7 +152,7 @@ const book2Questions = [
     {
       question: "Who used to tease Moaning Myrtle about her glasses?",
       answers: {
-          a: "Olive Hornby",
+          a: "Olive Hornby<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Tom Riddle",
           c: "Peeves",
           d: "Cerelle Peach"
@@ -164,7 +164,7 @@ const book2Questions = [
       answers: {
           a: "In the basement",
           b: "Behind the tapestry in the dining room",
-          c: "Under the drawing room floor",
+          c: "Under the drawing room floor<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "In the attic"
       },
       correctAnswer: 'c'
@@ -172,7 +172,7 @@ const book2Questions = [
     {
       question: "Who is the leader of the headless hunt?",
       answers: {
-          a: "Sir Patrick Delaney-Podmore",
+          a: "Sir Patrick Delaney-Podmore<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Sir Peter Duncan-Pangbourne",
           c: "Sir Percy Douglas-Packwood",
           d: "Sir Podric Damson-Portwell"
@@ -185,7 +185,7 @@ const book2Questions = [
           a: "Pewter",
           b: "Silver",
           c: "Brass",
-          d: "Copper"
+          d: "Copper<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
@@ -193,7 +193,7 @@ const book2Questions = [
       question: "Who did Ginny walk in on kissing Percy Weasley?",
       answers: {
           a: "Angelina Johnson",
-          b: "Penelope Clearwater",
+          b: "Penelope Clearwater<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Alicia Spinnet",
           d: "Katie Bell"
       },
@@ -201,14 +201,24 @@ const book2Questions = [
     }
 ];
 
+function displayTicks(){
+  const divArray = 
+  Array.from(document.getElementsByClassName('tick'));
+  const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
+divArray.forEach(div => {
+div.style.display = displayStyle;
+}); 
+}
+
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
-let containerOfHome = document.getElementById('home')
+let containerOfBottomLinks = document.getElementById('bottomLinks');
+let containerOfTopLinks = document.getElementById('topLinks');
 
-generateQuiz(book2Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfHome);
+generateQuiz(book2Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks, containerOfTopLinks);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -224,7 +234,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
-          '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
             + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
@@ -237,7 +247,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-  function showResults(questions, containerOfQuiz, containerOfResults, containerOfHome){
+  function showResults(questions, containerOfQuiz, containerOfResults){
     // gather answer containers from the quiz
     let answerContainers = containerOfQuiz.querySelectorAll('.answers');
     // keep track of user's answers
@@ -248,15 +258,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // find selected answer
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
       // if answer is correct
-      if(userAnswer===questions[i].correctAnswer){
-        // add to the number of correct answers
+      if(userAnswer===questions[i].correctAnswer) {
+        // add the total of correct answers together and color the answer text green of all the answer labels
         numCorrect++;
-        // color the answer text green
         answerContainers[i].style.color = 'green';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answer text red
+      } else /*if answer is wrong or blank, colour the text red*/ {
         answerContainers[i].style.color = 'red';
       }
     }
@@ -275,11 +281,12 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
     } else {
       alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
-    };
-    containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-2"><i class="fas fa-home"></i></a>';
+    };    
   }
-  // on submit, show results
+  // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
-    showResults(questions, containerOfQuiz, containerOfResults, containerOfHome);
-  }
+    showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
+    containerOfBottomLinks.style.display = "block";
+    containerOfTopLinks.style.display = "block";  
+    }    
 }
