@@ -111,19 +111,17 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     width: 200px;
 }
-#reveal{
-    display: none;
-}
-.tick{
+.tick, .tick > img{
     width: 40px;
     height: 40px;
     margin: auto;
+}
+.tick{
     display: none;
 }
 .home-link{
     height: 50px;
     font-size: xx-large;
-    width: 250px;
     border-radius: 20px;
     padding: 10px;
 }
@@ -298,6 +296,10 @@ input[type="radio"]:checked + label {
         height: 30px;
         margin-bottom: 5px;
         font-size: small;
+    }
+    .tick, .tick > img{
+        width: 20px;
+        height: 20px;
     }
   }
   @media screen and (max-width: 330px){

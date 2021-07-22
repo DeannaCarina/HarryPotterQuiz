@@ -4,7 +4,7 @@ const book1Questions = [
       question: "What is the title of the first chapter in Harry Potter and the Philosopher's Stone?",
       answers: {
           a: "Number Four Privet Drive",
-          b: "The Boy Who Lived<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          b: "The Boy Who Lived<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "The Vanishing Glass",
           d: "The Potters"
       },
@@ -15,7 +15,7 @@ const book1Questions = [
       answers: {
           a: "Make shotguns",
           b: "Make lawnmowers",
-          c: "Make drills<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "Make drills<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Make racing bikes"
       },
       correctAnswer: 'c'
@@ -23,7 +23,7 @@ const book1Questions = [
     {
       question: "On the trip to the zoo, which of Dudley's friends went too?",
       answers: {
-          a: "Piers<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          a: "Piers<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Paul",
           c: "Peter",
           d: "Phil"
@@ -35,7 +35,7 @@ const book1Questions = [
       answers: {
           a: "Nepal",
           b: "Burma",
-          c: "Brazil<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "Brazil<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Peru"
       },
       correctAnswer: 'c'
@@ -45,7 +45,7 @@ const book1Questions = [
       answers: {
           a: "Bathilda Bagshot",
           b: "Miranda Goshawk",
-          c: "Adalbert Waffling<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "Adalbert Waffling<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Emeric Switch"
       },
       correctAnswer: 'c'
@@ -56,7 +56,7 @@ const book1Questions = [
           a: "Three up... Four Across",
           b: "Four up... One Across",
           c: "Two up... Four Across",
-          d: "Three up... Two Across<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>"
+          d: "Three up... Two Across<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
@@ -64,7 +64,7 @@ const book1Questions = [
       question: "How does the currency system work in the wizarding world?",
       answers: {
           a: "15 Sickles to a Galleon, 25 Knuts to a Sickle",
-          b: "17 Sickles to a Galleon, 29 Knuts to a Sickle<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          b: "17 Sickles to a Galleon, 29 Knuts to a Sickle<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "10 Sickles to a Galleon, 30 Knuts to a Sickle",
           d: "19 Sickles to a Galleon, 27 Knuts to a Sickle"
       },
@@ -74,7 +74,7 @@ const book1Questions = [
       question: "Who bought Hedwig?",
       answers: {
           a: "Harry",
-          b: "Hagrid<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          b: "Hagrid<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Professor McGonagall",
           d: "Professor Dumbledore"
       },
@@ -86,14 +86,14 @@ const book1Questions = [
           a: "Ron Weasley",
           b: "Neville Longbottom",
           c: "Hermione Granger",
-          d: "Draco Malfoy<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>"
+          d: "Draco Malfoy<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "What is Nearly Headless Nick's full name?",
       answers: {
-          a: "Sir Nicholas de Mimsy-Porpington<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          a: "Sir Nicholas de Mimsy-Porpington<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Sir Nicholas de Michael-Parkinson",
           c: "Sir Nicholas de Magnus-Pilkington",
           d: "Sir Nicholas de Milton-Paddington"
@@ -105,7 +105,7 @@ const book1Questions = [
       answers: {
           a: "Crabbe",
           b: "Malfoy",
-          c: "Goyle<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "Goyle<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Neville"
       },
       correctAnswer: 'c'
@@ -114,7 +114,7 @@ const book1Questions = [
       question: "What is the first password for Gryffindor common room that we learn of?",
       answers: {
           a: "Fortuna Major",
-          b: "Caput Draconis<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          b: "Caput Draconis<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Pig Snout",
           d: "Flibbertigibbet"
       },
@@ -125,7 +125,7 @@ const book1Questions = [
       answers: {
           a: "A love potion. The stomach of a pig. They are the same.",
           b: "A luck potion. The stomach of a dragon. One is a herb, the other a potion.",
-          c: "A sleeping potion. The stomach of a goat. They are the same.<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "A sleeping potion. The stomach of a goat. They are the same.<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "A healing potion. The stomach of a phoenix. One is a flower, the other a poison."
       },
       correctAnswer: 'c'
@@ -136,14 +136,14 @@ const book1Questions = [
           a: "Buckbeak",
           b: "Norbet",
           c: "Fluffy",
-          d: "Fang<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>"
+          d: "Fang<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "Which lesson was Oliver Wood in when Harry cought Neville's rememberall in his first flying lesson?",
       answers: {
-          a: "Charms<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          a: "Charms<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Transfiguration",
           c: "Defence against the dark arts",
           d: "Potions"
@@ -156,7 +156,7 @@ const book1Questions = [
           a: "50",
           b: "150",
           c: "350",
-          d: "700<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>"
+          d: "700<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     },
@@ -164,7 +164,7 @@ const book1Questions = [
       question: "Who are the three chasers in Harry's first Quidditch match?",
       answers: {
           a: "Oliver Wood, Angelina Johnson, Penelope Clearwater",
-          b: "Katie Bell, Alicia Spinnet and Angelina Johnson<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          b: "Katie Bell, Alicia Spinnet and Angelina Johnson<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           c: "Alicia Spinnet, Veronica Smethley, Katie Bell",
           d: "Angelina Johnson, Katie Bell, Oliver Wood"
       },
@@ -173,7 +173,7 @@ const book1Questions = [
     {
       question: "What colour was Harry's Christmas jumper from Mrs Weasley?",
       answers: {
-          a: "Emerald<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          a: "Emerald<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           b: "Maroon",
           c: "Navy",
           d: "Yellow"
@@ -185,7 +185,7 @@ const book1Questions = [
       answers: {
           a: "Et respice et vide quid tibi petitiones cordis tui",
           b: "Speculum hoc maneat periculo non auferetur",
-          c: "Erised stra ehru oyt ube cafru oyt on wohsi<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>",
+          c: "Erised stra ehru oyt ube cafru oyt on wohsi<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
           d: "Erised est cor tuum in viam quaerere invenire"
       },
       correctAnswer: 'c'
@@ -196,14 +196,24 @@ const book1Questions = [
           a: "Persephone",
           b: "Priscilla",
           c: "Penelope",
-          d: "Perenelle<img class='tick' src='https://i.ibb.co/v43bTPs/tick.png'>"
+          d: "Perenelle<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
       correctAnswer: 'd'
     }    
 ];
 
+function displayTicks(){
+  const divArray = 
+  Array.from(document.getElementsByClassName('tick'));
+  const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
+divArray.forEach(div => {
+div.style.display = displayStyle;
+}); 
+}
 
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
+
+
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
@@ -228,7 +238,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       for(letter in questions[i].answers){
         answers.push(
             '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
-            + '<label  for="'+ questions[i].answers[letter] +'">'+letter+ '. '+ questions[i].answers[letter] +'</label>'
+            + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
       // add questions and its answers to the quiz 
@@ -251,15 +261,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // find selected answer
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
       // if answer is correct
-      if(userAnswer===questions[i].correctAnswer){
-        // add the total of correct answers together
+      if(userAnswer===questions[i].correctAnswer) {
+        // add the total of correct answers together and color the answer text green of all the answer labels
         numCorrect++;
-        // and color the answer text green of all the answer labels
         answerContainers[i].style.color = 'green';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answer text red
+      } else /*if answer is wrong or blank, colour the text red*/ {
         answerContainers[i].style.color = 'red';
       }
     }
@@ -280,10 +286,10 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
     };    
   }
-  // on submit, show results and home, reveal and refresh buttons
+  // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
     showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
     containerOfBottomLinks.style.display = "block";
     containerOfTopLinks.style.display = "block";  
-    } 
+    }    
 }
