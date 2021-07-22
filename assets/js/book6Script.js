@@ -204,14 +204,24 @@ const book6Questions = [
 alert('This page is under construction, appologies for any inconvenience this causes!')
 window.location.replace('../index.html');
 
+function displayTicks(){
+  const divArray = 
+  Array.from(document.getElementsByClassName('tick'));
+  const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
+divArray.forEach(div => {
+div.style.display = displayStyle;
+}); 
+}
+
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
-let containerOfHome = document.getElementById('home')
+let containerOfBottomLinks = document.getElementById('bottomLinks');
+let containerOfTopLinks = document.getElementById('topLinks');
 
-generateQuiz(book6Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfHome);
+generateQuiz(book6Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks, containerOfTopLinks);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -227,7 +237,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
-          '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
             + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
@@ -240,7 +250,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
     containerOfQuiz.innerHTML = output.join('');
   }
-  function showResults(questions, containerOfQuiz, containerOfResults, containerOfHome){
+  function showResults(questions, containerOfQuiz, containerOfResults){
     // gather answer containers from the quiz
     let answerContainers = containerOfQuiz.querySelectorAll('.answers');
     // keep track of user's answers
@@ -251,15 +261,11 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       // find selected answer
       userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
       // if answer is correct
-      if(userAnswer===questions[i].correctAnswer){
-        // add to the number of correct answers
+      if(userAnswer===questions[i].correctAnswer) {
+        // add the total of correct answers together and color the answer text green of all the answer labels
         numCorrect++;
-        // color the answer text green
         answerContainers[i].style.color = 'green';
-      }
-      // if answer is wrong or blank
-      else{
-        // color the answer text red
+      } else /*if answer is wrong or blank, colour the text red*/ {
         answerContainers[i].style.color = 'red';
       }
     }
@@ -278,11 +284,12 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
     } else {
       alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
-    };
-    containerOfHome.innerHTML = '<a href="../index.html" class="home-link link-6"><i class="fas fa-home"></i></a>';
+    };    
   }
-  // on submit, show results
+  // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
-    showResults(questions, containerOfQuiz, containerOfResults, containerOfHome);
+    showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
+    containerOfBottomLinks.style.display = "block";
+    containerOfTopLinks.style.display = "block";  
+    }    
   }
-}
