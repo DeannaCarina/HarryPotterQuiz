@@ -241,7 +241,11 @@ input[type="radio"]:checked + label {
   }
 
   /*Responsiveness*/
-
+  @media screen and (max-width: 1020px){
+    #home, #reveal, #refresh{
+        width: 150px;
+    }
+  }
   @media screen and (max-width: 960px){
     .landing-main-body{
         width: 100%;
@@ -300,6 +304,10 @@ input[type="radio"]:checked + label {
     .tick, .tick > img{
         width: 20px;
         height: 20px;
+    }
+    #home, #reveal, #refresh{
+        width: 90px;
+        font-size: x-small;
     }
   }
   @media screen and (max-width: 330px){
