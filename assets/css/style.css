@@ -268,14 +268,9 @@ input[type="radio"]:checked + label {
 #ohno{
     font-size: 400%;
 }
-a{
+#indexlink{
     text-decoration: none;
 }
-a:visited{
-    color: white;
-    text-decoration: none;
-}
-
 
   /*Responsiveness*/
   @media screen and (max-width: 1020px){
