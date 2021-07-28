@@ -262,7 +262,7 @@ Throughout the planning, design, testing and deployment of the website, I have u
     <li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
         <ul><li>For the design of the site</li></ul>
     </li>
-    <li>Limited <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
         <ul><li>For importing the kit from Font Awesome</li>
         <li>For the interactivity of the site and user experience improvement</li></ul>
     </li>
