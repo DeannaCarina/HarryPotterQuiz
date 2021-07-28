@@ -202,6 +202,8 @@ const book1Questions = [
     }    
 ];
 
+alert('PLEASE NOTE: All the following questions and answers are based on the first Harry Potter BOOK - not the movie.');
+
 function displayTicks(){
   const divArray = 
   Array.from(document.getElementsByClassName('tick'));

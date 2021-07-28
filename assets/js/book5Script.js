@@ -201,6 +201,8 @@ const book5Questions = [
     }    
 ];
 
+alert('PLEASE NOTE: All the following questions and answers are based on the fifth Harry Potter BOOK - not the movie.');
+
 function displayTicks(){
   const divArray = 
   Array.from(document.getElementsByClassName('tick'));
