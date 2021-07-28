@@ -34,6 +34,12 @@ Portfolio Project Two: JavaScript (with HTML and CSS) - Code Institute - Deadlin
 
 This is my submission for Code Institute's (5P) Portfolio Project Two. It will be a quiz website aimed at the Harry Potter fanbase. The website content will be created with HTML, the website will be styled with the use of CSS, and it's functionality will come from the implementation of JavaScript. I will also employ the use of many other <a href="#Technologies">technologies</a>. The website's main function is to be a fun and interactive experience for users who are fans of the Harry Potter franchise. The website will consist of the main landing page which will direct the user to specific quizzes separated by Harry Potter books - One quiz for each book, seven quizzes in total. When a user selects a specific book, the website will direct the user to that specific quiz. As the user completes each quiz, there will be a score tally at the bottom.
 
+### Demo
+
+A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><strong>HERE</strong></a><br><br>
+<img src="assets/images/readme-images/index-screen.png" alt="Screenshot of index page on multiple screensizes to show responsiveness" width="80%">
+<img src="assets/images/readme-images/quiz-screen.png" alt="Screenshot of quiz pages on multiple screensizes to show responsiveness" width="80%">
+
 # UX
 ### Introduction
 The five planes provide a conceptual framework for breaking down the task of designing experiences into component elements so that we can understand the problem as a whole. I used this framework for my first Portfolio Project for Code Institute and found it to be structured, easy to follow and helped in breaking down the tasks needed to design and implement a user friendly and interactive website; therefore I will be using the same framework again to design and implement this project.
