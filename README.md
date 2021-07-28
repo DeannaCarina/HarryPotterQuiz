@@ -195,6 +195,26 @@ For the feature "For each question, a range of answers that would all make sense
 <a href="#Contents">Back to the top.</a>
 
 ### Scope
+
+Much the same as my previous project for Code Institute I have chosen to base the development of my product using the MMP (Minimum Marketable Product) as this allows a fully functional application to be used and can implement my aims with the minimum amount of features while still being completely usable.
+
+This however does mean that more time must be spent developing and deploying the application without the guarantee of user satisfaction and possibly result in some 'rough edges' that need to be rectified and de-bugged at a later date. By using this method, any feedback from users will be based on a fully working web-app and result in fully qualitative data due to the product being in a finished state; rather than feedback based on a web-app that has intentionally been left incomplete resulting in feedback from users who may believe the site to be inadaquate due to lack of content and intuitiveness. I have been able to confidently use the MMP model due to my own interest and love for the Harry Potter franchise as well as ownership of all of the Harry Potter books to be able to create the questions and answers for the quiz, I can create the web-quiz based on what I would want as a Harry Potter fan. By incorporating into the website features that I would want to see on web-quizes based on the Harry Potter books, I hope that my wants and needs will translate to the wants and needs of the users and fans visiting the Harry Potter quiz website. 
+<br>
+The MMP model will:
+<ul>
+    <li>Create a clear website with enough content for the users wants and needs to be fulfilled</li>
+    <li>Allow me to work within the scope of my abilitiy while also allowing me to challenge myself in areas of coding that I'm not as comfortable with</li>
+    <li>Result in a website with high levels of UX</li>
+    <li></li>
+</ul><br> 
+While following the MMP model, to meet the user and business goals, my website will include:
+<ul>
+    <li>A large collection of Harry Potter related questions based on the Harry Potter books</li>
+    <li>A straightforward and intuitive navigation system for users to be able to navigate to specific quizzes</li>
+    <li>A way for users to find out their score after carrying out a quiz</li>
+    <li>A way for users to reveal the correct answers and to easily re-try</li>
+</ul>
+
 ### Structure
 
 ### Skeleton
