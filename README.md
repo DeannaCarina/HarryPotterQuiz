@@ -32,11 +32,157 @@
 # Introduction
 Portfolio Project Two: JavaScript (with HTML and CSS) - Code Institute - Deadline 12th August 2021
 
-This is my submission for Code Institute's (5P) Portfolio Project Two. It will be a quiz website aimed at the Harry Potter fanbase. The website content will be created with HTML, the website will be styled with the use of CSS, and it's functionality will come from the implementation of JavaScript. I will also employ the use of many other <a href="#Technologies">technologies</a>. The website's main function is to be a fun and interactive experience for users who are fans of the Harry Potter franchise. The website will consist of the main landing page which will direct the user to specific quizzes separated by Harry Potter books - One quiz for each book, seven quizzes in total. When a user selects a specific book, the website will direct the user to that specific quiz. As the user completes each quiz, there will be a score tally at the bottom, and the score will also update on the main landing page.
+This is my submission for Code Institute's (5P) Portfolio Project Two. It will be a quiz website aimed at the Harry Potter fanbase. The website content will be created with HTML, the website will be styled with the use of CSS, and it's functionality will come from the implementation of JavaScript. I will also employ the use of many other <a href="#Technologies">technologies</a>. The website's main function is to be a fun and interactive experience for users who are fans of the Harry Potter franchise. The website will consist of the main landing page which will direct the user to specific quizzes separated by Harry Potter books - One quiz for each book, seven quizzes in total. When a user selects a specific book, the website will direct the user to that specific quiz. As the user completes each quiz, there will be a score tally at the bottom.
 
 # UX
 ### Introduction
+The five planes provide a conceptual framework for breaking down the task of designing experiences into component elements so that we can understand the problem as a whole. I used this framework for my first Portfolio Project for Code Institute and found it to be structured, easy to follow and helped in breaking down the tasks needed to design and implement a user friendly and interactive website; therefore I will be using the same framework again to design and implement this project.
 ### Strategy
+#### Vision
+The Harry Potter Quiz is an interactive website focusing on the more obscure facts and details of the Harry Potter books that only the more 'dedicated' fans would know.
+The Harry Potter franchise has a huge and dedicated fan-base, the term 'Pottermania' was a term first used around 1999 to describe the craze that Harry Potter fans have had over the series [2], and 'Potterheads' has also become a term used by many to describe diehard fans of the series. According to Pottermore, there have been more than 500million Harry Potter books sold worldwide [3], which means that at least one in 15 people in the world owns at least one Harry Potter book. As a huge Harry Potter fan myself, I have looked online for quizzes to test my Harry Potter knowledge, and have found myself dissapointed at the lack of challenge they give! When you consistely score 100% on every Harry Potter quiz you find, the challenge rather becomes to find a quiz that will <strong>ACTUALLY</strong> challenge you. Therefore I hope this web-quiz will appeal to those 'Potterheads' that want to challenge themselves and test whether they really do 'know Harry Potter'.
+
+#### Aims
+<ol>
+    <li>To earn comission from potential companies that would like to advertise via the website in the space left on the main page</li>
+    <li>For visitors to the website to have a positive user experience, in terms of website design and interactivity</li>
+    <li>To be easily find-able via search engines</li>
+    <li>To educate users on the more unusual facts around the Harry Potter books</li>
+    <li>To encourage users to re-read the Harry Potter books and increase their knowledge</li>
+    <li>To make the site intuative and easily usable to enable customers learn about Harry Potter</li>
+</ol>
+
+#### Target Audience
+
+There are a number of target audiences for this website due to the range diverse nature of the Harry Potter fanbase. Harry Potter is considered one of the few four-quadrant, multi-generation spanning franchises that exist today [4] according to the Hollywood Movie Industry, which means that it appeals to:
+
+<ul>
+    <li>Males</li>
+    <li>Females</li>
+    <li>Under 25s</li>
+    <li>Over 25s</li>
+</ul>
+
+This four-quadrant theory means that I must make the web-quiz accessible to everyone, and have it appeal to anyone that visits no matter their age, gender, ethnicity, or other demographic characteristics and features.
+
+#### User Stories
+
+<strong>As a new AND returning customer I want to...</strong>
+<ul>
+    <li>Know the purpose of the website as soon as I navigate to the home/landing page</li>
+    <li>Navigate the website quickly and effectively</li>
+    <li>Quickly find the relevant quiz I wish to attempt</li>
+    <li>Have a visual aid to confirm which answer I have chosen</li>
+    <li>Get a score at the end of each quiz to show how well I did</li>
+    <li>Have an option to show the correct answers in case I don't want to see them and want to retry, or want to retry with some help</li>
+    <li>Have interesting and obscure questions about areas of Harry Potter that might not be well-known</li>
+</ul>
+
+<strong>As the business operator I want to...</strong>
+<ul>
+    <li>Ensure the website is easily maintainable by software developers by having intutitive and neat code</li>
+    <li>Have any media content displayed in the website accessible at all times via a linked file system</li>
+    <li>Ensure all navigation links (internal or external) are always fully functional for ease of use</li>
+    <li>Ensure the website is fully accessible to users that may have visual imparement</li>
+    <li>Stand out from other forms of online Harry Potter quiz, by being easy to use and well-structured</li>
+</ul>
+
+#### What's in and what's out?
+
+<table>
+    <tr>
+        <th>Opportunity/Feature</th>
+        <th>Feasibility/Viability (score out of 5)</th>
+        <th>Level of Importance (score out of 5)</th>
+        <th>In or out?</th>
+    </tr>
+    <tr>
+        <td>Obvious role of the website demonstrated with hero image and capture text</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Simple design with straightforward navigation to make it easier for the user to understand where to find information</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A highly visually interactive website to keep the user interested</td>
+        <td>5</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A Fully accessible website able to be experienced by customers with visual imparement</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see which answer they have selected</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see the score they have recieved for each quiz</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see the correct answers should they wish</td>
+        <td>3</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A score table on the main page for users to see their score from each quiz on the same page</td>
+        <td>2</td>
+        <td>3</td>
+        <td>Out</td>
+    </tr>
+    <tr>
+        <td>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</td>
+        <td>1</td>
+        <td>2</td>
+        <td>Out</td>
+    </tr>
+    <tr>
+        <td>A fully responsive website that works on a range of screen sizes and devices</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A range of questions from all Harry Potter books that would not usually feature in the standard Harry Potter quizes found online</td>
+        <td>3</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>For each question, a range of answers that would all make sense to the user (nothing obscure)</td>
+        <td>3</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Average Viability x number of features:<br>43</td>
+        <td>Sum of Importance:<br>50</td>
+        <td></td>
+    </tr>
+</table><br>
+As we can see from the table above, the importance is higher than the viability, which which means that I may run into some problems during the implementation of the web-quiz a there will be things that I would like to implement but I would have the means or knowledge to implement them. Therefore the web-quiz will take a more basic layout, and I will work within the confines of my very limited JavaScript Knowledge to acheive the main goals I have set myself.<br>
+I have plotted the table above into a graph to easily visualise the features that will be implemented into the website and which ones won't be:
+<ul>
+    <li>The features in the pink section will be implemented</li>
+    <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
+    <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
+</ul><br>
+
 ### Scope
 ### Structure
 
