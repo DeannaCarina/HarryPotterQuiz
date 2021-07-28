@@ -1,4 +1,4 @@
-<a href="#" target="_blank"><h1>Harry Potter Quiz</h1></a>
+<a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><h1>Harry Potter Quiz</h1></a>
 
 ## Contents
 <ul>
@@ -175,13 +175,16 @@ This four-quadrant theory means that I must make the web-quiz accessible to ever
         <td></td>
     </tr>
 </table><br>
-As we can see from the table above, the importance is higher than the viability, which which means that I may run into some problems during the implementation of the web-quiz a there will be things that I would like to implement but I would have the means or knowledge to implement them. Therefore the web-quiz will take a more basic layout, and I will work within the confines of my very limited JavaScript Knowledge to acheive the main goals I have set myself.<br>
+As we can see from the table above, the importance is higher than the viability, which which means that I may run into some problems during the implementation of the web-quiz a there will be things that I would like to implement but I would not have the means or knowledge to implement them. Therefore the web-quiz will take a more basic layout, and I will work within the confines of my very limited JavaScript Knowledge to acheive the main goals I have set myself.<br>
 I have plotted the table above into a graph to easily visualise the features that will be implemented into the website and which ones won't be:
 <ul>
     <li>The features in the pink section will be implemented</li>
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul><br>
+<img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%"><br>
+<img src="assets/images/readme-images/quizgraph.png" alt="Key to show which circles on the graph represent which feature" width="50%"><br><br>
+<a href="#Contents">Back to the top.</a>
 
 ### Scope
 ### Structure
