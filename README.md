@@ -183,7 +183,7 @@ I have plotted the table above into a graph to easily visualise the features tha
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul><br>
 <img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%"><br>
-<img src="assets/images/readme-images/quizgraph.png" alt="Key to show which circles on the graph represent which feature" width="50%"><br><br>
+<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="50%"><br><br>
 <a href="#Contents">Back to the top.</a>
 
 ### Scope
