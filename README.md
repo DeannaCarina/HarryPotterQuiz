@@ -38,7 +38,8 @@ This is my submission for Code Institute's (5P) Portfolio Project Two. It will b
 
 A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><strong>HERE</strong></a><br><br>
 <img src="assets/images/readme-images/index-screen.png" alt="Screenshot of index page on multiple screensizes to show responsiveness" width="80%">
-<img src="assets/images/readme-images/quiz-screen.png" alt="Screenshot of quiz pages on multiple screensizes to show responsiveness" width="80%">
+<img src="assets/images/readme-images/quiz-screen.png" alt="Screenshot of quiz pages on multiple screensizes to show responsiveness" width="80%"><br>
+<a href="#Contents">Back to the top.</a>
 
 # UX
 ### Introduction
@@ -188,10 +189,10 @@ I have plotted the table above into a graph to easily visualise the features tha
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul>
-<img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%"><br>
+<img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%">
 <img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br>
 For the feature "For each question, a range of answers that would all make sense to the user (nothing obscure)" I am going to aim to implement this feature as this will add to the user experience but also allow me to make the question harder or easier depending on the possible answers there are. For example in Book 1 question 19, I have custom made the answers to all make sense as they are all written in Latin (apart from the correct answer however this also looks like it's written in latin) and all translate to something that would make sense as the answer to the question.
-
+<br>
 <a href="#Contents">Back to the top.</a>
 
 ### Scope
@@ -205,8 +206,7 @@ The MMP model will:
     <li>Create a clear website with enough content for the users wants and needs to be fulfilled</li>
     <li>Allow me to work within the scope of my abilitiy while also allowing me to challenge myself in areas of coding that I'm not as comfortable with</li>
     <li>Result in a website with high levels of UX</li>
-    <li></li>
-</ul><br> 
+</ul>
 While following the MMP model, to meet the user and business goals, my website will include:
 <ul>
     <li>A large collection of Harry Potter related questions based on the Harry Potter books</li>
@@ -214,8 +214,15 @@ While following the MMP model, to meet the user and business goals, my website w
     <li>A way for users to find out their score after carrying out a quiz</li>
     <li>A way for users to reveal the correct answers and to easily re-try</li>
 </ul>
+<a href="#Contents">Back to the top.</a>
 
 ### Structure
+
+Much the same as my last project for Code Institute, I have chosen to carry out a non-linear method of design for this website as it consists of multiple pages which might not necessarily be viewed in a particular order as each page has a different role to play. By having multiple pages we can separate large amounts of information into logical sections to make it easier for the user to find what they are looking for. 
+
+On index.html: I chose for the main content of this page to be navigation for the user to be able to select a particular Harry Potter quiz. If the navigation was less obvious then the user might navigate away as they don't know where to click or what to do. The text at the top of the page tells the user the exact role of the website and the topic of the quiz while also issuing a challenge for the user and encouraging them to carry out one of the seven quizzes.
+
+On all of the quiz pages: On navigation to all of the quiz pages, an alert will be visible for the user reminding them that all of the questions are based on the Harry Potter books, I felt this was a highly important piece of information for the user to know as many of the potential answers differ based on the Book versus the Movie e.g. Book 1 Question 15: The correct answer for the Book is 'Charms' however the correct answer for the movie is 'Defence Against the Dark Arts' both are potential answers for the question so this question might have caught out many users without the alert. All questions are displayed on the page via the specific JavaScript, on selection of a single answer, the users selection will highlight in a grey colour, and on hover of any answer it will highlight in a light grey colour. Once all questions have been attempted (or not) and the user selects 'get results' all potential answers for a single question will be highlighted in green or red - this does not show the correct answer, only whether the answer is right or wrong. On selection of the 'get results' button, this will also reveal three further buttons - one to reveal the correct answers, one to refresh the page to try again, and one to go back to the home page (there is also this button at the top of the page).
 
 ### Skeleton
 
