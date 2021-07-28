@@ -461,3 +461,15 @@ There is only one image used throughout the website - which is the background im
 #### Acknowledgements
 
 # Screenshots
+<img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen2.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen3.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen4.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen5.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen6.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen7.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen8.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen9.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen10.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen11.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website">
