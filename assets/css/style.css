@@ -126,39 +126,39 @@ h1, h2, h3, h4, h5{
     padding: 10px;
 }
 .book-1, .link-1{
-    background-color: rgb(160, 20, 20);
-    color: rgb(235, 193, 54);
-    border: 2px solid rgb(14, 122, 14);
+    background-color: #BB0A24;
+    color: #FEC20C;
+    border: 2px solid #4D767B;
 }
 .book-2, .link-2{
-    background-color: rgb(39, 39, 110);
-    color: rgb(34, 133, 34);
-    border: 2px solid rgb(146, 26, 26);
+    background-color: #27467D;
+    color: #609440;
+    border: 2px solid #C62022;
 }
 .book-3, .link-3{
-    background-color: rgb(85, 38, 85);
-    color: rgb(248, 206, 116);
-    border: 2px solid lightblue;
+    background-color: #721A84;
+    color: #F9CA96;
+    border: 2px solid #4F9188;
 }
 .book-4, .link-4{
-    background-color: rgb(206, 40, 40);
-    color: rgb(44, 44, 194);
-    border: 2px solid rgb(84, 133, 150);
+    background-color: #EE1530;
+    color: #1C449A;
+    border: 2px solid #3C9BC0;
 }
 .book-5, .link-5{
-    background-color: rgb(231, 184, 31);
-    color: rgb(148, 28, 28);
-    border: 2px solid rgb(28, 29, 94);
+    background-color: #FFB41C;
+    color: #B4020E;
+    border: 2px solid #50516A;
 }
 .book-6, .link-6{
-    background-color: rgb(53, 53, 145);
-    color: rgb(46, 146, 46);
-    border: 2px solid rgb(30, 82, 30);
+    background-color: #253AA0;
+    color: #00AB00;
+    border: 2px solid #00AB00;
 }
 .book-7, .link-7{
-    background-color: black;
-    color: white;
-    border: 2px solid rgb(160, 47, 6);
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 2px solid #CC5020;
 }
 .select-quiz-heading{
     text-transform: uppercase;
@@ -171,19 +171,19 @@ h1, h2, h3, h4, h5{
     font-style: italic;
 }
 .book-1-title, .book-6-title, .book-7-title{
-    color: white;
+    color: #FFFFFF;
 }
 .book-2-title{
-    color: rgb(180, 38, 38);
+    color: #C62022;
 }
 .book-3-title{
-    color: rgb(137, 185, 201);
+    color: #4F9188;
 }
 .book-4-title{
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 .book-5-title{
-    color: rgb(28, 29, 94);
+    color: #50516A;
 }
 /* ----------------STYLINGS OF QUIZ PAGES------------------- */
 #quiz-container{
