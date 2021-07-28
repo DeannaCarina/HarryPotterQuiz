@@ -1,208 +1,205 @@
 const book5Questions = [
     {
-      question: "Question",
+      question: "What make of broomstick does Tonks use and ride?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Cleansweep Eleven",
+          b: "Comet Two-Sixty<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Silver Arrow",
+          d: "Nimbus Two-Thousand"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "At what number Grimmauld Place is the headquarters of the Order of the Phoenix situated?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Number 10",
+          b: "Number 11",
+          c: "Number 12<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          d: "Number 13"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "Who was the minister for magic before Cornelius Fudge?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Harold Minchum",
+          b: "Millicent Bagnold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Ignatius Tuft",
+          d: "Eugenia Jenkins"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "What is the code Mr Weasley entered in the phone box to gain access to the Ministry of Magic?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "6-2-4-4-2<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "5-6-6-3-6-6",
+          c: "3-8-3-4-3",
+          d: "9-2-6-3-7"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "What winged animal sits on top of the pillars at the gated entrance to Hogwart's grounds?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Horses",
+          b: "Lions",
+          c: "Goats",
+          d: "Boars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "What type of plant did Neville have on the Journey to Hogwarts in his 5th year which is also the first password of 5th year to the Gryffindor common room?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Mimbulus Mimbletonia<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Venomous Tentacula",
+          c: "Leaping Toadstool",
+          d: "Wiggentree"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "What type of biscuit did Harry eat in McGonagall's office after he had been sent there by Umbridge?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Chocolate Wands",
+          b: "Shortbread",
+          c: "Canary Cream",
+          d: "Ginger Newt<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "What animal were the fifth years attempting to vanish in their first Transfiguration lesson of fifth year?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Worms",
+          b: "Snails<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Beetles",
+          d: "Earwigs"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "Before Ron's first Quidditch match as Keeper, the Slytherins wore a badge to try and knock Ron's confidence, what did they say?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Weasley is our king<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Weasley can't keep",
+          c: "Weasley stinks",
+          d: "Drop the ball Weasley"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "What is the correct term to describe the chief of a Giant's tribe?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Trurg",
+          b: "Blurg",
+          c: "Durg",
+          d: "Gurg<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "How many students in total could see the thestrals in Hargrid's first Care of Magical Creatures lesson on his return to Hogwarts?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Two",
+          b: "Three<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Four",
+          d: "Five"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "What is the name of the department store that St Mungo's is situated within?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Broadbents",
+          b: "Arding & Hobbs",
+          c: "Purge & Dowse<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          d: "Peter Robinson"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "Which previous headmaster of Hogwarts did Dumbledore asign to watch over Harry after the attack on Mr Weasley?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Phineas Nigellus<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Armando Dippet",
+          c: "Dilys Derwent",
+          d: "Dexter Fortescue"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "Neville Longbottom's mother gave Neville a sweet wrapper as he was leaving the ward at St Mungo's, what kind of sweet was the wrapper from?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Acid Pop",
+          b: "Droobles Blowing Gum<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Pepper Imp",
+          d: "Sherbet Lemon"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "What killed Boderick Bode?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Old age",
+          b: "Poison",
+          c: "Killing Curse",
+          d: "Devil's Snare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "When Harry used Professor Umbridge's office for the first time to speak to Sirius via Floo Powder, who was in Grimmauld Place kitchen and went to get Sirius?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Remus Lupin<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Kreacher",
+          c: "Kingsley Shacklebolt",
+          d: "Molly Weasley"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "On Fred and George's departure from Hogwarts, what did they do to anger Filch and Umbridge?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Set off fireworks during the O.W.L examinations",
+          b: "Turned all the educational decree notices into the front page of the Quibbler",
+          c: "Turned a corridor into a swamp<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          d: "Gave multiple skiving snackboxes to students who subsequently vommited in unison in the Entrance Hall"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "For a bonus point in Harry's practical Defence Against the Dark Arts examination, what extra spell did he perform?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Petrificus Totalus",
+          b: "Expelliarmus",
+          c: "Stupefy",
+          d: "Patronus Charm<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "When Harry had the dream of Sirius being held in the Department of Mysteries by Voldemort, he tried to find Professor McGonagall to tell her what he saw, but he couldn't find her - where was she?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "In Azkaban",
+          b: "At Grimmauld Place",
+          c: "At St Mungo's<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          d: "In hiding with Dumbledore"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "When Harry, Ron, Hermione, Neville, Ginny and Luna had got into the room with multiple doors in the Department of Mysteries, what was behind the first door they tried in the search for Sirius?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Brains in a tank<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "An archway",
+          c: "A jar with a reincanating hummingbird",
+          d: "A dark room full of planets"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     }    
 ];
-
-alert('This page is under construction, appologies for any inconvenience this causes!')
-window.location.replace('../index.html');
 
 function displayTicks(){
   const divArray = 
@@ -213,7 +210,9 @@ div.style.display = displayStyle;
 }); 
 }
 
-// Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
+// Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/ code has been altered and editted to fit the needs of the 
+// Harry Potter quiz, extra elements have been added, and some removed depending on my needs. Almost all variables have been renamed to make 
+// it easier for future editing and bug fixing.
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
@@ -243,7 +242,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       }
       // add questions and its answers to the quiz 
       output.push(
-        '<div class="question"><h3 id="quiz-questions">' + questions[i].question + '</h3></div><br>'
+        '<div class="question"><h3 id="quiz-questions">' +[i+1] + '. ' + questions[i].question + '</h3></div><br>'
         + '<div class="answers">' + answers.join('') + '</div><br>'
       );
     }
