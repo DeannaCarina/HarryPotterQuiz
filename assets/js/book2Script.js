@@ -210,7 +210,9 @@ div.style.display = displayStyle;
 }); 
 }
 
-// Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/
+// Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/ code has been altered and editted to fit the needs of the 
+// Harry Potter quiz, extra elements have been added, and some removed depending on my needs. Almost all variables have been renamed to make 
+// it easier for future editing and bug fixing.
 
 let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
@@ -240,7 +242,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       }
       // add questions and its answers to the quiz 
       output.push(
-        '<div class="question"><h3 id="quiz-questions">' + questions[i].question + '</h3></div><br>'
+        '<div class="question"><h3 id="quiz-questions">' +[i+1] + '. ' + questions[i].question + '</h3></div><br>'
         + '<div class="answers">' + answers.join('') + '</div><br>'
       );
     }
