@@ -243,9 +243,13 @@ The wireframes below are for smaller devices.<br>
 ### Surface
 
 #### Colour Scheme
-The main colours used on the website are the links for the specific quizes (organised by Harry Potter book - one for each quiz.) These colours match the colours that are on the front of each book. I felt this would add familiarity for the user as the majority of visitors to the website will be Harry Potter fans. These were determined during the wireframe stage as I feel the colour scheme is a massive part of what keeps the user interested and more likely to stay on the website.<br><br>
+
+<img src="assets/images/readme-images/colors.png" alt="Image showing the colour scheme of the website"><br><br>
+
+The main colours used on the website are the headings and navigation links on click of the 'get results' button - these correspond to the colours on the front of the related Harry Potter book. Initially (as you can see from the wireframes) I had chosen to have the links here these specific colour too to add familiarity for the user, however I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour and added an image to the left hand side of the nav-link of the front cover image of each Harry Potter book. On hover of the answers, the colour changes to a light grey as a visual aid to the user of which answer they are going to click, and on click of an answer the background colour goes to a darker grey with a dark grey border as a further visual aid of which answer they have selected - I chose to keep these colours neutral so there is no visual clue as to which answer is correct. The quiz pages all have a transparent background behind the answers to ensure the user is not distracted by the background.
+
 <img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br><br>
-During development of the website, I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour; however I have kept the original colour scheme on the scores as I still like the idea of colour continuity - and these colours match the colours used on the separate quiz pages.
+
 
 # Technologies
 ### Languages
