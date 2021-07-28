@@ -187,9 +187,9 @@ I have plotted the table above into a graph to easily visualise the features tha
     <li>The features in the pink section will be implemented</li>
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
-</ul><br>
+</ul>
 <img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%"><br>
-<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br><br>
+<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br>
 For the feature "For each question, a range of answers that would all make sense to the user (nothing obscure)" I am going to aim to implement this feature as this will add to the user experience but also allow me to make the question harder or easier depending on the possible answers there are. For example in Book 1 question 19, I have custom made the answers to all make sense as they are all written in Latin (apart from the correct answer however this also looks like it's written in latin) and all translate to something that would make sense as the answer to the question.
 
 <a href="#Contents">Back to the top.</a>
