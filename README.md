@@ -181,7 +181,7 @@ This four-quadrant theory means that I must make the web-quiz accessible to ever
         <td></td>
     </tr>
 </table><br>
-As we can see from the table above, the importance is higher than the viability, which which means that I may run into some problems during the implementation of the web-quiz a there will be things that I would like to implement but I would not have the means or knowledge to implement them. Therefore the web-quiz will take a more basic layout, and I will work within the confines of my very limited JavaScript Knowledge to acheive the main goals I have set myself.<br>
+As we can see from the table above, the importance is higher than the viability, which which means that I may run into some problems during the implementation of the web-quiz a there will be things that I would like to implement but I would not have the means or knowledge to implement them. Therefore the web-quiz will take a more basic layout, and I will work within the confines of my very limited JavaScript Knowledge to acheive the main goals I have set myself.<br><br>
 I have plotted the table above into a graph to easily visualise the features that will be implemented into the website and which ones won't be:
 <ul>
     <li>The features in the pink section will be implemented</li>
@@ -189,7 +189,9 @@ I have plotted the table above into a graph to easily visualise the features tha
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul><br>
 <img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%"><br>
-<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="50%"><br><br>
+<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br><br>
+For the feature "For each question, a range of answers that would all make sense to the user (nothing obscure)" I am going to aim to implement this feature as this will add to the user experience but also allow me to make the question harder or easier depending on the possible answers there are. For example in Book 1 question 19, I have custom made the answers to all make sense as they are all written in Latin (apart from the correct answer however this also looks like it's written in latin) and all translate to something that would make sense as the answer to the question.
+
 <a href="#Contents">Back to the top.</a>
 
 ### Scope
