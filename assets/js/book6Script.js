@@ -208,9 +208,9 @@ function displayTicks(){
   const divArray = 
   Array.from(document.getElementsByClassName('tick'));
   const displayStyle = divArray[0].style.display === 'block' ? 'none' : 'block';
-divArray.forEach(div => {
-div.style.display = displayStyle;
-}); 
+  divArray.forEach(function(div){
+    div.style.display = displayStyle;
+  });
 }
 
 // Below code inspired from https://simplestepscode.com/javascript-quiz-tutorial/ code has been altered and editted to fit the needs of the 
