@@ -26,6 +26,9 @@
     <li>
         <a href="#Screenshots"><strong>Screenshots</strong></a>
     </li>
+    <li>
+        <a href="#References"><strong>References</strong></a>
+    </li>
 </ul>
 <hr>
 
@@ -221,7 +224,8 @@ Much the same as my last project for Code Institute, I have chosen to carry out 
 
 On index.html: I chose for the main content of this page to be navigation for the user to be able to select a particular Harry Potter quiz. If the navigation was less obvious then the user might navigate away as they don't know where to click or what to do. The text at the top of the page tells the user the exact role of the website and the topic of the quiz while also issuing a challenge for the user and encouraging them to carry out one of the seven quizzes.
 
-On all of the quiz pages: On navigation to all of the quiz pages, an alert will be visible for the user reminding them that all of the questions are based on the Harry Potter books, I felt this was a highly important piece of information for the user to know as many of the potential answers differ based on the Book versus the Movie e.g. Book 1 Question 15: The correct answer for the Book is 'Charms' however the correct answer for the movie is 'Defence Against the Dark Arts' both are potential answers for the question so this question might have caught out many users without the alert. All questions are displayed on the page via the specific JavaScript file, on selection of a single answer, the users selection will highlight in a grey colour, and on hover of any answer it will highlight in a light grey colour. Once all questions have been attempted (or not) and the user selects 'get results' all potential answers for a single question will be highlighted in green or red - this does not show the correct answer, only whether the question has been answered correctly or incorrectly. On selection of the 'get results' button, this will also reveal three further buttons - one to reveal the correct answers, one to refresh the page to try again, and one to go back to the home page (there is also this button at the top of the page).
+On all of the quiz pages: On navigation to all of the quiz pages, an alert will be visible for the user reminding them that all of the questions are based on the Harry Potter books, I felt this was a highly important piece of information for the user to know as many of the potential answers differ based on the Book versus the Movie e.g. Book 1 Question 15: The correct answer for the Book is 'Charms' however the correct answer for the movie is 'Defence Against the Dark Arts' both are potential answers for the question so this question might have caught out many users without the alert. All questions are displayed on the page via the specific JavaScript file, on selection of a single answer, the users selection will highlight in a grey colour, and on hover of any answer it will highlight in a light grey colour. Once all questions have been attempted (or not) and the user selects 'get results' all potential answers for a single question will be highlighted in green or red - this does not show the correct answer, only whether the question has been answered correctly or incorrectly. On selection of the 'get results' button, this will also reveal three further buttons - one to reveal the correct answers, one to refresh the page to try again, and one to go back to the home page (there is also this button at the top of the page).<br>
+<a href="#Contents">Back to the top.</a>
 
 ### Skeleton
 
@@ -237,7 +241,8 @@ The wireframes below are for tablets.<br>
 The wireframes below are for smaller devices.<br>
 <img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
 <img src="assets/images/readme-images/phone-quiz.png" alt="Wireframe for quiz page on phones" width="30%">
-<br><br>
+<br>
+<a href="#Contents">Back to the top.</a>
 
 ### Surface
 #### Typography
@@ -259,6 +264,7 @@ The icons used in the website were taken from <a href="https://fontawesome.com/"
 <img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br><br>
 The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
 <img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br>
+<a href="#Contents">Back to the top.</a>
 
 #### Design - Images
 The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. <br><br>
@@ -267,6 +273,7 @@ I feel that this image was the best I could find, and to ensure that there is le
 <img src="assets/images/readme-images/covers.png" alt="Image showing the book cover images used on the main page"><br>
 The only other image used on the website is the one used as the background of the advertising space on the main page. There is no real method for why I chose this image other than the proportions of the main subject of the image (the train) fit inside the space well, and that the train is the same one the students in the 'Potterverse' use to get to Hogwarts.<br><br>
 <img src="assets/images/backgrounds/banner.jpg" alt="Image showing the background of the advertising space an old steam locomotive"><br>
+<a href="#Contents">Back to the top.</a>
 
 # Technologies
 Throughout the planning, design, testing and deployment of the website, I have used a number of technologies:
@@ -383,6 +390,7 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
     <li><em>A way for users to input their name/nickname for personalised alerts</em> - </li>
     <li><em>A leaderboard showing the users name/nicknames (only shows their first attempt)</em> - </li>
 </ul>
+<a href="#Contents">Back to the top.</a>
 
 # Testing
 ### Introduction
@@ -399,6 +407,7 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
     <li>Unable to duplicate answers within the same JS file due to using the answers themselves as selector ID's. In order to make the answers selectable, each one had to have a unique ID - I found the easiest way to generate these unique ID's was to make the answer themselves the ID, however I found that when I did this, if there were duplicate answers in the quiz, the duplicate answer would be selected when the orginal answer was selected. To minimise the risk of this happening, I chose to split the JavaScript files containing the questions and answers into seven separate files as the chances of duplicating answers over 20 questions is far less than the chances of duplicating them over 140. I am aware that I am not following the DRY (don't repeat yourself) priniciple when I do this, however to minimise bugs, and to fix bugs that arose in the development of the website, I found that I actually preferred having these separate JavaScript files as I knew exactly where the bug would be and how to fix it.</li>
     <li>User can scroll to the bottom of the quiz page as soon as they navigate to it, click on 'Get results' which will return a score of 0/20, then click on 'Reveal answers' which will reveal all the correct answers, the user can then change/select their answers and re-submitt for a top score. To fix this there is the option to disable interaction with the answers after the 'get results' button is clicked, however I feel that there's not much point in doing this as users can cheat regardless of whether they can re-submit or not. If the answers were disabled on click of 'get answers' then all the user would need to do is note down the questions they got wrong with the correct answers, then re-try the quiz. Unfortunately there will always be people that cheat, and there isn't much that we can do about this, however I am hoping that the people that this quiz is targetted towards would complete the quiz without cheating for the personal satisfaction of knowing they have top-knowledge of the Harry Potter books.</li>
 </ul>
+<a href="#Contents">Back to the top.</a>
 
 
 # Deployment
@@ -499,7 +508,7 @@ The image used as the background for the advertising space came from <a href="ht
 </ul>    
 
 #### Acknowledgements
-
+<a href="#Contents">Back to the top.</a>
 # Screenshots
 <img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen2.png" alt="Screenshot of finished website">
@@ -512,4 +521,7 @@ The image used as the background for the advertising space came from <a href="ht
 <img src="assets/images/readme-images/screen9.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen10.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen11.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website"><br><br>
+<a href="#Contents">Back to the top.</a>
+
+# References
