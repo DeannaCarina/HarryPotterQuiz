@@ -292,5 +292,5 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
     containerOfBottomLinks.style.display = "block";
     containerOfTopLinks.style.display = "block";  
-    }    
+    };    
 }
