@@ -231,16 +231,17 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
   function showQuizQuestions(questions, containerOfQuiz){
     let output = [];
     let answers;
-    let letter;
     for(let i=0; i<questions.length; i++){
       // reset the list of answers
       answers = [];
       /* for each available answer, add a radio button for selection of only one answer (this will be 
-      removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
-      for(letter in questions[i].answers){
+      removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection*/
+      for(let letter in questions[i].answers){
+        if (questions.hasOwnProperty(i)){
         answers.push(
             '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">' + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
+        }
       }
       // add questions and its answers to the quiz 
       output.push(
