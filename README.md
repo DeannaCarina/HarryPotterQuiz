@@ -244,14 +244,13 @@ The wireframes below are for smaller devices.<br>
 #### Typography
 #### Colour Scheme
 <img src="assets/images/readme-images/colors.png" alt="Image showing the colour scheme of the website"><br>
-The main colours used on the website are the headings and navigation links on click of the 'get results' button - these correspond to the colours on the front of the related Harry Potter book. 
-<img src="assets/images/readme-images/quizheaders.png" alt="Image showing the colours of the headers on the quiz pages"><br>
-Initially (as you can see from the wireframes) I had chosen to have the links with these specific colours too, in able to add familiarity for the user, however I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour and added an image to the left hand side of the nav-link of the front cover image of each Harry Potter book. I generated the colours above by using an eyedropper tool on the front covers of the book images below.
+The main colours used on the website are the headings and navigation links on click of the 'get results' button - these correspond to the colours on the front of the related Harry Potter book. <br>
+<img src="assets/images/readme-images/quizheaders.png" alt="Image showing the colours of the headers on the quiz pages" width="80%"><br><br>
+Initially (as you can see from the wireframes) I had chosen to have the links with these specific colours too, in able to add familiarity for the user, however I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour and added an image to the left hand side of the nav-link of the front cover image of each Harry Potter book. I generated the colours above by using an eyedropper tool on the front covers of the book images below.<br>
 <img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br>
-
-On hover of the answers, the colour changes to a light grey as a visual aid to the user of which answer they are going to click (this can be seen with the first image below), and on click of an answer the background colour goes to a darker grey with a dark grey border as a further visual aid of which answer they have selected - I chose to keep these colours neutral so there is no visual clue as to which answer is correct. The quiz pages all have a transparent background behind the answers to ensure the user is not distracted by the background. I also added a hover psuedo class to the nav links on the main page as a visual aid to which quiz the user is going to click on.
-<img src="assets/images/readme-images/selection.png" alt="Image showing the colours of the answers when hovered on or clicked"><br>
-<img src="assets/images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered"><br>
+On hover of the answers, the colour changes to a light grey as a visual aid to the user of which answer they are going to click (this can be seen with the first image below), and on click of an answer the background colour goes to a darker grey with a dark grey border as a further visual aid of which answer they have selected - I chose to keep these colours neutral so there is no visual clue as to which answer is correct. The quiz pages all have a transparent background behind the answers to ensure the user is not distracted by the background. I also added a hover psuedo class to the nav links on the main page as a visual aid to which quiz the user is going to click on.<br>
+<img src="assets/images/readme-images/selection.png" alt="Image showing the colours of the answers when hovered on or clicked" width="80%"><br><br>
+<img src="assets/images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered" width="80%"><br>
 
 #### Icons
 #### Design - Images
