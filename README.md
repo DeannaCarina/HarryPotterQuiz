@@ -262,7 +262,7 @@ The favicon was made by myself using shapes and drawing tools in Microsoft Power
 <img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br>
 
 #### Design - Images
-The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the main qui pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it.
+The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the quiz pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it.
 
 # Technologies
 Throughout the planning, design, testing and deployment of the website, I have used a number of technologies:
