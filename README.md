@@ -396,6 +396,9 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
 ### Introduction
 ### Functionality
 ### Compatibility
+<img src="assets/images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
+<img src="assets/images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
+
 ### User Testing Stories
 ### Code Validation
 Below are the validation reports for all HTML pages, the CSS file and two reports carried out on the JavaScript. All came back with no errors apart from the Beutify report on the JavaScript which states "'displayTicks' is defined but never used." however the displayTicks function is used but it is called from within the HTML file.<br><br>
