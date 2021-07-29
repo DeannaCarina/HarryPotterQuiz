@@ -263,7 +263,7 @@ The favicon was made by myself using shapes and drawing tools in Microsoft Power
 
 #### Design - Images
 The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. <br><br>
-<img src="assets/images/backgrounds/background.png" alt="Image showing the background used on the website" width="70%"><br>
+<img src="assets/images/backgrounds/background.jpg" alt="Image showing the background used on the website" width="70%"><br>
 I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the quiz pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it. The only other images used on the website are those of the front cover images on the main page, these were scanned using my home scanner and reduced in size via an image resolution reduction tool online to reduce load times.<br><br>
 <img src="assets/images/readme-images/covers.png" alt="Image showing the book cover images used on the main page"><br>
 
