@@ -242,7 +242,7 @@ The wireframes below are for smaller devices.<br>
 
 ### Surface
 #### Typography
-I used Google Fonts to find the typography that I wanted to use for the website. I wanted to try and find a similar font for the headings as the font for the 'Harry Potter' text on the front covers of the books, I think I managed to find a fairly similar font with 'Libre Baskerville', by using this font I hope that it will add familiarity for the user, but also highlight the design similarities between the website and the books. For the normal website text I used 'Montserrat', this was a font suggested by Google Fonts which I felt was good for the website as it is easy to read. I didn't come accross any problems with these fonts during the design and deployment processes.<br><br>
+I used Google Fonts to find the typography that I wanted to use for the website. I wanted to try and find a similar font for the headings as the font for the 'Harry Potter' text on the front covers of the books, I think I managed to find a fairly similar font with 'Libre Baskerville', by using this font I hope that it will add familiarity for the user, but also highlight the design similarities between the website and the books. For the normal website text I used 'Montserrat', this was a font suggested by Google Fonts which I felt was good for the website as it is easy to read. I didn't come across any problems with these fonts during the design and deployment processes.<br><br>
 <img src="assets/images/readme-images/fonts.png" alt="Image showing the fonts used on the website"><br><br>
 
 #### Colour Scheme
@@ -256,6 +256,10 @@ On hover of the answers, the colour changes to a light grey as a visual aid to t
 <img src="assets/images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered" width="80%"><br>
 
 #### Icons
+The icons used in the website were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, they can be seen throughout the site on all quiz pages after the 'get results' button has been clicked. They are used as calls to action for the user to either navigate home, refresh the page or to reveal answers. The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
+<img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br>
+
+
 #### Design - Images
 
 # Technologies
