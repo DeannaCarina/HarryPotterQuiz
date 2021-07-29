@@ -256,8 +256,10 @@ On hover of the answers, the colour changes to a light grey as a visual aid to t
 <img src="assets/images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered" width="80%"><br>
 
 #### Icons
-The icons used in the website were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, they can be seen throughout the site on all quiz pages after the 'get results' button has been clicked. They are used as calls to action for the user to either navigate home, refresh the page or to reveal answers. The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
-<img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br>
+The icons used in the website were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, they can be seen throughout the site on all quiz pages after the 'get results' button has been clicked. They are used as calls to action for the user to either navigate home, refresh the page or to reveal answers.<br><br>
+<img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br><br>
+The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
+<img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br><br>
 
 
 #### Design - Images
