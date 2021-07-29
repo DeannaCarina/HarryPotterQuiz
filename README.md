@@ -398,6 +398,23 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
 ### Compatibility
 ### User Testing Stories
 ### Code Validation
+Below are the validation reports for all HTML pages, the CSS file and two reports carried out on the JavaScript. All came back with no errors apart from the Beutify report on the JavaScript which states "'displayTicks' is defined but never used." however the displayTicks function is used but it is called from within the HTML file.<br><br>
+<strong>HTML</strong><br>
+<img src="assets/images/readme-images/indexhtmlval.png" alt="Code validation of index.html"><br><br>
+<img src="assets/images/readme-images/book1htmlval.png" alt="Code validation of book1.html"><br><br>
+<img src="assets/images/readme-images/book2htmlval.png" alt="Code validation of book2.html"><br><br>
+<img src="assets/images/readme-images/book3htmlval.png" alt="Code validation of book3.html"><br><br>
+<img src="assets/images/readme-images/book4htmlval.png" alt="Code validation of book4.html"><br><br>
+<img src="assets/images/readme-images/book5htmlval.png" alt="Code validation of book5.html"><br><br>
+<img src="assets/images/readme-images/book6htmlval.png" alt="Code validation of book6.html"><br><br>
+<img src="assets/images/readme-images/book7htmlval.png" alt="Code validation of book7.html"><br><br>
+<strong>CSS</strong><br>
+<img src="assets/images/readme-images/cssval.png" alt="Code validation of CSS"><br><br>
+<strong>JS</strong><br>
+<img src="assets/images/readme-images/jshint.png" alt="Code check of JavaScript with Jshint"><br><br>
+<img src="assets/images/readme-images/beautify.png" alt="Code check of JavaScript with BeautifyTools"><br><br>
+<a href="#Contents">Back to the top.</a>
+
 ### Peer Review
 ### Development Problems
 ### Accessibility
