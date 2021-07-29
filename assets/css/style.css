@@ -342,9 +342,42 @@ input[type="radio"]:checked + label {
         font-size: x-small;
     }
   }
+  @media screen and (max-width: 350px){
+    label{
+        height: auto;
+    }
+}
   @media screen and (max-width: 330px){
       .landing-heading{
           font-size: medium;
       }
   }
+  @media screen and (max-width: 290px){
+    .book-image{
+        display: none;
+    }
+    .main-page-section{
+        width: 205px;
+        margin: auto;
+    }
+    .landing-quiz{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 210px){
+    .main-page-section{
+        width: 135px;
+        height: 45px;
+    }
+    .landing-quiz{
+        width: 130px;
+        height: 43px;
+    }
+    .select-quiz-heading{
+        font-size: 70%;
+    }
+    .title{
+        font-size: 45%;
+    }
+}
   
