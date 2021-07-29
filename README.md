@@ -37,8 +37,7 @@ This is my submission for Code Institute's (5P) Portfolio Project Two. It will b
 ### Demo
 
 A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><strong>HERE</strong></a><br><br>
-<img src="assets/images/readme-images/index-screen.png" alt="Screenshot of index page on multiple screensizes to show responsiveness" width="80%">
-<img src="assets/images/readme-images/quiz-screen.png" alt="Screenshot of quiz pages on multiple screensizes to show responsiveness" width="80%"><br>
+<img src="assets/images/readme-images/responsive.gif" alt="gif showing responsiveness of website">
 <a href="#Contents">Back to the top.</a>
 
 # UX
