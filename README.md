@@ -242,6 +242,10 @@ The wireframes below are for smaller devices.<br>
 
 ### Surface
 #### Typography
+I used Google Fonts to find the typography that I wanted to use for the website. I wanted to try and find a similar font for the headings as the font for the 'Harry Potter' text on the front covers of the books, I think I managed to find a fairly similar font with 'Libre Baskerville', by using this font I hope that it will add familiarity for the user, but also highlight the design similarities between the website and the books. For the normal website text I used 'Montserrat', this was a font suggested by Google Fonts which I felt was good for the website as it is easy to read.<br>
+<img src="assets/images/readme-images/fonts.png" alt="Image showing the fonts used on the website"><br><br>
+I didn't come accross any problems with these fonts during the design and deployment processes.
+
 #### Colour Scheme
 <img src="assets/images/readme-images/colors.png" alt="Image showing the colour scheme of the website"><br>
 The main colours used on the website are the headings and navigation links on click of the 'get results' button - these correspond to the colours on the front of the related Harry Potter book. <br>
