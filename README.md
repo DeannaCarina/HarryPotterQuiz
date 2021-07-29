@@ -259,10 +259,10 @@ On hover of the answers, the colour changes to a light grey as a visual aid to t
 The icons used in the website were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, they can be seen throughout the site on all quiz pages after the 'get results' button has been clicked. They are used as calls to action for the user to either navigate home, refresh the page or to reveal answers.<br><br>
 <img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br><br>
 The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
-<img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br><br>
-
+<img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br>
 
 #### Design - Images
+The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the main qui pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it.
 
 # Technologies
 Throughout the planning, design, testing and deployment of the website, I have used a number of technologies:
