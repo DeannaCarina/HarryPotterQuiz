@@ -231,6 +231,7 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
   function showQuizQuestions(questions, containerOfQuiz){
     let output = [];
     let answers;
+    let letter;
     for(let i=0; i<questions.length; i++){
       // reset the list of answers
       answers = [];
@@ -238,14 +239,12 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
       removed via CSS and the whole label will be selectable by the user with stylings affecting the whole label) to show selection */
       for(letter in questions[i].answers){
         answers.push(
-            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">'
-            + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
+            '<input type="radio" id="'+ questions[i].answers[letter] +'" name="question'+i+'" value="'+letter+'">' + '<label  for="'+ questions[i].answers[letter] +'">'+ questions[i].answers[letter] +'</label>'
         );
       }
       // add questions and its answers to the quiz 
       output.push(
-        '<div class="question"><h3 id="quiz-questions">' +[i+1] + '. ' + questions[i].question + '</h3></div><br>'
-        + '<div class="answers">' + answers.join('') + '</div><br>'
+        '<div class="question"><h3 id="quiz-questions">' +[i+1] + '. ' + questions[i].question + '</h3></div><br>' + '<div class="answers">' + answers.join('') + '</div><br>'
       );
     }
     // combine question and it's answers into one string of html and put it on the page (for all 20 questions)
@@ -274,18 +273,18 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
     containerOfResults.innerHTML = numCorrect + ' out of ' + questions.length;
     // Add alert once submit button is pressed for a visual prompt and a nice message for the user
     if (numCorrect <= 4){
-      alert('You scored ' + numCorrect +'! Better luck next time! Try reading the books a few more times.')
+      alert('You scored ' + numCorrect +'! Better luck next time! Try reading the books a few more times.');
     } else if (numCorrect >= 5 && numCorrect <= 7){
-      alert('You scored ' + numCorrect +'! Well done, you know a little bit about Harry Potter! Maybe try re-reading the books to get a better score.')
+      alert('You scored ' + numCorrect +'! Well done, you know a little bit about Harry Potter! Maybe try re-reading the books to get a better score.');
     } else if (numCorrect >= 8 && numCorrect <= 12){
-      alert('You scored ' + numCorrect +'! Well done, you know quite a bit about Harry Potter! Try rereshing your Harry Potter know-how by re-reading the books for a better score.')
+      alert('You scored ' + numCorrect +'! Well done, you know quite a bit about Harry Potter! Try rereshing your Harry Potter know-how by re-reading the books for a better score.');
     } else if (numCorrect >= 13 && numCorrect <= 16){
-      alert('You scored ' + numCorrect +'! Well done, you know loads about Harry Potter! You must have read the books a few times.')
+      alert('You scored ' + numCorrect +'! Well done, you know loads about Harry Potter! You must have read the books a few times.');
     } else if (numCorrect >= 17 && numCorrect <= 19){
-      alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.')
+      alert('You scored ' + numCorrect +'! Well done, you are almost at top marks! Try again and see if you can get 20/20.');
     } else {
-      alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!")
-    };    
+      alert("You scored " + numCorrect +"! You got top marks! You're a Harry Potter wiz! Try challenging another Harry Potter nerd to see who wins!");
+    }
   }
   // on submit, show results and home, reveal and refresh buttons via making containers visible
   submitQuizButton.onclick = function(){
