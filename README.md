@@ -419,6 +419,11 @@ Below are the validation reports for all HTML pages, the CSS file and two report
 ### Development Problems
 ### Accessibility
 ### Performance Testing
+Below is the report generated from lighthouse via Chrome DevTools for the desktop website, I am extremely happy with this result, and don't feel I need to make any changes.
+<br><br><img src="assets/images/readme-images/lighthouse.png" alt="Lighthouse performance report"><br><br>
+Below is the report generated from lighthouse via Chrome DevTools for the mobile website, I am also happy with this result, and don't feel I need to make any changes.
+<br><br><img src="assets/images/readme-images/lighthousemobile.png" alt="Lighthouse performance report"><br><br>
+
 ### Bugs (and their fixes)
 <ul>
     <li>Unable to duplicate answers within the same JS file due to using the answers themselves as selector ID's. In order to make the answers selectable, each one had to have a unique ID - I found the easiest way to generate these unique ID's was to make the answer themselves the ID, however I found that when I did this, if there were duplicate answers in the quiz, the duplicate answer would be selected when the orginal answer was selected. To minimise the risk of this happening, I chose to split the JavaScript files containing the questions and answers into seven separate files as the chances of duplicating answers over 20 questions is far less than the chances of duplicating them over 140. I am aware that I am not following the DRY (don't repeat yourself) priniciple when I do this, however to minimise bugs, and to fix bugs that arose in the development of the website, I found that I actually preferred having these separate JavaScript files as I knew exactly where the bug would be and how to fix it.</li>
