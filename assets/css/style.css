@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5{
 #bottomLinks, #topLinks{
     display: none;
 }
-#home, #reveal, #refresh{
+.home, #reveal, #refresh{
     margin-top: 30px;
     display: inline-block;
     width: 200px;
@@ -299,7 +299,7 @@ input[type="radio"]:checked + label {
 
   /*Responsiveness*/
   @media screen and (max-width: 1020px){
-    #home, #reveal, #refresh{
+    .home, #reveal, #refresh{
         width: 150px;
     }
   }
@@ -367,7 +367,7 @@ input[type="radio"]:checked + label {
         width: 20px;
         height: 20px;
     }
-    #home, #reveal, #refresh{
+    .home, #reveal, #refresh{
         width: 90px;
         font-size: x-small;
     }
