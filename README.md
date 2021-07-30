@@ -49,7 +49,7 @@ The five planes provide a conceptual framework for breaking down the task of des
 ### Strategy
 #### Vision
 The Harry Potter Quiz is an interactive website focusing on the more obscure facts and details of the Harry Potter books that only the more 'dedicated' fans would know.
-The Harry Potter franchise has a huge and dedicated fan-base, the term 'Pottermania' was a term first used around 1999 to describe the craze that Harry Potter fans have had over the series [2], and 'Potterheads' has also become a term used by many to describe diehard fans of the series. According to Pottermore, there have been more than 500million Harry Potter books sold worldwide [3], which means that at least one in 15 people in the world owns at least one Harry Potter book. As a huge Harry Potter fan myself, I have looked online for quizzes to test my Harry Potter knowledge, and have found myself dissapointed at the lack of challenge they give! When you consistely score 100% on every Harry Potter quiz you find, the challenge rather becomes to find a quiz that will <strong>ACTUALLY</strong> challenge you. Therefore I hope this web-quiz will appeal to those 'Potterheads' that want to challenge themselves and test whether they really do 'know Harry Potter'.
+The Harry Potter franchise has a huge and dedicated fan-base, the term 'Pottermania' was a term first used around 1999 to describe the craze that Harry Potter fans have had over the series [1], and 'Potterheads' has also become a term used by many to describe diehard fans of the series. According to Mugglenet, there have been more than 500million Harry Potter books sold worldwide [2], which means that at least one in 15 people in the world owns at least one Harry Potter book. As a huge Harry Potter fan myself, I have looked online for quizzes to test my Harry Potter knowledge, and have found myself dissapointed at the lack of challenge they give! When you consistely score 100% on every Harry Potter quiz you find, the challenge rather becomes to find a quiz that will <strong>ACTUALLY</strong> challenge you. Therefore I hope this web-quiz will appeal to those 'Potterheads' that want to challenge themselves and test whether they really do 'know Harry Potter'.
 
 #### Aims
 <ol>
@@ -63,7 +63,7 @@ The Harry Potter franchise has a huge and dedicated fan-base, the term 'Potterma
 
 #### Target Audience
 
-There are a number of target audiences for this website due to the diverse nature of the Harry Potter fanbase. Harry Potter is considered one of the few four-quadrant, multi-generation spanning franchises that exist today [4] according to the Hollywood Movie Industry, which means that it appeals to:
+There are a number of target audiences for this website due to the diverse nature of the Harry Potter fanbase. Harry Potter is considered one of the few four-quadrant, multi-generation spanning franchises that exist today [3] according to the Hollywood Movie Industry, which means that it appeals to:
 
 <ul>
     <li>Males</li>
@@ -556,3 +556,9 @@ The main image used throughout the website - the background image used for diffe
 <a href="#Contents">Back to the top.</a>
 
 # References
+
+[1]"Harry Potter fandom - Wikipedia", En.wikipedia.org, 2021. [Online]. Available: https://en.wikipedia.org/wiki/Harry_Potter_fandom. [Accessed: 30- Jul- 2021].
+
+[2]S. Reid, ""Harry Potter" Hits 500 Million Worldwide Sales | MuggleNet", MuggleNet, 2021. [Online]. Available: https://www.mugglenet.com/2018/02/harry-potter-hits-500-million-worldwide-sales/. [Accessed: 30- Jul- 2021].
+
+[3]"Harry Potter fandom - Wikipedia", En.wikipedia.org, 2021. [Online]. Available: https://en.wikipedia.org/wiki/Harry_Potter_fandom. [Accessed: 30- Jul- 2021].
