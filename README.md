@@ -527,38 +527,38 @@ The third phase of my testing regime was to ensure that customer all user storie
 <em>"I want to have easiliy accessible social media platform links"</em><br>
 <img src="assets/images/readme-images/user3.png" alt="Screenshot social media links in footer"><br>
 
->Text here about how we have achieved this goal</em><br>
+>The social media links in the footer of the main page would allow the user to navigate away from the Harry Potter Quiz website and to affiliated social media platforms, these could contain further information about the quiz, give people an opportunity to discuss questions and their answers, and perhaps allow users the opportunity to submit their own questions. This goal was met by placing the social media links within the footer and setting the position to fixed always at the bottom, that way it is always visible on top of other page elements.</em><br>
 
 
 <em>"I want to have a visual aid to confirm which answer I have chosen"</em><br>
 <img src="assets/images/readme-images/user4.png" alt="Screenshot of answer selection"><br>
 <img src="assets/images/readme-images/user4.gif" alt="Gif of answer hover"><br>
 
->Text here about how we have achieved this goal</em><br>
+>When the user navigates to any of the quiz pages they will be greeting with 20 questions themed around a particular Harry Potter book (year 1 - 7), for each question there are 4 answer options. On click, the answer the user has selected will change colour to grey with a dark grey border around the edge. On hover, the answer will change colour to light grey (see video and image above). I feel that this goal was met as the user has a visual identifier to show which answer they have selected and which answer they could potential select. Having the neutral colour of grey keeps gives no idication of whether the answer is correct or incorrect.</em><br>
 
 
 <em>"I want to get a score at the end of each quiz to show how well I did"</em><br>
 <img src="assets/images/readme-images/user5.png" alt="Screenshot of score visualisation after 'get results' is pressed"><br>
 
->Text here about how we have achieved this goal</em><br>
+>When the user clicks on 'get results' an alert box will appear with the user's score and a short personal message generated via the linked JavaScript file. The score will also appear below the 'get results' button. This goal has been met as users have two visual opportunities to know what they scored on the quiz. Ideally I would also have had a score on the index page for each quiz the user carries out, however I don't currently have the coding knowledge to be able to implement this feature - I still feel the goal has been achieved without this.</em><br>
 
 
 <em>"I want to have an option to show the correct answers in case I don't want to see them and want to retry, or want to retry with some help"</em><br>
 <img src="assets/images/readme-images/user6.png" alt="Screenshot of buttons that appear after click of 'get results'"><br>
 
->Text here about how we have achieved this goal</em><br>
+>When the user clicks on 'get results' three further buttons appear below the users score: 'reveal answers', 'home' and 'retry'. I wanted the correct answer being revealed to be an option, not a guarentee. User's may want to see their score and retry without seeing the correct answers t0 see if they can improve, and other may want to see the correct answers and then try a different quiz - I wanted this to be a choice for the user. As such I feel that this goal has definitely been met.</em><br>
 
 
 <em>"I want to have interesting and obscure questions about areas of Harry Potter that might not be well-known"</em><br>
 <img src="assets/images/readme-images/user7.png" alt="Screenshot of an interesting question"><br>
 
->Text here about how we have achieved this goal</em><br>
+>As I have found, written and developed the questions myself, as well as generated all of the incorrect answers, I have been able to make questions harder by adding in answers that could also be percieved as correct. The image above shows one of the questions asking about the text on the Mirror of Erised. The correct answer looked to be written in a Latin based language, therefore the other 3 incorrect answers I also wrote in Latin to make them also seem plausable. I feel that this goal has been met as I have found all of the questions myself and have been able to pick out facts from the books that are less known. The only downside has been that I have had to re-read the books myself and a lot of the development time has been spent generating questions and answers.</em><br>
 
 
 <em>"I want to have straightforward and easily accessible instructions for the Quiz"</em><br>
 <img src="assets/images/readme-images/user2.png" alt="Screenshot of instructions" width="40%"><br>
 
->Text here about how we have achieved this goal</em><br>
+>On the main page there is an easily accessible button below the quiz links for the user to press which says 'how to play' the wording is straightforward and immediately lets the user know what the button does. The instructions will be brought up in a box (modal) on the index page with simple instructions explaining what the user has to do to be able to get a quiz score. I felt that having the instructions on the same page (in a modal) was better for user experience as they do not navigate away from the main page. Therefore I feel that this goal has been met.</em><br>
 
 <a href="#Contents">Back to the top.</a>
 
