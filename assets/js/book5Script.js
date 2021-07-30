@@ -3,7 +3,7 @@ const book5Questions = [
       question: "What make of broomstick does Tonks use and ride?",
       answers: {
           a: "Cleansweep Eleven",
-          b: "Comet Two-Sixty<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Comet Two-Sixty<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Silver Arrow",
           d: "Nimbus Two-Thousand"
       },
@@ -14,7 +14,7 @@ const book5Questions = [
       answers: {
           a: "Number 10",
           b: "Number 11",
-          c: "Number 12<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Number 12<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           d: "Number 13"
       },
       correctAnswer: 'c'
@@ -23,7 +23,7 @@ const book5Questions = [
       question: "Who was the minister for magic before Cornelius Fudge?",
       answers: {
           a: "Harold Minchum",
-          b: "Millicent Bagnold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Millicent Bagnold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Ignatius Tuft",
           d: "Eugenia Jenkins"
       },
@@ -32,7 +32,7 @@ const book5Questions = [
     {
       question: "What is the code Mr Weasley entered in the phone box to gain access to the Ministry of Magic?",
       answers: {
-          a: "6-2-4-4-2<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "6-2-4-4-2<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "5-6-6-3-6-6",
           c: "3-8-3-4-3",
           d: "9-2-6-3-7"
@@ -45,14 +45,14 @@ const book5Questions = [
           a: "Horses",
           b: "Lions",
           c: "Goats",
-          d: "Boars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+          d: "Boars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "What type of plant did Neville have on the Journey to Hogwarts in his 5th year which is also the first password of 5th year to the Gryffindor common room?",
       answers: {
-          a: "Mimbulus Mimbletonia<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "Mimbulus Mimbletonia<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "Venomous Tentacula",
           c: "Leaping Toadstool",
           d: "Wiggentree"
@@ -65,7 +65,7 @@ const book5Questions = [
           a: "Chocolate Wands",
           b: "Shortbread",
           c: "Canary Cream",
-          d: "Ginger Newt<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+          d: "Ginger Newt<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
       correctAnswer: 'd'
     },
@@ -73,7 +73,7 @@ const book5Questions = [
       question: "What animal were the fifth years attempting to vanish in their first Transfiguration lesson of fifth year?",
       answers: {
           a: "Worms",
-          b: "Snails<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Snails<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Beetles",
           d: "Earwigs"
       },
@@ -82,7 +82,7 @@ const book5Questions = [
     {
       question: "Before Ron's first Quidditch match as Keeper, the Slytherins wore a badge to try and knock Ron's confidence, what did they say?",
       answers: {
-          a: "Weasley is our king<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "Weasley is our king<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "Weasley can't keep",
           c: "Weasley stinks",
           d: "Drop the ball Weasley"
@@ -95,7 +95,7 @@ const book5Questions = [
           a: "Trurg",
           b: "Blurg",
           c: "Durg",
-          d: "Gurg<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+          d: "Gurg<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
       correctAnswer: 'd'
     },
@@ -103,7 +103,7 @@ const book5Questions = [
       question: "How many students in total could see the thestrals in Hargrid's first Care of Magical Creatures lesson on his return to Hogwarts?",
       answers: {
           a: "Two",
-          b: "Three<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Three<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Four",
           d: "Five"
       },
@@ -114,7 +114,7 @@ const book5Questions = [
       answers: {
           a: "Broadbents",
           b: "Arding & Hobbs",
-          c: "Purge & Dowse<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Purge & Dowse<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           d: "Peter Robinson"
       },
       correctAnswer: 'c'
@@ -122,7 +122,7 @@ const book5Questions = [
     {
       question: "Which previous headmaster of Hogwarts did Dumbledore asign to watch over Harry after the attack on Mr Weasley?",
       answers: {
-          a: "Phineas Nigellus<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "Phineas Nigellus<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "Armando Dippet",
           c: "Dilys Derwent",
           d: "Dexter Fortescue"
@@ -133,7 +133,7 @@ const book5Questions = [
       question: "Neville Longbottom's mother gave Neville a sweet wrapper as he was leaving the ward at St Mungo's, what kind of sweet was the wrapper from?",
       answers: {
           a: "Acid Pop",
-          b: "Droobles Blowing Gum<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          b: "Droobles Blowing Gum<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Pepper Imp",
           d: "Sherbet Lemon"
       },
@@ -145,14 +145,14 @@ const book5Questions = [
           a: "Old age",
           b: "Poison",
           c: "Killing Curse",
-          d: "Devil's Snare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+          d: "Devil's Snare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
       correctAnswer: 'd'
     },
     {
       question: "When Harry used Professor Umbridge's office for the first time to speak to Sirius via Floo Powder, who was in Grimmauld Place kitchen and went to get Sirius?",
       answers: {
-          a: "Remus Lupin<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "Remus Lupin<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "Kreacher",
           c: "Kingsley Shacklebolt",
           d: "Molly Weasley"
@@ -164,7 +164,7 @@ const book5Questions = [
       answers: {
           a: "Set off fireworks during the O.W.L examinations",
           b: "Turned all the educational decree notices into the front page of the Quibbler",
-          c: "Turned a corridor into a swamp<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "Turned a corridor into a swamp<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           d: "Gave multiple skiving snackboxes to students who subsequently vommited in unison in the Entrance Hall"
       },
       correctAnswer: 'c'
@@ -175,7 +175,7 @@ const book5Questions = [
           a: "Petrificus Totalus",
           b: "Expelliarmus",
           c: "Stupefy",
-          d: "Patronus Charm<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+          d: "Patronus Charm<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
       correctAnswer: 'd'
     },
@@ -184,7 +184,7 @@ const book5Questions = [
       answers: {
           a: "In Azkaban",
           b: "At Grimmauld Place",
-          c: "At St Mungo's<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          c: "At St Mungo's<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           d: "In hiding with Dumbledore"
       },
       correctAnswer: 'c'
@@ -192,7 +192,7 @@ const book5Questions = [
     {
       question: "When Harry, Ron, Hermione, Neville, Ginny and Luna had got into the room with multiple doors in the Department of Mysteries, what was behind the first door they tried in the search for Sirius?",
       answers: {
-          a: "Brains in a tank<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+          a: "Brains in a tank<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "An archway",
           c: "A jar with a reincanating hummingbird",
           d: "A dark room full of planets"

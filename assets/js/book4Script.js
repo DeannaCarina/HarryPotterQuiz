@@ -4,7 +4,7 @@ const book4Questions = [
     answers: {
         a: "Bradley",
         b: "Brentford",
-        c: "Bryce<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Bryce<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Bridgeman"
     },
     correctAnswer: 'c'
@@ -12,7 +12,7 @@ const book4Questions = [
   {
     question: "What did Dudley throw out of the window when he was threatened with the removal of his pocket money after smuggling donughts into his bedroom even though he was on a diet?",
     answers: {
-        a: "His PlayStation<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "His PlayStation<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "His Xbox",
         c: "His computer",
         d: "His Television"
@@ -25,7 +25,7 @@ const book4Questions = [
         a: "Irish player figurines that move",
         b: "Programmes",
         c: "Irish Quidditch shirts",
-        d: "Omnioculars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+        d: "Omnioculars<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
     },
     correctAnswer: 'd'
   },
@@ -34,7 +34,7 @@ const book4Questions = [
     answers: {
         a: "Department of Magical Law Enforcement",
         b: "Department of Magical Accidents and Catastrophes",
-        c: "Department of Magical Games and Sports<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Department of Magical Games and Sports<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Department for the Regulation and Control of Magical Creatures"
     },
     correctAnswer: 'c'
@@ -42,7 +42,7 @@ const book4Questions = [
   {
     question: "Where is the Portkey located that will transport Harry and the Weasleys to the Quidditch World Cup?",
     answers: {
-        a: "Stoatshead Hill<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "Stoatshead Hill<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "Ashton Hill",
         c: "Beacon Hill",
         d: "Seven Stones Hill"
@@ -52,7 +52,7 @@ const book4Questions = [
   {
     question: "What is the name of Barty Crouch's house elf?",
     answers: {
-        a: "Winky<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "Winky<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "Hokey",
         c: "Gimkey",
         d: "Vekey"
@@ -65,7 +65,7 @@ const book4Questions = [
         a: "Society for the Promotion of Elfish Well-being",
         b: "Society for the Prevention of Elfish Woe",
         c: "Society for the Protection of Elfish Welfare",
-        d: "Society for the Promotion of Elfish Welfare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+        d: "Society for the Promotion of Elfish Welfare<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
     },
     correctAnswer: 'd'
   },
@@ -74,7 +74,7 @@ const book4Questions = [
     answers: {
         a: "A banana",
         b: "An orange",
-        c: "A pear<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "A pear<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "An apple"
     },
     correctAnswer: 'c'
@@ -85,7 +85,7 @@ const book4Questions = [
         a: "The Hobgoblins",
         b: "The Bent-Winged Snitches",
         c: "Spellbound",
-        d: "The Wierd Sisters<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+        d: "The Wierd Sisters<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
     },
     correctAnswer: 'd'
   },
@@ -93,7 +93,7 @@ const book4Questions = [
     question: "What is the password to the prefect's bathroom where Cedric suggests Harry go with his golden egg?",
     answers: {
         a: "Citrus Splash",
-        b: "Pine Fresh<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        b: "Pine Fresh<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         c: "Lemon Breeze",
         d: "Cool Mint"
     },
@@ -105,14 +105,14 @@ const book4Questions = [
         a: "Adrastea",
         b: "Galatea",
         c: "Orinthia",
-        d: "Fridwulfa<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+        d: "Fridwulfa<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
     },
     correctAnswer: 'd'
   },
   {
     question: "How do you say 'pickaxe' in Gobbledegook?",
     answers: {
-        a: "Bladvak<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "Bladvak<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "Kazma",
         c: "Krumpache",
         d: "Hakku"
@@ -124,7 +124,7 @@ const book4Questions = [
     answers: {
         a: "Bronze",
         b: "Silver",
-        c: "Gold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Gold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Black"
     },
     correctAnswer: 'c'
@@ -134,7 +134,7 @@ const book4Questions = [
     answers: {
         a: "Cedric Diggory",
         b: "Mad-eye Moody",
-        c: "Dobby<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Dobby<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Neville Longbottom"
     },
     correctAnswer: 'c'
@@ -142,7 +142,7 @@ const book4Questions = [
   {
     question: "In which magazine/newspaper did Rita Skeeter publish the article about the Hermione-Harry-Krum love triangle?",
     answers: {
-        a: "Witch Weekly<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "Witch Weekly<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "The Daily Prophet",
         c: "Wizard Enquirer",
         d: "Spell-bound"
@@ -153,7 +153,7 @@ const book4Questions = [
     question: "What name does Sirius as Harry, Ron and Hermione to use when they talk about him?",
     answers: {
         a: "Padfoot",
-        b: "Snuffles<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        b: "Snuffles<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         c: "Wolfie",
         d: "Archer"
     },
@@ -164,7 +164,7 @@ const book4Questions = [
     answers: {
         a: "Iris",
         b: "Rose",
-        c: "Violet<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Violet<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Poppy"
     },
     correctAnswer: 'c'
@@ -172,7 +172,7 @@ const book4Questions = [
   {
     question: "Who came to Hogwarts the morning of the third task to show support for Harry along with Molly Weasley?",
     answers: {
-        a: "Bill Weasley<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        a: "Bill Weasley<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         b: "Charlie Weasley",
         c: "Arthur Weasley",
         d: "Percy Weasley"
@@ -185,7 +185,7 @@ const book4Questions = [
         a: "A Manticore",
         b: "A Satyr",
         c: "A Centaur",
-        d: "A Sphinx<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>"
+        d: "A Sphinx<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
     },
     correctAnswer: 'd'
   },
@@ -194,7 +194,7 @@ const book4Questions = [
     answers: {
         a: "Gave it all to Cedric's parents",
         b: "Split it 50/50 with Cedric's parents",
-        c: "Gave it to Fred and George<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png'></div>",
+        c: "Gave it to Fred and George<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
         d: "Gave it to Dumbledore to help in the Anti-Voldemeort effort"
     },
     correctAnswer: 'c'
