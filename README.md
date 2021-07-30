@@ -271,8 +271,6 @@ The main image used on the website is the background image which was taken from 
 <img src="assets/images/backgrounds/background.jpg" alt="Image showing the background used on the website Hogwarts letter, glasses" width="70%"><br>
 I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the quiz pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it. The only other images used on the website are those of the front cover images on the main page, these were scanned using my home scanner and reduced in size via an image resolution reduction tool online to reduce load times.<br><br>
 <img src="assets/images/readme-images/covers.png" alt="Image showing the book cover images used on the main page"><br>
-The only other image used on the website is the one used as the background of the advertising space on the main page. There is no real method for why I chose this image other than the proportions of the main subject of the image (the train) fit inside the space well, and that the train is the same one the students in the 'Potterverse' use to get to Hogwarts.<br><br>
-<img src="assets/images/backgrounds/banner.jpg" alt="Image showing the background of the advertising space an old steam locomotive"><br>
 <a href="#Contents">Back to the top.</a>
 
 # Technologies
@@ -533,11 +531,7 @@ The main image used throughout the website - the background image used for diffe
     <li>
         <a href="https://unsplash.com/photos/WE7YfTGpXlg" target="_blank">Rae Tian</a> - background image for portrait and landscape orientation on all devices.
     </li>
-</ul>
-The image used as the background for the advertising space came from <a href="https://www.pexels.com">Pexels</a>:
-<ul>
-    <li><a href="https://www.pexels.com/photo/train-with-smoke-507410/" target="_blank">Gabriela Palai</a> - background for advertising space. For this image I cropped quite a bit off to make the image fit into the space better without cropping anything off.</li>
-</ul>    
+</ul> 
 
 #### Acknowledgements
 <ul>
