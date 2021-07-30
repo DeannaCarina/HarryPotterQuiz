@@ -59,6 +59,7 @@ The Harry Potter franchise has a huge and dedicated fan-base, the term 'Potterma
     <li>To educate users on the more unusual facts around the Harry Potter books</li>
     <li>To encourage users to re-read the Harry Potter books and increase their knowledge</li>
     <li>To make the site intuative and easily usable to enable customers learn about Harry Potter</li>
+    <li>To have easiliy accessible social media platform links</li>
 </ol>
 
 #### Target Audience
@@ -85,6 +86,7 @@ This four-quadrant theory means that I must make the web-quiz accessible to ever
     <li>Get a score at the end of each quiz to show how well I did</li>
     <li>Have an option to show the correct answers in case I don't want to see them and want to retry, or want to retry with some help</li>
     <li>Have interesting and obscure questions about areas of Harry Potter that might not be well-known</li>
+    <li>Have straightforward and easily accessible instructions for the Quiz</li>
 </ul>
 
 <strong>As the business operator I want to...</strong>
@@ -392,7 +394,7 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
 
 # Testing
 ### Introduction
-As I did with my previous project, I am going to carry out thorough testing of my sebsite, and I will follow the same method that I did with P1. The testing that I carry out will cover: Functionality, Compatibility, User Testing Stories, Code Validation, Peer Review, Development Problems, Accessibility and Performance Testing
+As I did with my previous project, I am going to carry out thorough testing of my website, and I will follow the same method that I did with P1. The testing that I carry out will cover: Functionality, Compatibility, User Testing Stories, Code Validation, Peer Review, Development Problems, Accessibility and Performance Testing
 
 ### Functionality
 The first phase of my testing regime for the website was to look at the functionality of the website and make sure that it meets the needs of the user on the most basic levels and also to ensure that all the interactive aspects of the website all worked with no problems.<br><br>
@@ -513,6 +515,53 @@ The second phase of my testing regime for the website was to ensure that the web
 <img src="assets/images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
 
 ### User Testing Stories
+
+The third phase of my testing regime was to ensure that customer all user stories identified in the <a href="#Strategy">Strategy</a> plane have been acknowledged and achieved.<br><br>
+
+<em>"I want to know the purpose of the website as soon as I navigate to the home/landing page" & "I want to navigate the website quickly and effectively" & "I want to quickly find the relevant quiz I wish to attempt"</em><br>
+<img src="assets/images/readme-images/user1.png" alt="Screenshot of Title and nav area" width="70%"><br>
+
+
+>I have tried to make the website as intuitive as possible. From the first time the customer navigates to the home page I have tried to make it so the customer is aware straight away of the function of the website by including a relevant website title and cover text to exaplain what the website is for. As soon as the customer navigates to the home page, the things they should see are as follows: The title: "Think you know Harry Potter?", "Take our quiz to find out...", The background image and the navigation links. All of these elements point towards the theme of the website - a Harry Potter Quiz. I feel I have succeeded in this area as I had a number of focus groups divided by age all of which found the site easy to navigate, highly intuitive and knew the exact function of the website at first navigation.<br><br>
+
+<em>"I want to have easiliy accessible social media platform links"</em><br>
+<img src="assets/images/readme-images/user3.png" alt="Screenshot social media links in footer"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+
+<em>"I want to have a visual aid to confirm which answer I have chosen"</em><br>
+<img src="assets/images/readme-images/user4.png" alt="Screenshot of answer selection"><br>
+<img src="assets/images/readme-images/user4.gif" alt="Gif of answer hover"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+
+<em>"I want to get a score at the end of each quiz to show how well I did"</em><br>
+<img src="assets/images/readme-images/user5.png" alt="Screenshot of score visualisation after 'get results' is pressed"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+
+<em>"I want to have an option to show the correct answers in case I don't want to see them and want to retry, or want to retry with some help"</em><br>
+<img src="assets/images/readme-images/user6.png" alt="Screenshot of buttons that appear after click of 'get results'"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+
+<em>"I want to have interesting and obscure questions about areas of Harry Potter that might not be well-known"</em><br>
+<img src="assets/images/readme-images/user7.png" alt="Screenshot of an interesting question"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+
+<em>"I want to have straightforward and easily accessible instructions for the Quiz"</em><br>
+<img src="assets/images/readme-images/user2.png" alt="Screenshot of instructions" width="70%"><br>
+
+>Text here about how we have achieved this goal</em><br>
+
+<a href="#Contents">Back to the top.</a>
+
 ### Code Validation
 Below are the validation reports for all HTML pages, the CSS file and two reports carried out on the JavaScript. All came back with no errors apart from the Beutify report on the JavaScript which states "'displayTicks' is defined but never used." however the displayTicks function is used but it is called from within the HTML file.<br><br>
 <strong>HTML</strong><br>
