@@ -556,7 +556,7 @@ The third phase of my testing regime was to ensure that customer all user storie
 
 
 <em>"I want to have straightforward and easily accessible instructions for the Quiz"</em><br>
-<img src="assets/images/readme-images/user2.png" alt="Screenshot of instructions" width="70%"><br>
+<img src="assets/images/readme-images/user2.png" alt="Screenshot of instructions" width="40%"><br>
 
 >Text here about how we have achieved this goal</em><br>
 
