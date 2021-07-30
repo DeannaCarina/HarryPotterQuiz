@@ -392,8 +392,123 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
 
 # Testing
 ### Introduction
+As I did with my previous project, I am going to carry out thorough testing of my sebsite, and I will follow the same method that I did with P1. The testing that I carry out will cover: Functionality, Compatibility, User Testing Stories, Code Validation, Peer Review, Development Problems, Accessibility and Performance Testing
+
 ### Functionality
+The first phase of my testing regime for the website was to look at the functionality of the website and make sure that it meets the needs of the user on the most basic levels and also to ensure that all the interactive aspects of the website all worked with no problems.<br><br>
+
+<ul>
+    <li>All internal links on the website need to be usable, and open in the same window.
+        <ul>
+           <li>All links to separate quiz pages navigate the user to the specific quiz page</li>
+           <li>Once the 'get results' button is pressed: The home button navigates the used back to the main page to choose another quiz and the retry button refreshes the page to allow the user to have another go at the same quiz</li>
+        </ul>    
+    </li>       
+    <li>All external links on the website need to be usable, and open in a new window.
+        <ul>
+            <li>The social media links in the footer of all pages will direct the customer to the relevant social media platform.</li>
+        </ul>    
+    </li>  
+    <li>All elements with an associated psuedo class work when the action is carried out (e.g. Hover).
+        <ul>
+            <li>All internal link buttons will change colour and gain a shadow styling when the customer hovers over them</li>
+        </ul>    
+    </li>     
+</ul><br>
+
+I tested the usability and intuitiveness of the website using different focus groups divided by age: <br>
+<table>
+    <tr>
+        <th>Age Group</th>
+        <th>Quantity</th>
+        <th>Comments</th>
+    </tr>
+    <tr>
+        <td><strong>16-25</strong></td>
+        <td>6</td>
+        <td>
+            <ul>
+                <li>All participants knew the function of the website at first glance</li>
+                <li>All participants found the website easy to navigate</li>
+                <li>All participants found the website to be highly visual and appealing in terms of design</li>
+                <li>All Participants viewed the website on their phones</li>
+                <li>All participants enjoyed the content</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>26-35</strong></td>
+        <td>10</td>
+        <td>
+            <ul>
+                <li>All participants knew the function of the website at first glance</li>
+                <li>All participants found the website easy to navigate</li>
+                <li>All participants found the website to be highly visual and appealing in terms of design</li>
+                <li>All participants enjoyed the content</li>
+                <li>6 Participants viewed the website on their phones</li>
+                <li>1 Participant viewed the website on their iPad</li>
+                <li>1 Participant viewed the website on their Android tablet</li>
+                <li>2 Participants viewed the website on their Desktop PC</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>36-45</strong></td>
+        <td>2</td>
+        <td>
+            <ul>
+                <li>Both participants knew the function of the website at first glance</li>
+                <li>Both participants found the website easy to navigate</li>
+                <li>Both participants found the website to be highly visual and appealing in terms of design</li>
+                <li>Both participants enjoyed the content though commented on the difficulty of the questions</li>
+                <li>Both Participants viewed the website on their phones</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>46-55</strong></td>
+        <td>3</td>
+        <td>
+            <ul>
+                <li>All participants knew the function of the website at first glance</li>
+                <li>All participants found the website easy to navigate</li>
+                <li>All participants found the website to be highly visual and appealing in terms of design</li>
+                <li>All participants enjoyed the content</li>
+                <li>1 Participant viewed the website on their phones</li>
+                <li>2 Participants viewed the website on their iPads</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>56-65</strong></td>
+        <td>4</td>
+        <td>
+            <ul>
+                <li>All participants knew the function of the website at first glance</li>
+                <li>All participants found the website easy to navigate, however one participant didn't realise they had to click on 'get results' to be able to navigate back to the index page</li>
+                <li>All participants found the website to be highly visual and appealing in terms of design</li>
+                <li>All participants enjoyed the content</li>
+                <li>All Participants viewed the website on their phones</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>66+</strong></td>
+        <td>1</td>
+        <td>
+            <ul>
+                <li>The participant knew the function of the website at first glance</li>
+                <li>The participant found the website to be easy to navigate</li>
+                <li>The participant found the website to be highly visual and appealing in terms of design</li>
+                <li>The participant enjoyed the content</li>
+                <li>The Participant viewed the website on their Phone</li>
+            </ul>
+        </td>
+    </tr>
+</table><br>
+
 ### Compatibility
+The second phase of my testing regime for the website was to ensure that the website is compatible through a range of devices, screen sizes and internet browsers. Throughout the development process, the website was tested on a number of devices: A 17.3 inch windows laptop, a 15.3 inch windows laptop, a 16 inch MacBook Pro, an 8 inch Samsung Galaxy Tab A, a 10.2 inch iPad, A Samsung Galaxy S20 Ultra and A Huawei P30 Pro. It was also tested in Chrome, Firefox, Internet Explorer and Safari as well as Samsung's own internet browser. By also using Chrome Dev Tools, I was able to manually change the screen size to see when elements within the web pages 'break', by using this method, I could pinpoint the exact screen widths and heights to be defined in the CSS media screen queries and alter the stylings to fit accordingly. The videos below shows how I checked the responsiveness of the website at all screensizes.<br><br>
 <img src="assets/images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
 <img src="assets/images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
 
