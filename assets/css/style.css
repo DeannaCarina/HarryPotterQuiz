@@ -9,6 +9,7 @@ body{
     border: 0px;
     overflow-x: hidden;
     font-family: 'montserrat', sans-serif;
+    text-align: center;
 }
 h1, h2, h3, h4, h5{
     font-family: 'libre baskerville', serif;
@@ -28,51 +29,35 @@ h1, h2, h3, h4, h5{
     text-align: center;
     margin-bottom: 30px;
 }
-.landing-main-body{
-    width: 1100px;
-    margin: auto;
-    height: 100%;
-    padding-top: 0px;
-}
-.main-page-section{
-    width: 900px;
-    height: 84px;
-    margin: auto;
-    padding: 5px;
-}
 .book-image{
-    width: 100px;
-    height: 80px;
+    width: 90px;
+    height: 65px;
     border: 2px solid black;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     float: left;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .landing-quiz{
     border-radius: 30px;
     border: 2px solid black;
     height: 80px;
-    float: right;
     width: 600px;
-    margin-left: 45px;
+    padding-right: 100px;
+    margin: auto;
     box-shadow: 0 40px 50px 0 rgba(24, 24, 24, 0.747), 0 10px 50px 0 rgba(0,0,0,0.7);
-    float: left;
     text-align: center;
     color: black;
     background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.book-link{
+    text-decoration: none;
 }
 .landing-quiz:hover{
     background-color: rgba(153, 153, 153, 0.568);
-}
-.landing-score{
-    width: 100px;
-    height: 80px;
-    float: right;
-    border-radius: 30px;
-    line-height: 80px;
-    text-align: center;
-    font-size: x-large;
-    font-weight: 900;
 }
 .image-1{
     background: url(../images/book-covers/book1-cover.jpg) no-repeat center center;
@@ -198,7 +183,7 @@ h1, h2, h3, h4, h5{
 #radio-select{
     margin-bottom: 10px;
 }
-label {
+label{
     display: inline-block;
     width: 80%;
     padding: 10px;
@@ -212,7 +197,7 @@ label {
     margin: auto;
     margin-bottom: 10px;
     transition: all;
-  }
+}
 label:hover{
     background-color: rgba(177, 175, 175, 0.747);
 }
@@ -233,10 +218,10 @@ label:hover{
     margin: auto;
     margin-top: 30px;
 }
-input[type="radio"] {
+input[type="radio"]{
     display: none;
 }
-input[type="radio"]:checked + label {
+input[type="radio"]:checked + label{
     border: solid 2px rgb(43, 43, 43);
     background-color: rgb(170, 170, 170);
 }
@@ -280,10 +265,10 @@ input[type="radio"]:checked + label {
     width: 100vw;
     background-color: rgba(197, 197, 197, 0.863);
     border-top: 2px solid white;
-    position: relative;
-    bottom: -4px;
     text-align: center;
     margin-top: 50px;
+    position: fixed;
+    bottom: 0px;
 }
 footer a{
     color: rgb(102, 102, 102);
@@ -294,142 +279,97 @@ footer a{
 footer a:hover{
     color:rgb(255, 255, 255);
 }
-#howto{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 10px;
-    color: black;
+.fa-play{
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: rgb(122, 122, 122);
 }
-#howto:hover{
-    background-color: rgb(63, 63, 63);
-    border: 2px solid rgb(180, 180, 180);
-    color: rgb(255, 255, 255);
-}
-#closepopup{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 0px;
-    font-size: x-large;
-}
-#popupheading{
+#myBtn{
     margin-top: 30px;
-    margin-bottom: 20px;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 110px;
 }
-#popuplist{
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 60px;
+#myBtn:hover{
+    background-color: rgb(172, 172, 172);
 }
-/* The following code is from w3c schools popup tutorial edited to fit the needs of the Harry Potter Quiz */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    height: 30px;
-  }
-  /* The actual popup */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 500px;
-    height: 530px;
-    line-height: 20px;
-    background-color: rgb(109, 109, 109);
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 0px;
-    position: absolute;
-    z-index: 1;
-    bottom: 50px;
-    left: 0px;
-    margin-left: -190px;
-  }
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
-  /* END OF CREDIT */
+/* Following code from https://www.w3schools.com/howto/howto_css_modals.asp edited for use on the Harry Potter Quiz website*/
 
+/* The Modal transparent background filling whole screen */
+.modal{
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content{
+    background-color: #fefefe;
+    margin-top: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 450px;
+    height: 500px;
+}
+#modalHeading{
+    line-height: 50px;
+}
+#instructionList{
+    text-align: left;
+    padding-right: 20px;
+}
+.close {
+    color: #666666;
+    float: right;
+    font-size: 300%;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    line-height: 10px;
+} 
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* END OF CREDIT */
   /*Responsiveness-------------------------------------------------------------------------------*/
-  @media screen and (max-width: 1020px){
+@media screen and (max-width: 1020px){
     .home, #reveal, #refresh{
         width: 150px;
     }
-  }
-  @media screen and (max-width: 960px){
-    .landing-main-body{
-        width: 100%;
-    }
-    .main-page-section{
-        width: 500px;
-        margin: auto;
-    }  
-    .landing-quiz{
-        width: 300px;
-      }
+}
+@media screen and (max-width: 960px){
     #quiz-container{
         width: 90%;
     }  
-  }
-  @media screen and (max-width: 850px){
-      #advert{
-          width: 90%;
-      }
-  }
-  @media screen and (max-width: 650px){
-    .popup .popuptext {
-        width: 300px;
-        height: 450px;
-        line-height: 10px;
-        bottom: 50px;
-        left: 120px;
-        font-size: 80%;
+}
+@media screen and (max-width: 750px){
+    .landing-quiz{
+        height: 80px;
+        width: 400px;
     }
-  }
-  @media screen and (max-width: 550px){
+}
+@media screen and (max-width: 550px){
     .landing-heading{
         font-size: large;
     }
     .landing-sub-heading{
         font-size: small;
     }
-    .select-quiz-heading{
-        font-size: medium;
-        margin-top: 10px;
-    }
-    .title{
-        font-size: x-small;
-    }
     .landing-quiz{
-        height: 50px;
-        width: 200px;
-        border-radius: 20px;
-        margin-left: 10px;
-    }
-    .book-image{
-        height: 50px;
-        width: 60px;
-        border-radius: 20px;
-    }
-    .main-page-section{
-        width: 280px;
-        height: 55px;
+        height: 80px;
+        width: 400px;
+        padding-right: 0px;
     }
     #quiz-questions{
         margin-left: 20px;
@@ -450,34 +390,47 @@ footer a:hover{
         width: 90px;
         font-size: x-small;
     }
-    .popup .popuptext {
-        top: -550px;
-        margin-top: 80px;
-    }
     #indexfooter{
         margin-top: 20px;
+        position: fixed;
+        bottom: 0px;
     }
-  }
-  @media screen and (max-width: 450px){
+}
+@media screen and (max-width: 500px){
+    .modal-content {
+        width: 230px;
+        height: 500px;
+        padding-right: 10px;
+        padding-left: 0px;
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 450px){
     footer a{
         font-size: 130%;
         margin-left: 15px;
         margin-right: 15px;
     }
-    .popup .popuptext {
-        width: 250px;
-        height: 340px;
-        font-size: 60%;
-        line-height: 10px;
-        margin-top: 200px;
-        left: 125px;
-      }
-      #popuplist{
-        padding-left: 30px;
-        padding-right: 30px;
+    .select-quiz-heading{
+        font-size: medium;
+        margin-top: 10px;
     }
-  }
-  @media screen and (max-width: 350px){
+    .landing-quiz{
+        height: 50px;
+        width: 270px;
+        padding-right: 0px;
+        border-radius: 20px;
+    }
+    .title{
+        font-size: x-small;
+    }
+    .book-image{
+        height: 35px;
+        width: 50px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 350px){
     label{
         height: auto;
     }
@@ -487,75 +440,55 @@ footer a:hover{
         margin-right: 5px;
     }
 }
-  @media screen and (max-width: 330px){
-      .landing-heading{
+@media screen and (max-width: 330px){
+    .landing-heading{
           font-size: medium;
-      }
-  }
-  @media screen and (max-width: 290px){
-    .book-image{
-        display: none;
     }
-    .main-page-section{
-        width: 205px;
-        margin: auto;
+}
+@media screen and (max-width: 300px){
+    .select-quiz-heading{
+        font-size: small;
     }
     .landing-quiz{
-        margin-left: 0px;
+        width: 200px;
+      }
+    .title{
+        font-size: xx-small;
     }
-    #howto{
-        padding: 7px;
-        font-size: 70%;
+    .book-image{
+        width: 40px;
     }
-    .popup .popuptext {
+    #myBtn{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 250px){
+    .modal-content {
         width: 130px;
+        height: 550px;
+        padding-right: 0px;
         font-size: 50%;
-        height: 430px;
-        margin-top: 110px;
-        left: 170px;
     }
-    #popuplist{
-        padding-left: 20px;
-        padding-right: 10px;
-    }
-    #closepopup{
-        font-size: 150%;
+    .close{
+        margin-right: 10px;    
     }
 }
 @media screen and (max-width: 220px){
-    #howto{
-        padding: 5px;
-        font-size: 60%;
-    }
     footer a{
         font-size: 100%;
     }
 }
 @media screen and (max-width: 210px){
-    .main-page-section{
-        width: 135px;
-        height: 45px;
-    }
-    .landing-quiz{
-        width: 130px;
-        height: 43px;
-    }
-    .select-quiz-heading{
-        font-size: 70%;
-    }
-    .title{
-        font-size: 45%;
-    }
     footer a{
         font-size: 85%;
         margin-left: 0px;
         margin-right: 0px;
     }
-    #howto{
-        padding: 2px;
-        font-size: 50%;
+    .book-image{
+        display: none;
     }
-    .popup .popuptext {
-        left: 152px;
+    .landing-quiz{
+        width: 155px;
     }
 }
+

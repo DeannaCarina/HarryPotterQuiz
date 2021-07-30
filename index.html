@@ -11,104 +11,81 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Harry Potter Quiz</title>
 </head>
-<body>
-    <div class="landing-main-body">
+<body class="landing-main-body">
     <h1 class="landing-heading">Think you know Harry Potter?</h1>
-    <h3 class="landing-sub-heading">Take our quiz to find out...</h3>
-        <section class="main-page-section">
-            <div class="book-image image-1"></div>
-            <a href="quiz-pages/book1.html">
+    <h3 class="landing-sub-heading">Take our quiz to find out...</h3>  
+        <div class="quiz-link-container">       
+            <a class="book-link" href="quiz-pages/book1.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-1"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Philosopher's Stone</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-2"></div>
-            <a href="quiz-pages/book2.html">
+            <a class="book-link" href="quiz-pages/book2.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-2"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Chamber of Secrets</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-3"></div>
-            <a href="quiz-pages/book3.html">
+            <a class="book-link" href="quiz-pages/book3.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-3"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Prisoner of Azkaban</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-4"></div>
-            <a href="quiz-pages/book4.html">
+            <a class="book-link" href="quiz-pages/book4.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-4"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Goblet of Fire</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-5"></div>
-            <a href="quiz-pages/book5.html">
+            <a class="book-link" href="quiz-pages/book5.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-5"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Order of the Phoenix</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-6"></div>
-            <a href="quiz-pages/book6.html">
+            <a class="book-link" href="quiz-pages/book6.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-6"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Half-Blood Prince</h4>
                 </div>
             </a>
-        </section>
-        <section class="main-page-section">
-            <div class="book-image image-7"></div>
-            <a href="quiz-pages/book7.html">
+            <a class="book-link" href="quiz-pages/book7.html">
                 <div class="landing-quiz">
+                    <div class="book-image image-7"></div>
                     <h2 class="select-quiz-heading">Harry Potter</h2>
                     <h4 class="title">and the Deathly Hallows</h4>
                 </div>
             </a>
-        </section>
-    </div>   
-    <footer id="indexfooter">
-        
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-            
-           
-                <a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
-            
-                <div class="popup" onclick="myFunction()"><span id="howto">How to play!</span>   
-                    <span class="popuptext" id="myPopup">
-                        <span id="closepopup"><i class="fas fa-times"></i></span>             
-                        <h2 id="popupheading">HOW TO PLAY!</h2>
-                        <ol id="popuplist">
-                            <li>Choose the Harry Potter book from the main page that you want to be quizzed on.</li><br>
-                            <li>Select your answers on the quiz page that you think are correct, there are 20 questions per quiz.</li><br>
-                            <li>Once you have selected your answers, click on 'get results' to reveal your score and show which answers you answered correctly or incorrectly.</li><br>
-                            <li>If you want to see the correct answers to the questions then click on 'reveal answers'.</li><br>
-                            <li>You have the option to come back to the main page using the home button or to try again using the 'retry' button</li><br>
-                            <li>See how you do on the quiz and challenge your friends to see who's the biggest Potter nerd!</li>
-                        </ol>      
-                    </span>
-                </div>
-            
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
-            
-                <a href="https://google.com" target="_blank" aria-label="Google"><i class="fab fa-google"></i></a>
-      
-
-
-                        
-    </footer>
+        </div>    
+        <button id="myBtn"><i class="fas fa-play"></i><br>How to play!</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <span id="modalHeading">How to play.</span>
+              <ol id="instructionList">
+                  <li>Choose the Harry Potter book from the main page that you want to be quizzed on.</li><br>
+                  <li>Select your answers on the quiz page that you think are correct, there are 20 questions per quiz.</li><br>
+                  <li>Once you have selected your answers, click on 'get results' to reveal your score and show which answers you answered correctly or incorrectly.</li><br>
+                  <li>If you want to see the correct answers to the questions then click on 'reveal answers'.</li><br>
+                  <li>You have the option to come back to the main page using the home button or to try again using the 'retry' button</li><br>
+                  <li>See how you do on the quiz and challenge your friends to see who's the biggest Potter nerd!</li>
+              </ol>
+            </div>
+        </div>
+        <footer id="indexfooter">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://google.com" target="_blank" aria-label="Google"><i class="fab fa-google"></i></a>
+        </footer>  
     <script src="../assets/js/indexscript.js"></script>
 </body>
 </html>
