@@ -544,6 +544,7 @@ The image used as the background for the advertising space came from <a href="ht
     <li>Once again, to my absolutely amazing Fiancé - you are my rock and without you I would have thrown in the towel.</li>
 </ul>
 <a href="#Contents">Back to the top.</a>
+
 # Screenshots
 <img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen2.png" alt="Screenshot of finished website">
