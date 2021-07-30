@@ -272,8 +272,101 @@ input[type="radio"]:checked + label {
 #indexlink{
     text-decoration: none;
 }
+/* For how to play game pop-up and footer  */
+#indexfooter{
+    height: 80px;
+    line-height: 70px;
+    color: white;
+    width: 100vw;
+    background-color: rgba(197, 197, 197, 0.863);
+    border-top: 2px solid white;
+    position: relative;
+    bottom: -4px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer a{
+    color: rgb(102, 102, 102);
+    font-size: 200%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer a:hover{
+    color:rgb(255, 255, 255);
+}
+#howto{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+#howto:hover{
+    background-color: rgb(63, 63, 63);
+    border: 2px solid rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
+}
+#closepopup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 0px;
+    font-size: x-large;
+}
+#popupheading{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#popuplist{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* The following code is from w3c schools popup tutorial edited to fit the needs of the Harry Potter Quiz */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 30px;
+  }
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 500px;
+    height: 530px;
+    line-height: 20px;
+    background-color: rgb(109, 109, 109);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    left: 0px;
+    margin-left: -190px;
+  }
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  /* END OF CREDIT */
 
-  /*Responsiveness*/
+  /*Responsiveness-------------------------------------------------------------------------------*/
   @media screen and (max-width: 1020px){
     .home, #reveal, #refresh{
         width: 150px;
@@ -298,6 +391,16 @@ input[type="radio"]:checked + label {
       #advert{
           width: 90%;
       }
+  }
+  @media screen and (max-width: 650px){
+    .popup .popuptext {
+        width: 300px;
+        height: 450px;
+        line-height: 10px;
+        bottom: 50px;
+        left: 120px;
+        font-size: 80%;
+    }
   }
   @media screen and (max-width: 550px){
     .landing-heading{
@@ -347,10 +450,41 @@ input[type="radio"]:checked + label {
         width: 90px;
         font-size: x-small;
     }
+    .popup .popuptext {
+        top: -550px;
+        margin-top: 80px;
+    }
+    #indexfooter{
+        margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 450px){
+    footer a{
+        font-size: 130%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .popup .popuptext {
+        width: 250px;
+        height: 340px;
+        font-size: 60%;
+        line-height: 10px;
+        margin-top: 200px;
+        left: 125px;
+      }
+      #popuplist{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
   }
   @media screen and (max-width: 350px){
     label{
         height: auto;
+    }
+    footer a{
+        font-size: 130%;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
   @media screen and (max-width: 330px){
@@ -369,6 +503,33 @@ input[type="radio"]:checked + label {
     .landing-quiz{
         margin-left: 0px;
     }
+    #howto{
+        padding: 7px;
+        font-size: 70%;
+    }
+    .popup .popuptext {
+        width: 130px;
+        font-size: 50%;
+        height: 430px;
+        margin-top: 110px;
+        left: 170px;
+    }
+    #popuplist{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #closepopup{
+        font-size: 150%;
+    }
+}
+@media screen and (max-width: 220px){
+    #howto{
+        padding: 5px;
+        font-size: 60%;
+    }
+    footer a{
+        font-size: 100%;
+    }
 }
 @media screen and (max-width: 210px){
     .main-page-section{
@@ -385,114 +546,16 @@ input[type="radio"]:checked + label {
     .title{
         font-size: 45%;
     }
+    footer a{
+        font-size: 85%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #howto{
+        padding: 2px;
+        font-size: 50%;
+    }
+    .popup .popuptext {
+        left: 152px;
+    }
 }
-
-
-/* For how to play game pop-up and footer  */
-#indexfooter{
-    height: 80px;
-    color: white;
-    width: 100%;
-    background-color: rgba(197, 197, 197, 0.863);
-    border-top: 2px solid white;
-    position: absolute;
-    bottom: 0px;
-    text-align: center;
-}
-.find-us{
-    margin: 0px;
-    line-height: 70px;
-    margin-right: 100px;
-}
-.find-us > li{
-    display: inline;
-    list-style-type: none;
-    height: 50px;
-    margin-left: 50px;
-    margin-left: 50px;
-
-}
-footer a{
-    color: rgb(102, 102, 102);
-    font-size: 200%;
-}
-footer a:hover{
-    color:rgb(255, 255, 255);
-}
-#howto{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 10px;
-    color: black;
-}
-#howto:hover{
-    background-color: rgb(63, 63, 63);
-    border: 2px solid rgb(180, 180, 180);
-    color: rgb(255, 255, 255);
-}
-#closepopup{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    height: 0px;
-    font-size: x-large;
-}
-#popupheading{
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-#popuplist{
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-
-/* The following code is from w3c schools popup tutorial edited to fit the needs of the Harry Potter Quiz */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    height: 30px;
-    
-  }
-  
-  /* The actual popup */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 500px;
-    height: 530px;
-    line-height: 20px;
-    background-color: rgb(109, 109, 109);
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 0px;
-    position: absolute;
-    z-index: 1;
-    bottom: 200px;
-    left: 0px;
-    margin-left: -190px;
-  }
-  
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
