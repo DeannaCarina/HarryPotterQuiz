@@ -53,7 +53,7 @@ The Harry Potter franchise has a huge and dedicated fan-base, the term 'Potterma
 
 #### Aims
 <ol>
-    <li>To earn comission from potential companies that would like to advertise via the website in the space left on the main page</li>
+    <li>To supply instructions to the user on how to best 'play' the quiz</li>
     <li>For visitors to the website to have a positive user experience, in terms of website design and interactivity</li>
     <li>To be easily find-able via search engines</li>
     <li>To educate users on the more unusual facts around the Harry Potter books</li>
@@ -222,7 +222,7 @@ While following the MMP model, to meet the user and business goals, my website w
 
 Much the same as my last project for Code Institute, I have chosen to carry out a non-linear method of design for this website as it consists of multiple pages which might not necessarily be viewed in a particular order as each page has a different role to play. By having multiple pages we can separate large amounts of information into logical sections to make it easier for the user to find what they are looking for. 
 
-On index.html: I chose for the main content of this page to be navigation for the user to be able to select a particular Harry Potter quiz. If the navigation was less obvious then the user might navigate away as they don't know where to click or what to do. The text at the top of the page tells the user the exact role of the website and the topic of the quiz while also issuing a challenge for the user and encouraging them to carry out one of the seven quizzes.
+On index.html: I chose for the main content of this page to be navigation for the user to be able to select a particular Harry Potter quiz. If the navigation was less obvious then the user might navigate away as they don't know where to click or what to do. The text at the top of the page tells the user the exact role of the website and the topic of the quiz while also issuing a challenge for the user and encouraging them to carry out one of the seven quizzes. This page also contains a button which will show instructions for the user and a footer containing social media links.
 
 On all of the quiz pages: On navigation to all of the quiz pages, an alert will be visible for the user reminding them that all of the questions are based on the Harry Potter books, I felt this was a highly important piece of information for the user to know as many of the potential answers differ based on the Book versus the Movie e.g. Book 1 Question 15: The correct answer for the Book is 'Charms' however the correct answer for the movie is 'Defence Against the Dark Arts' both are potential answers for the question so this question might have caught out many users without the alert. All questions are displayed on the page via the specific JavaScript file, on selection of a single answer, the users selection will highlight in a grey colour, and on hover of any answer it will highlight in a light grey colour. Once all questions have been attempted (or not) and the user selects 'get results' all potential answers for a single question will be highlighted in green or red - this does not show the correct answer, only whether the question has been answered correctly or incorrectly. On selection of the 'get results' button, this will also reveal three further buttons - one to reveal the correct answers, one to refresh the page to try again, and one to go back to the home page (there is also this button at the top of the page).<br>
 <a href="#Contents">Back to the top.</a>
@@ -379,16 +379,16 @@ From the table, I was able to recognise which features were more likely to have 
     <li><em>A fully responsive website that works on a range of screen sizes and devices</em> - The majority of users that visit the Harry Potter quiz will most likely be visiting on a mobile device, therefore I have ensured that the quiz works and is displayed correctly on all screen sizes down to a width of 140px which means the quiz will be playable on most smart watches. By catering for screen sizes down to this size, I am ensuring the website is inclusive no matter the device the user has. This feature meets aims 2 and 6 identified in the Strategy section of UX</li>
     <li><em>A range of questions from all Harry Potter books that would not usually feature in the standard Harry Potter quizes found online</em> - In order to implement this feature I have had to (and I am still having to at 2 weeks from submission) read all of the Harry Potter books from cover to cover and pick out the facts that most readers might skim over and the facts that aren't touched upon in the films. I am usually quite a quick reader, however when I am trying to find obsure facts I have found I need to be a lot more scruninising of the words I am reading and therefore take my time a bit more. On average, one set of book questions (20 in total) have taken be 2-4 days to generate depending on the size of the book. For the seven books if each one is taking me 3 days to read and generate answers from - thats three weeks worth of time just taken to make the questions and answers. I am currently (on 29th July) exactly two weeks from submission and still need to generate questions and answers for two more books. Although it has taken a lot of time to implement this feature, I have found it exceptionally rewarding and the individuals that have tested the website have all been very impressed at the standard of the questions. This feature meets aims 2, 4, 5 and 6 identified in the Strategy section of UX</li>
     <li><em>For each question, a range of answers that would all make sense to the user (nothing obscure)</em> - I have found on multiple occasions when carrying out online quizzes that the correct answer to the question is obvious. There are usually four potential answers, two of which are completely obscure, one is a 'red herring' and the other is the correct answer. I have tried to steer away from this method and have given four potential answers that all sound correct. For the audience that I am targeting I feel that this style of potential answers will be more rewarding as it makes the quiz harder. For some of the potential answers I have had to do some research such as learning some latin phrases, and using Harry Potter websites to learn about other characters and events that have happened in the 'Potterverse' that could be another potential answer. This feature meets aims 2, 4, 5 and 6 identified in the Strategy section of UX</li>
-    <li><em>A space for external companies to advertise on the main page of the website for potential income</em> - This will allow companies that are affiliated with the Harry Potter franchise to have an advertising space and generate a potential income from the website. This feature meets aim 1 identified in the Strategy section of UX</li>
+    <li><em>A way for users to view step-by-step instructions for the web-quiz</em> - This will allow the users to identify the best way to interact with the website and the steps they will need to take to gain their scores. This feature meets aim 1 identified in the Strategy section of UX</li>
 </ul>   
 
 ### Features left to implement
 Due to time constraints and limitations of coding knowledge I have chosen not to try and implement the following features to the website at this time, however they have the potential to become features in the future:
 <ul>
-    <li><em>A score table on the main page for users to see their score from each quiz on the same page</em> - </li>
-    <li><em>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</em> - </li>
-    <li><em>A way for users to input their name/nickname for personalised alerts</em> - </li>
-    <li><em>A leaderboard showing the users name/nicknames (only shows their first attempt)</em> - </li>
+    <li><em>A score table on the main page for users to see their score from each quiz on the same page</em> - at this current stage in my learning I feel that trying to incorporate this feature is beyond my skill set. I would need to learn about sessions and analytics, which for the moment are beyond my comfort zone.</li>
+    <li><em>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</em> - Throughout the design and implementation of the web-quiz I have found JavaScript a very difficult language to work with, and as such I have tried to make the website as simple as possible - this has meant that I have not followed 'dry' principles however given how much I have struggled with this project, I feel that trying to implement this particular feature would have been way beyond my comfort zone.</li>
+    <li><em>A way for users to input their name/nickname for personalised alerts</em> - This feature (I think) would have been fairly easy to implement, however I feel that it wouldn't have added much to the game itself. Almost every quiz I have carried out online never ask for the users name, so I don't feel that the Harry Potter quiz would be at a disadvantage by not having this feature.</li>
+    <li><em>A leaderboard showing the users name/nicknames (only shows their first attempt)</em> - I feel this feature is beyond my current coding knowledge as I would probably need to use databases? I wouldn't know where to start.</li>
 </ul>
 <a href="#Contents">Back to the top.</a>
 
@@ -518,7 +518,14 @@ If you want to make changes to the repo without affecting it, you can make a cop
 # Credits
 
 ### Code
+<ul>
+    <li><a href="https://www.w3schools.com/howto/howto_css_modals.asp">How TO - CSS/JS Modal</a></li>
+    <li><a href="https://simplestepscode.com/javascript-quiz-tutorial/">How to make a simple JavaScript quiz</a></li>
+</ul>
+The first tutorial was used for the modal on the main page for users to view the instructions without having to navigate to a new page, and the second was used for the base code on the quiz pages. Both sets of code have been edited to fit the needs of the Harry Potter Quiz website. I wish I could have written all of the JavaScript code independently, however I felt that using some pre-made code that already did (almost) what I needed it to, would improve the standard of code, decrease the chance of potential bugs and allow me to work within the timeframe to meet the deadline for the project. I was able to edit and add things to the code as and when I needed to to be able to make the web-quiz interactivity how I had imagined it during the planning phase.
+
 ### Content
+All questions and answers in the web-quiz were found and worded by myself (please see implemented features points 9 and 10). Some of the alternate answers I found from websites like <a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank">Wikipedia</a>, <a href="https://harrypotter.fandom.com/wiki/Harry_Potter" target="_blank">Harry Potter Fandom</a> and <a href="https://www.wizardingworld.com/" target="_blank">Wizarding World</a>.
 
 #### Images
 The main image used throughout the website - the background image used for different screen sizes came from <a href="https://unsplash.com/" target="_blank">Unsplash</a>:
@@ -533,6 +540,9 @@ The image used as the background for the advertising space came from <a href="ht
 </ul>    
 
 #### Acknowledgements
+<ul>
+    <li>Once again, to my absolutely amazing Fiancé - you are my rock and without you I would have thrown in the towel.</li>
+</ul>
 <a href="#Contents">Back to the top.</a>
 # Screenshots
 <img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
