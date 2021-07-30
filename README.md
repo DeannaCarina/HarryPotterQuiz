@@ -541,6 +541,7 @@ The main image used throughout the website - the background image used for diffe
 
 # Screenshots
 <img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screenmodal.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen2.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen3.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen4.png" alt="Screenshot of finished website">
