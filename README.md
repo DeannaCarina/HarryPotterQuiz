@@ -581,8 +581,13 @@ Below are the validation reports for all HTML pages, the CSS file and two report
 <a href="#Contents">Back to the top.</a>
 
 ### Peer Review
+As a students of Code Instutute we have Slack as a resource to help and compliment our learning. We are able to post our web pages and GitHub repositories for other students to review. I would like to thank SuzyBee, John R and SimonV_alumni for taking the time to look at my website and for pointing out some of my mistakes and offering guidance and suggestions to improve the website. All problems identified by my peers were rectified straight away.
+
 ### Development Problems
+Due to the limitations of my own knowledge and coding ability, I found it quite difficult to make some of my ideas a reality - as identified in 'features left to implement' there were things that I would have implemented but my coding knowledge just wasn't high enough. Thoughout the development process, my lack of knowledge and (to a point) my lack of confidence meant that some of the ways I have written the code haven't been ideal. You will be able to see that I have eight separate JavaScript files - this is obviously not following the 'don't repeat yourself' principle and so is not industry standard, however I really struggled to condense my code and have it all work from a single JavaScript file. Please see 'bugs (and their fixes)' for more details on problems that occured during development.
+
 ### Accessibility
+
 ### Performance Testing
 Below is the report generated from lighthouse via Chrome DevTools for the desktop website, I am extremely happy with this result, and don't feel I need to make any changes.
 <br><br><img src="assets/images/readme-images/lighthouse.png" alt="Lighthouse performance report"><br><br>
