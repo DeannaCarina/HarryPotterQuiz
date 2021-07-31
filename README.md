@@ -601,47 +601,56 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 #### index.html
 <img src="assets/images/readme-images/waveindex.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>Contrast errors on page heading "Think you know Harry Potter? Take our quiz to find out..."
+><strong>HOW ERRORS FIXED: </strong> Set background colour to transparent dark grey and set width of heading to 100% so the background spans the full width of the users device screen.
 
 #### book1.html
 <img src="assets/images/readme-images/wave1.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book2.html
 <img src="assets/images/readme-images/wave2.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. Color contrast errors in heading of page.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. Difficult to fix contrast errors due to text being red and background being blue - set text to white with a red shadow to try and still tie in with the colour scheme.
 
 #### book3.html
 <img src="assets/images/readme-images/wave3.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book4.html
 <img src="assets/images/readme-images/wave4.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book5.html
 <img src="assets/images/readme-images/wave5.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book6.html
 <img src="assets/images/readme-images/wave6.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same.
 
 #### book7.html
 <img src="assets/images/readme-images/wave7.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same.
 
 #### 404.html
 <img src="assets/images/readme-images/wave404.png" alt="Accessibility report">
 
->Text about first run and how errors were fixed.
+><strong>BEFORE ERRORS FIXED: </strong>No errors.
+><strong>HOW ERRORS FIXED: </strong>No errors.
 
 <br><a href="#Contents">Back to the top.</a>
 
