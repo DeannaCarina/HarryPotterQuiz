@@ -598,47 +598,47 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
     <li>Re-run the web page through the <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> tool</li>
 </ol>
 
-### index.html
+#### index.html
 <img src="assets/images/readme-images/waveindex.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book1.html
+#### book1.html
 <img src="assets/images/readme-images/wave1.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book2.html
+#### book2.html
 <img src="assets/images/readme-images/wave2.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book3.html
+#### book3.html
 <img src="assets/images/readme-images/wave3.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book4.html
+#### book4.html
 <img src="assets/images/readme-images/wave4.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book5.html
+#### book5.html
 <img src="assets/images/readme-images/wave5.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book6.html
+#### book6.html
 <img src="assets/images/readme-images/wave6.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### book7.html
+#### book7.html
 <img src="assets/images/readme-images/wave7.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
 
-### 404.html
+#### 404.html
 <img src="assets/images/readme-images/wave404.png" alt="Accessibility report">
 
 >Text about first run and how errors were fixed.
