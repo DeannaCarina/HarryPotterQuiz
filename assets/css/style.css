@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5{
 }
 .book-2, .link-2{
     background-color: #27467D;
-    color: #609440;
+    color: #94e264;
     border: 2px solid #C62022;
 }
 .book-3, .link-3{
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5{
 }
 .book-4, .link-4{
     background-color: #EE1530;
-    color: #1C449A;
+    color: #2862dd;
     border: 2px solid #3C9BC0;
 }
 .book-5, .link-5{
@@ -159,16 +159,16 @@ h1, h2, h3, h4, h5{
     color: #FFFFFF;
 }
 .book-2-title{
-    color: #C62022;
+    color: #f72b2e;
 }
 .book-3-title{
-    color: #4F9188;
+    color: #6ec5ba;
 }
 .book-4-title{
     color: #000000;
 }
 .book-5-title{
-    color: #50516A;
+    color: #7c7da1;
 }
 
 /* ----------------STYLINGS OF QUIZ PAGES------------------- */
