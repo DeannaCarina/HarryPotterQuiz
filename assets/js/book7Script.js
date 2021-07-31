@@ -201,8 +201,8 @@ const book7Questions = [
     }    
 ];
 
-// alert('This page is under construction, appologies for any inconvenience this causes!')
-// window.location.replace('../index.html');
+alert('This page is under construction, appologies for any inconvenience this causes!')
+window.location.replace('../index.html');
 
 function displayTicks(){
   const divArray = 
