@@ -599,76 +599,49 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 </ol>
 
 ### index.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/waveindex" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/waveindex.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book1.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave1" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave1.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book2.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave2" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave2.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book3.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave3" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave3.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book4.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave4" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave4.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book5.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave5" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave5.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book6.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave6" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave6.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### book7.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave7" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave7.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 ### 404.html
-<ul>
-    <li>
-        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave404" target="_blank"><strong>HERE</strong></a>
-    </li>
-</ul>
-Text about first run and how errors were fixed.
+<img src="assets/images/readme-images/wave404.png" alt="Accessibility report">
+
+>Text about first run and how errors were fixed.
 
 <br><a href="#Contents">Back to the top.</a>
 
