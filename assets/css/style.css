@@ -21,13 +21,18 @@ h1, h2, h3, h4, h5{
     color: rgb(255, 255, 255);
     font-size: 200%;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 15px;
     margin-top: 0px;
 }
 .landing-sub-heading{
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.landing-heading, .landing-sub-heading{
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.863);
 }
 .book-image{
     width: 90px;
@@ -265,7 +270,6 @@ input[type="radio"]:checked + label{
     color: white;
     width: 100vw;
     background-color: rgba(197, 197, 197, 0.863);
-    border-top: 2px solid white;
     text-align: center;
     margin-top: 50px;
     position: fixed;
@@ -286,7 +290,7 @@ footer a:hover{
     color: rgb(122, 122, 122);
 }
 #myBtn{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 150px;
     padding: 10px;
     background-color: white;
