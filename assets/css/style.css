@@ -429,6 +429,10 @@ footer a:hover{
         width: 50px;
         border-radius: 15px;
     }
+    #indexfooter{
+        height: 50px;
+        line-height: 50px;
+    }
 }
 @media screen and (max-width: 350px){
     label{
