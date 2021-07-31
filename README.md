@@ -589,6 +589,88 @@ As a students of Code Instutute we have Slack as a resource to help and complime
 Due to the limitations of my own knowledge and coding ability, I found it quite difficult to make some of my ideas a reality - as identified in 'features left to implement' there were things that I would have implemented but my coding knowledge just wasn't high enough. Thoughout the development process, my lack of knowledge and (to a point) my lack of confidence meant that some of the ways I have written the code haven't been ideal. You will be able to see that I have eight separate JavaScript files - this is obviously not following the 'don't repeat yourself' principle and so is not industry standard, however I really struggled to condense my code and have it all work from a single JavaScript file. Please see 'bugs (and their fixes)' for more details on problems that occured during development.
 
 ### Accessibility
+<em>"By making your website accessible, you are ensuring that all of your potential users, including people with disabilities, have a decent user experience and are able to easily access your information.  By implementing accessibility best practices, you are also improving the usability of the site for all users." [4]</em>
+
+Due to the importance and necessity of accessibility on websites, I have chosen to run all the web pages associated with Harry Potter quiz through the <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> tool. I found from carrying out accessibility checks on my last project that the Wave Accessibility tool is a very good all-round checker that looks at a range of aspects on a web page and shows which aspects need fixing or altering in line with accessibility best practices. The steps I took from first check to last check are as follows:
+<ol>
+    <li>Run the web page through the <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> tool</li>
+    <li>Rectify any errors that resulted from the <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> check regarding code errors and contrast errors</li>
+    <li>Re-run the web page through the <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> tool</li>
+</ol>
+
+### index.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/waveindex" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book1.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave1" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book2.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave2" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book3.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave3" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book4.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave4" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book5.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave5" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book6.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave6" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### book7.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave7" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+### 404.html
+<ul>
+    <li>
+        The accessibility report from <a href="https://wave.webaim.org/" target="_blank">Wave Accessibility</a> can be found <a href="assets/images/readme-images/wave404" target="_blank"><strong>HERE</strong></a>
+    </li>
+</ul>
+Text about first run and how errors were fixed.
+
+<br><a href="#Contents">Back to the top.</a>
 
 ### Performance Testing
 Below is the report generated from lighthouse via Chrome DevTools for the desktop website, I am extremely happy with this result, and don't feel I need to make any changes.
@@ -733,3 +815,5 @@ The main image used throughout the website - the background image used for diffe
 [2]S. Reid, ""Harry Potter" Hits 500 Million Worldwide Sales | MuggleNet", MuggleNet, 2021. [Online]. Available: https://www.mugglenet.com/2018/02/harry-potter-hits-500-million-worldwide-sales/. [Accessed: 30- Jul- 2021].
 
 [3]"Harry Potter fandom - Wikipedia", En.wikipedia.org, 2021. [Online]. Available: https://en.wikipedia.org/wiki/Harry_Potter_fandom. [Accessed: 30- Jul- 2021].
+
+[4]"Accessibility Basics | Usability.gov", Usability.gov, 2021. [Online]. Available: https://www.usability.gov/what-and-why/accessibility.html. [Accessed: 12- Jun- 2021].
