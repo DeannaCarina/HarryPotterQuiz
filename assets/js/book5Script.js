@@ -220,9 +220,8 @@ let containerOfQuiz = document.getElementById('quiz');
 let containerOfResults = document.getElementById('results');
 let submitQuizButton = document.getElementById('submit');
 let containerOfBottomLinks = document.getElementById('bottomLinks');
-let containerOfTopLinks = document.getElementById('topLinks');
 
-generateQuiz(book5Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks, containerOfTopLinks);
+generateQuiz(book5Questions, containerOfQuiz, containerOfResults, submitQuizButton, containerOfBottomLinks);
 
 function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuizButton){
   // show questions right away
@@ -291,6 +290,6 @@ function generateQuiz(questions, containerOfQuiz, containerOfResults, submitQuiz
   submitQuizButton.onclick = function(){
     showResults(questions, containerOfQuiz, containerOfResults, containerOfBottomLinks);
     containerOfBottomLinks.style.display = "block";
-    containerOfTopLinks.style.display = "block";  
+    window.scrollTo(0,document.body.scrollHeight);
     };    
-  }
+}
