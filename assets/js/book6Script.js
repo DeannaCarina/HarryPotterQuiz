@@ -95,7 +95,7 @@ const book6Questions = [
           a: "Got into a fight with the opposing team's keeper and punched Harry in the face by mistake",
           b: "Stole a bat from one of the beaters and hit a bludger at Harry's head<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           c: "Shot a disarming spell at the opposing teams seeker which hit Harry and made his broom repel away from him",
-          d: "Deflected the quaffle away from the hoops at towards Harry's face - breaking his glasses and getting glass in his eyes"
+          d: "Deflected the quaffle away from the hoops and towards Harry's face - breaking his glasses and getting glass in his eyes"
       },
       correctAnswer: 'b'
     },
