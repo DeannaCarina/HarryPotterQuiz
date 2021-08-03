@@ -1,203 +1,203 @@
 const book6Questions = [
     {
-      question: "Question",
+      question: "Where is Azkaban situated geographically?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "In the English Channel",
+          b: "The Irish Sea",
+          c: "The North Sea<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "In the Bristol CHannel"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "What new name was given to Buckbeak for his own safety in the aftermath of Sirius' death?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Witherwings<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Butterscotch",
+          c: "Quicktail",
+          d: "Nimbleplume"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "What is the name of the shop assistant that works in Fred and George's joke shop?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Vivienne",
+          b: "Victoria",
+          c: "Vanessa",
+          d: "Verity<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "When Draco put the Full Body-Bind curse on Harry and was left on the train under his invisibility cloak, who found him?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Tonks<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Hagrid",
+          c: "Lupin",
+          d: "Luna"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "What was the name of the muggle that Morfin Gaunt hexed?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Don Harrison",
+          b: "Tom Riddle<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Michael Babatola",
+          d: "Dougal McGregor"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "During Harry's first Quidditch tryouts as Captain, who did he appoint to be the three chasers?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Colin Creevy, Katie Bell, Ritchie Coote",
+          b: "Demelza Robins, Ginny Weasley, Alicia Spinnet",
+          c: "Cormac McLaggen, Ginny Weasley, Angelina Johnson",
+          d: "Katie Bell, Demelza Robins, Ginny Weasley<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "While in Hogsmeade, who did Harry pin up against the wall of the Three Broomsticks pub by his throat?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Draco Malfoy",
+          b: "Mundungus Fletcher<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Cormac McLaggen",
+          d: "Blaise Zabini"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "During his first lesson on Human Transfiguration, Ron was trying to change the colour of his eyebrows - what did he do instead?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Made his eyebrows join in the middle and grow an inch long",
+          b: "Removed his eyelids",
+          c: "Gave himself a handlebar mustache<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Made his nose hair grow until it reached his chin"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "Sixth years were given the opportunity to receive appiration lessons by a Ministry of Magic Appiration Instructor - how much did these lessons cost?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "12 Galleons<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "5 Galleons",
+          c: "20 Galleons",
+          d: "25 Galleons"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "Cormac McLaggen replaced Ron as Keeper after Ron had been poisoned in Slughorns office, what did he do during the match that resulted in Harry Being admitted to the hospital wing?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Got into a fight with the opposing team's keeper and punched Harry in the face by mistake",
+          b: "Stole a bat from one of the beaters and hit a bludger at Harry's head<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Shot a disarming spell at the opposing teams seeker which hit Harry and made his broom repel away from him",
+          d: "Deflected the quaffle away from the hoops at towards Harry's face - breaking his glasses and getting glass in his eyes"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "What did Tom Riddle (a.k.a Voldemort) do for a job after he finished his schooling at Hogwarts?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Worked at Borgin and Burkes<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Became Defence Against the Dark Arts teacher",
+          c: "Worked in the Auror Commisioner's office",
+          d: "Worked at Cobb & Webb's down Knockturn Alley"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "Who did Hokey the house elf belong to?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Caractacus Burke",
+          b: "Antonin Dolohov",
+          c: "Dolores Umbridge",
+          d: "Hepzibah Smith<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "When Ron was writing Professor Snape's essay on dementors he was using a spell check quill but the charm had worn off - What did the quill write instead of 'Ron Weasley'?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Roonil Wazlib<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Rancid Wizbang",
+          c: "Rincewind Whalley",
+          d: "Rose Wilson"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "How did Harry and Dumbledore get back to Hogwarts from the Cave which was the Horcux's hiding place?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Apparated into the Astronomy Tower",
+          b: "Apparated into Hogsmeade then used Thestrals to fly the rest of the way",
+          c: "Apparated into Hogsmeade then used broomsticks to fly the rest of the way<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Flew on thestrals the whole way"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "How did Malfoy get the Cursed necklace to Katie Bell?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Planted the necklace in the girls toilets of the Three Broomsticks and put the Imperius Curse on her",
+          b: "Put the Imperius Curse on Madame Rosmerta and made her give the necklace to Katie in the girls toilets of the Three Broomsticks<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Put an enchantment on the necklace to make Katie want to take it to Professor Dumbledore",
+          d: "Made Goyle take the polyjuice potion to turn into a girl and gave her the necklace in the girls toilets of the Three Broomsticks"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "Who went to get Professor Snape when the Death Eaters had entered Hogwarts via the Vanishing Cabinet?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Luna Lovegood",
+          b: "Professor McGonagall",
+          c: "Remus Lupin",
+          d: "Professor Flitwick<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "What is Severus Snape's father called?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Theodore",
+          b: "Trenton",
+          c: "Tobias<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Tiberius"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "After Voldemort's return, which wizard is assigned to protect the muggle Prime Minister?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Kingsley Shacklebolt<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "John Dawlish",
+          c: "Hesphaestus Gore",
+          d: "Nymphadora Tonks"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "Whose memory did Professor Dumbledore show to Harry first?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Morfin Gaunt",
+          b: "Mrs Cole",
+          c: "His own",
+          d: "Bob Ogden<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "During the battle of the Astronomy Tower, which death eater isn't there?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Amycus Carrow",
+          b: "Belatrix Lestrange<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Fenir Greyback",
+          d: "Thorfinn Rowle"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     }    
 ];
 
