@@ -201,6 +201,8 @@ const book6Questions = [
     }    
 ];
 
+alert('PLEASE NOTE: All the following questions and answers are based on the sixth Harry Potter BOOK - not the movie.');
+
 function displayTicks(){
   const divArray = 
   Array.from(document.getElementsByClassName('tick'));

@@ -1,13 +1,113 @@
 const book7Questions = [
     {
-      question: "Question",
+      question: "On the way into Malfoy Manor - what pure-white animals would you see on your way to the front door?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Snakes",
+          b: "Wolves",
+          c: "Peacocks<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Red deer stags"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
+    },
+    {
+      question: "What was Albus Dumbledore's father called?",
+      answers: {
+          a: "Aberforth",
+          b: "Wulfric",
+          c: "Brian",
+          d: "Percival<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
+      },
+      correctAnswer: 'd'
+    },
+    {
+      question: "Which two members of the Order of the Phoenix came to escort the Dursleys away from Privet Drive?",
+      answers: {
+          a: "Dedalus Diggle & Hestia Jones<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Emmeline Vance & Hestia Jones",
+          c: "Sturgis Podmore & Dedalus Diggle",
+          d: "Benjy Fenwick & Emmeline Vance"
+      },
+      correctAnswer: 'a'
+    },
+    {
+      question: "What colour does polyjuice potion turn after the addition of Harry's hair?",
+      answers: {
+          a: "Emerald Green",
+          b: "Muddy-brown",
+          c: "Silver",
+          d: "Gold<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
+      },
+      correctAnswer: 'd'
+    },
+    {
+      question: "When Hermione modified her parent's memories, what did she make them think their names were?",
+      answers: {
+          a: "William and Margaret Warburton",
+          b: "Winston and Marina Walton",
+          c: "Wendell and Monica Wilkins<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Wilbur and Mariana Webb"
+      },
+      correctAnswer: 'c'
+    },
+    {
+      question: "When Ron leaves with Harry and Hermoine to search for Horcruxes, the Weasley's ghoul is going to stay in Ron's bedroom and pretend to be Ron - what illness are the Weasley's going to say 'Ron' has?",
+      answers: {
+          a: "Spattergroit<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Plague",
+          c: "Mumblemumps",
+          d: "Squabbs Syndrome"
+      },
+      correctAnswer: 'a'
+    },
+    {
+      question: "What birthday gift did Harry receive from Mr and Mrs Weasley?",
+      answers: {
+          a: "A box of chocolates",
+          b: "An enchanted razor",
+          c: "A watch<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "A new jumper"
+      },
+      correctAnswer: 'c'
+    },
+    {
+      question: "Where did Hermoine, Harry and Ron disapparate to after leaving Bill and Fleur's wedding?",
+      answers: {
+          a: "Oxford Street",
+          b: "Tottenham Court Road<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Shaftesbury Avenue",
+          d: "Regent Street"
+      },
+      correctAnswer: 'b'
+    },
+    {
+      question: "What food was Kreacher preparing or Harry, Ron and Hermione on their return from the Ministry of Magic?",
+      answers: {
+          a: "Tomato tortellini soup",
+          b: "French onion soup",
+          c: "Beef and vegetable casserole",
+          d: "Steak and kidney pie<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
+      },
+      correctAnswer: 'd'
+    },
+    {
+      question: "Who forged the first Golden Snitch?",
+      answers: {
+          a: "Cornelius Agrippa",
+          b: "Godric Gryffindor[",
+          c: "Bowman Wright<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "Alberta Toothill"
+      },
+      correctAnswer: 'c'
+    },
+    {
+      question: "Who was Bathilda Bagshot's great-nephew?",
+      answers: {
+          a: "Gellert Grindewald<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Albus Dumbledore",
+          c: "Newt Scamander",
+          d: "Elphias Doge"
+      },
+      correctAnswer: 'a'
     },
     {
       question: "Question",
@@ -90,119 +190,18 @@ const book7Questions = [
       correctAnswer: 'abcd'
     },
     {
-      question: "Question",
+      question: "What is the last line written in the Harry Potter and the Deathly Hallows book?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "'And he finally knew, everything was as it should be.'",
+          b: "'They watched as the Hogwarts Express departed platform nine and three quaters.'",
+          c: "'All was well'<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "'They would always have each other.'"
       },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
-    },
-    {
-      question: "Question",
-      answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
-      },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     }    
 ];
 
-alert('This page is under construction, appologies for any inconvenience this causes!')
-window.location.replace('../index.html');
+alert('PLEASE NOTE: All the following questions and answers are based on the seventh Harry Potter BOOK - not the movie.');
 
 function displayTicks(){
   const divArray = 
