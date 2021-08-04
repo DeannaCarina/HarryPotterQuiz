@@ -638,13 +638,13 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 <img src="assets/images/readme-images/wave6.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.<br>
-><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="assets/images/readme-images/wave6b.png" alt="Accessibility report">
 
 #### book7.html
 <img src="assets/images/readme-images/wave7.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.<br>
-><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same.
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="assets/images/readme-images/wave7b.png" alt="Accessibility report">
 
 #### 404.html
 <img src="assets/images/readme-images/wave404.png" alt="Accessibility report">
