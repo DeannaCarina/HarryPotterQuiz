@@ -93,7 +93,7 @@ const book7Questions = [
       question: "Who forged the first Golden Snitch?",
       answers: {
           a: "Cornelius Agrippa",
-          b: "Godric Gryffindor[",
+          b: "Godric Gryffindor",
           c: "Bowman Wright<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           d: "Alberta Toothill"
       },
