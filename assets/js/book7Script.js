@@ -80,7 +80,7 @@ const book7Questions = [
       correctAnswer: 'b'
     },
     {
-      question: "What food was Kreacher preparing or Harry, Ron and Hermione on their return from the Ministry of Magic?",
+      question: "What food was Kreacher preparing for Harry, Ron and Hermione on their return from the Ministry of Magic?",
       answers: {
           a: "Tomato tortellini soup",
           b: "French onion soup",
@@ -110,7 +110,7 @@ const book7Questions = [
       correctAnswer: 'a'
     },
     {
-      question: "Where were Harry and Hermoine when the 'silver doe' appeared to guide Harry to the sword of Griffindor",
+      question: "Where were Harry and Hermoine when the 'silver doe' appeared to guide Harry to the sword of Griffindor?",
       answers: {
           a: "Forest of Bowland",
           b: "Ashdown Forest",
