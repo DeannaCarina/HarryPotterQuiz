@@ -99,7 +99,8 @@ The main image used throughout the website - the background image used for diffe
 <img src="assets/images/readme-images/screen9.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen10.png" alt="Screenshot of finished website">
 <img src="assets/images/readme-images/screen11.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website"><br><br>
+<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website">
+<img src="assets/images/readme-images/screen13.png" alt="Screenshot of finished website"><br><br>
 <a href="#Contents">Back to the top.</a>
 
 # References
