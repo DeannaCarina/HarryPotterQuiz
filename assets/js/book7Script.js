@@ -50,7 +50,7 @@ const book7Questions = [
       correctAnswer: 'c'
     },
     {
-      question: "When Ron leaves with Harry and Hermoine to search for Horcruxes, the Weasley's ghoul is going to stay in Ron's bedroom and pretend to be Ron - what illness are the Weasley's going to say 'Ron' has?",
+      question: "What is Ron's cover story illness for not going back to Hogwarts?",
       answers: {
           a: "Spattergroit<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
           b: "Plague",
@@ -110,84 +110,84 @@ const book7Questions = [
       correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "Where were Harry and Hermoine when the 'silver doe' appeared to guide Harry to the sword of Griffindor",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Forest of Bowland",
+          b: "Ashdown Forest",
+          c: "Delamere Forest",
+          d: "Forest of Dean<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "The sign on the gate at the Lovegood's house had three lines of text: 'THE QUIBBLER. EDITOR, X. LOVEGOOD', 'PICK YOUR OWN MISTLETOE' and... What did the third line say?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Watch out for the Gulping Plimpies!",
+          b: "Don't step on the Crumple-Horned Snorkacks",
+          c: "Keep off the dirigible plums<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          d: "But be careful of the Nargles!"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'c'
     },
     {
-      question: "Question",
+      question: "Which of the Peverell brothers recieved Death's own cloak as prize for crossing the river in 'The Tale of the Three Brothers'?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Ignotus<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Kastor",
+          c: "Cadmus",
+          d: "Antioch"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "On the radio station 'Potterwatch' what was Lee Jordan's code name?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Rapier",
+          b: "Romulus",
+          c: "Royal",
+          d: "River<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "How did Hermione hide her beaded bag on the night they were caught by the Snatchers?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Made it invisible and summoned it back to her after they were safe",
+          b: "Stuffed it down her sock<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Transfigured it into a jacket, which she wore",
+          d: "She didn't... The snatchers found it and emptied it at Malfoy Manor"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
-      question: "Question",
+      question: "On their arrival into Diagon Alley (with Hermione disguised as Belatrix Lestrange) and their walk to Gringotts, which Death Eater found and accompanied them into the bank?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Travers<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          b: "Selwyn",
+          c: "Wilkes",
+          d: "Macnair"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'a'
     },
     {
-      question: "Question",
+      question: "How did Helena Ravenclaw come to posses the Diadem of Ravenclaw while she was still alive?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "She inheritted it after Rowena Ravenclaw became fatally ill",
+          b: "She was gifted it by Rowena Ravenclaw",
+          c: "She never possessed it, it was lost after Rowena passed away",
+          d: "She stole it from Rowena Raveclaw<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'd'
     },
     {
-      question: "Question",
+      question: "Who produced the Fiendfyre in the Room of Requirement?",
       answers: {
-          a: "Answer",
-          b: "Answer",
-          c: "Answer",
-          d: "Answer"
+          a: "Gregory Goyle",
+          b: "Vincent Crabbe<div class='tick'><img src='https://i.ibb.co/v43bTPs/tick.png' alt='correct answer'></div>",
+          c: "Blaise Zabini",
+          d: "Draco Malfoy"
       },
-      correctAnswer: 'abcd'
+      correctAnswer: 'b'
     },
     {
       question: "What is the last line written in the Harry Potter and the Deathly Hallows book?",
