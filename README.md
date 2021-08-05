@@ -1,5 +1,6 @@
 <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><h1>Harry Potter Quiz</h1></a>
-
+Please follow link above for live website.
+<br>
 **Please note**: The following README follows the same layout and logic as the README from my previous project, there will be similarities in text.
 
 ## Contents
