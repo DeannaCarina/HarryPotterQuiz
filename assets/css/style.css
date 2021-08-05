@@ -439,10 +439,12 @@ footer a:hover{
         line-height: 50px;
     }
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 416px){
     label{
         height: auto;
     }
+}
+@media screen and (max-width: 350px){
     footer a{
         font-size: 130%;
         margin-left: 5px;
