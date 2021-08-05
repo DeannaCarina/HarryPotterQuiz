@@ -5,7 +5,7 @@
 ## Contents
 <ul>
     <li>
-        <a href="#Introcuction">Introduction</a>
+        <a href="#Introduction">Introduction</a>
     </li>
     <li>
         <a href="#Strategy">Strategy</a>
