@@ -152,11 +152,13 @@ I tested the usability and intuitiveness of the website using different focus gr
         </td>
     </tr>
 </table><br>
+<a href="#Contents">Back to the top.</a><br>
 
 ### Compatibility
 The second phase of my testing regime for the website was to ensure that the website is compatible through a range of devices, screen sizes and internet browsers. Throughout the development process, the website was tested on a number of devices: A 17.3 inch windows laptop, a 15.3 inch windows laptop, a 16 inch MacBook Pro, an 8 inch Samsung Galaxy Tab A, a 10.2 inch iPad, A Samsung Galaxy S20 Ultra and A Huawei P30 Pro. It was also tested in Chrome, Firefox, Internet Explorer and Safari as well as Samsung's own internet browser. By also using Chrome Dev Tools, I was able to manually change the screen size to see when elements within the web pages 'break', by using this method, I could pinpoint the exact screen widths and heights to be defined in the CSS media screen queries and alter the stylings to fit accordingly. The videos below shows how I checked the responsiveness of the website at all screensizes.<br><br>
 <img src="../images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
 <img src="../images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
+<a href="#Contents">Back to the top.</a><br>
 
 <h3 id="user-testing-stories">User Testing Stories</h3>
 
@@ -226,9 +228,11 @@ Below are the validation reports for all HTML pages, the CSS file and two report
 
 <h3 id="peer-review">Peer Review</h3>
 As a students of Code Instutute we have Slack as a resource to help and compliment our learning. We are able to post our web pages and GitHub repositories for other students to review. I would like to thank SuzyBee, John R and SimonV_alumni for taking the time to look at my website and for pointing out some of my mistakes and offering guidance and suggestions to improve the website. All problems identified by my peers were rectified straight away.
+<a href="#Contents">Back to the top.</a><br>
 
 <h3 id="dev-probs">Development Problems</h3>
 Due to the limitations of my own knowledge and coding ability, I found it quite difficult to make some of my ideas a reality - as identified in 'features left to implement' there were things that I would have implemented but my coding knowledge just wasn't high enough. Thoughout the development process, my lack of knowledge and (to a point) my lack of confidence meant that some of the ways I have written the code haven't been ideal. You will be able to see that I have eight separate JavaScript files - this is obviously not following the 'don't repeat yourself' principle and so is not industry standard, however I really struggled to condense my code and have it all work from a single JavaScript file. Please see 'bugs (and their fixes)' for more details on problems that occured during development.
+<a href="#Contents">Back to the top.</a><br>
 
 ### Accessibility
 <em>"By making your website accessible, you are ensuring that all of your potential users, including people with disabilities, have a decent user experience and are able to easily access your information.  By implementing accessibility best practices, you are also improving the usability of the site for all users." [4]</em>

@@ -18,6 +18,8 @@
 
 <h3 id="decisions">Deciding what to implement</h3>
 Using the table from the Strategy Plane of the UX section (which I have included at the bottom of this page), I was able to determine what could be implemented and what would be better being left out by using a viability/importance chart. Those features that were plotted in the graph in the pink area were those that were determined to be both important AND viable enough to be implemented.<br>
+<a href="#Contents">Back to the top.</a><br>
+
 <h3 id="implemented">Implemented Features</h3>
 From the table, I was able to recognise which features were more likely to have a positive impact on the website and implement the following:
 <ul>
@@ -33,6 +35,7 @@ From the table, I was able to recognise which features were more likely to have 
     <li><em>For each question, a range of answers that would all make sense to the user (nothing obscure)</em> - I have found on multiple occasions when carrying out online quizzes that the correct answer to the question is obvious. There are usually four potential answers, two of which are completely obscure, one is a 'red herring' and the other is the correct answer. I have tried to steer away from this method and have given four potential answers that all sound correct. For the audience that I am targeting I feel that this style of potential answers will be more rewarding as it makes the quiz harder. For some of the potential answers I have had to do some research such as learning some latin phrases, and using Harry Potter websites to learn about other characters and events that have happened in the 'Potterverse' that could be another potential answer. This feature meets aims 2, 4, 5 and 6 identified in the Strategy section of UX</li>
     <li><em>A way for users to view step-by-step instructions for the web-quiz</em> - This will allow the users to identify the best way to interact with the website and the steps they will need to take to gain their scores. This feature meets aim 1 identified in the Strategy section of UX</li>
 </ul>   
+<a href="#Contents">Back to the top.</a><br>
 
 <h3 id="features-left">Features left to implement</h3>
 Due to time constraints and limitations of coding knowledge I have chosen not to try and implement the following features to the website at this time, however they have the potential to become features in the future:
@@ -41,7 +44,9 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
     <li><em>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</em> - Throughout the design and implementation of the web-quiz I have found JavaScript a very difficult language to work with, and as such I have tried to make the website as simple as possible - this has meant that I have not followed 'dry' principles however given how much I have struggled with this project, I feel that trying to implement this particular feature would have been way beyond my comfort zone.</li>
     <li><em>A way for users to input their name/nickname for personalised alerts</em> - This feature (I think) would have been fairly easy to implement, however I feel that it wouldn't have added much to the game itself. Almost every quiz I have carried out online never ask for the users name, so I don't feel that the Harry Potter quiz would be at a disadvantage by not having this feature.</li>
     <li><em>A leaderboard showing the users name/nicknames (only shows their first attempt)</em> - I feel this feature is beyond my current coding knowledge as I would probably need to use databases? I wouldn't know where to start.</li>
-</ul><br><br>
+</ul><br>
+<a href="#Contents">Back to the top.</a><br>
+<br>
 <table>
     <tr>
         <th>Opportunity/Feature</th>

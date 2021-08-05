@@ -33,7 +33,7 @@ This project was created on GitHub and Edited in GitPod by carrying out the foll
             <li>git push -f - This was used to force changes through to the GitHub repo if either "commit --amend" or "git reset" were used</li>
         </ul>
     </li>
-</ol>
+</ol><a href="#Contents">Back to the top.</a><br>
 
 <h3 id="PD">Project Creation</h3>
 This project was deployed via GitHub pages by carrying out the following:
@@ -46,7 +46,8 @@ This project was deployed via GitHub pages by carrying out the following:
     <li>The web page is then assigned it's URL which will appear in the source section*</li>
 </ol>
 *It can take some time for the site to be deployed when the 'save' button is pressed and a URL created.<br>
-A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank">**HERE**</a>
+A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank">**HERE**</a><br>
+<a href="#Contents">Back to the top.</a><br>
 
 <h3 id="LD">Project Creation</h3>
 There are many ways to deploy the project locally on your own device. The ways I will explain here are: Forking, Cloning, GitHub Desktop and Zip Exctraction, the steps in these processes are outlines below:
