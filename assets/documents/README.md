@@ -42,7 +42,7 @@ This is my submission for Code Institute's (5P) Portfolio Project Two. It will b
 ### Demo
 
 A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank"><strong>HERE</strong></a><br><br>
-<img src="assets/images/readme-images/responsive.gif" alt="gif showing responsiveness of website" width="90%"><br>
+<img src="../images/readme-images/responsive.gif" alt="gif showing responsiveness of website" width="90%"><br>
 <a href="#Contents">Back to the top.</a>
 
 # UX
@@ -195,8 +195,8 @@ I have plotted the table above into a graph to easily visualise the features tha
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul>
-<img src="assets/images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%">
-<img src="assets/images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br>
+<img src="../images/readme-images/quizgraph.png" alt="Graph depicting the features that will be included in the website" width="80%">
+<img src="../images/readme-images/quiztable.png" alt="Key to show which circles on the graph represent which feature" width="40%"><br>
 For the feature "For each question, a range of answers that would all make sense to the user (nothing obscure)" I am going to aim to implement this feature as this will add to the user experience but also allow me to make the question harder or easier depending on the possible answers there are. For example in Book 1 question 19, I have custom made the answers to all make sense as they are all written in Latin (apart from the correct answer however this also looks like it's written in latin) and all translate to something that would make sense as the answer to the question.
 <br>
 <a href="#Contents">Back to the top.</a>
@@ -236,45 +236,45 @@ On all of the quiz pages: On navigation to all of the quiz pages, an alert will 
 The wireframes for the Harry Potter Quiz website were made with the Balsamiq Desktop Applictaion, they can be found by viewing the images below. As the layout of the quiz will change between device screen sizes, I have made a wireframe for all devices; with PC being in landscape, and tablet and phones being in portrait orientation. As I have chosen an image that is square, it is able to act as the background for all screen sizes, inkeeping with device compatibility and responsiveness. As the development of the web-quiz is carried out, the final produced developed may differ from these wireframes as I decide which features to implement.
 <br><br>
 The wireframe below is for the landing page on PC.
-<img src="assets/images/readme-images/pc-main.png" alt="Wireframe for landing page on PC" width="100%"><br><br>
+<img src="../images/readme-images/pc-main.png" alt="Wireframe for landing page on PC" width="100%"><br><br>
 The wireframe below is for the quiz page on PC.
-<img src="assets/images/readme-images/pc-quiz.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
+<img src="../images/readme-images/pc-quiz.png" alt="Wireframe for quiz page on PC" width="100%"><br><br>
 The wireframes below are for tablets.<br>
-<img src="assets/images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
-<img src="assets/images/readme-images/tablet-quiz.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
+<img src="../images/readme-images/tablet-main.png" alt="Wireframe for landing page on tablet" width="45%"> 
+<img src="../images/readme-images/tablet-quiz.png" alt="Wireframe for quiz page on tablet" width="45%"><br><br>
 The wireframes below are for smaller devices.<br>
-<img src="assets/images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
-<img src="assets/images/readme-images/phone-quiz.png" alt="Wireframe for quiz page on phones" width="30%">
+<img src="../images/readme-images/phone-main.png" alt="Wireframe for landing page on phones" width="30%"> 
+<img src="../images/readme-images/phone-quiz.png" alt="Wireframe for quiz page on phones" width="30%">
 <br>
 <a href="#Contents">Back to the top.</a>
 
 ### Surface
 #### Typography
 I used Google Fonts to find the typography that I wanted to use for the website. I wanted to try and find a similar font for the headings as the font for the 'Harry Potter' text on the front covers of the books, I think I managed to find a fairly similar font with 'Libre Baskerville', by using this font I hope that it will add familiarity for the user, but also highlight the design similarities between the website and the books. For the normal website text I used 'Montserrat', this was a font suggested by Google Fonts which I felt was good for the website as it is easy to read. I didn't come across any problems with these fonts during the design and deployment processes.<br><br>
-<img src="assets/images/readme-images/fonts.png" alt="Image showing the fonts used on the website"><br><br>
+<img src="../images/readme-images/fonts.png" alt="Image showing the fonts used on the website"><br><br>
 
 #### Colour Scheme
-<img src="assets/images/readme-images/colors.png" alt="Image showing the colour scheme of the website"><br>
+<img src="../images/readme-images/colors.png" alt="Image showing the colour scheme of the website"><br>
 The main colours used on the website are the headings and navigation links on click of the 'get results' button - these correspond to the colours on the front of the related Harry Potter book. <br>
-<img src="assets/images/readme-images/quizheaders.png" alt="Image showing the colours of the headers on the quiz pages" width="80%"><br><br>
+<img src="../images/readme-images/quizheaders.png" alt="Image showing the colours of the headers on the quiz pages" width="80%"><br><br>
 Initially (as you can see from the wireframes) I had chosen to have the links with these specific colours too, in able to add familiarity for the user, however I felt that having so many colours on the main page would distract the user and encourage them to navigate away due to information overload. As such, I have made the div-links to the quiz pages very neutral in colour and added an image to the left hand side of the nav-link of the front cover image of each Harry Potter book. I generated the colours above by using an eyedropper tool on the front covers of the book images below. Unfortunately due to accessibility constraints, I did have to minimally alter a few of the HEX values above to ensure there was enough contrast between background and overlying text, the place where this is most prevelant is in the title of the Book2 Quiz (Harry Potter and the Chamber of Secrets) it was very difficult to get a compliant result due to having a blue background and red overlying text - for how I fixed this please refer to the Testing (accessibility) section.<br>
-<img src="assets/images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br>
+<img src="../images/readme-images/colour-scheme.png" alt="Image showing the colours of the Harry Potter book front covers"><br>
 On hover of the answers, the colour changes to a light grey as a visual aid to the user of which answer they are going to click (this can be seen with the first image below), and on click of an answer the background colour goes to a darker grey with a dark grey border as a further visual aid of which answer they have selected - I chose to keep these colours neutral so there is no visual clue as to which answer is correct. The quiz pages all have a transparent background behind the answers to ensure the user is not distracted by the background. I also added a hover psuedo class to the nav links on the main page as a visual aid to which quiz the user is going to click on.<br>
-<img src="assets/images/readme-images/selection.png" alt="Image showing the colours of the answers when hovered on or clicked" width="80%"><br><br>
-<img src="assets/images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered" width="80%"><br>
+<img src="../images/readme-images/selection.png" alt="Image showing the colours of the answers when hovered on or clicked" width="80%"><br><br>
+<img src="../images/readme-images/hover.png" alt="Image showing the colours of the nav links when hovered" width="80%"><br>
 
 #### Icons
 The icons used in the website were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, they can be seen throughout the site on all quiz pages after the 'get results' button has been clicked. They are used as calls to action for the user to either navigate home, refresh the page or to reveal answers.<br><br>
-<img src="assets/images/readme-images/icons.png" alt="Image showing the icons used on the website"><br><br>
+<img src="../images/readme-images/icons.png" alt="Image showing the icons used on the website"><br><br>
 The favicon was made by myself using shapes and drawing tools in Microsoft Powerpoint, it was then converted from a png file to an ico file via <a href="https://favicon.io/" target="_blank">Favicon.io</a>.<br><br>
-<img src="assets/images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br>
+<img src="../images/readme-images/webicon.png" alt="Image showing the favicon used on the website"><br>
 <a href="#Contents">Back to the top.</a>
 
 #### Design - Images
 The main image used on the website is the background image which was taken from Pexels (see credit for photographer information). I wanted a background that would tie in with the theme of the website and also be instantly recognisable by the users. I struggled to find an image that fit my needs while also being fairly neutral in colour so as to not distract from the forground text and elements. <br><br>
-<img src="assets/images/backgrounds/background.jpg" alt="Image showing the background used on the website Hogwarts letter, glasses" width="70%"><br>
+<img src="../images/backgrounds/background.jpg" alt="Image showing the background used on the website Hogwarts letter, glasses" width="70%"><br>
 I feel that this image was the best I could find, and to ensure that there is less distraction from it, on the quiz pages I have a white transparent overlay of the majority of the background to enable the user to still see the image without being distracted by it. The only other images used on the website are those of the front cover images on the main page, these were scanned using my home scanner and reduced in size via an image resolution reduction tool online to reduce load times.<br><br>
-<img src="assets/images/readme-images/covers.png" alt="Image showing the book cover images used on the main page"><br>
+<img src="../images/readme-images/covers.png" alt="Image showing the book cover images used on the main page"><br>
 <a href="#Contents">Back to the top.</a>
 
 # Technologies
@@ -513,52 +513,52 @@ I tested the usability and intuitiveness of the website using different focus gr
 
 ### Compatibility
 The second phase of my testing regime for the website was to ensure that the website is compatible through a range of devices, screen sizes and internet browsers. Throughout the development process, the website was tested on a number of devices: A 17.3 inch windows laptop, a 15.3 inch windows laptop, a 16 inch MacBook Pro, an 8 inch Samsung Galaxy Tab A, a 10.2 inch iPad, A Samsung Galaxy S20 Ultra and A Huawei P30 Pro. It was also tested in Chrome, Firefox, Internet Explorer and Safari as well as Samsung's own internet browser. By also using Chrome Dev Tools, I was able to manually change the screen size to see when elements within the web pages 'break', by using this method, I could pinpoint the exact screen widths and heights to be defined in the CSS media screen queries and alter the stylings to fit accordingly. The videos below shows how I checked the responsiveness of the website at all screensizes.<br><br>
-<img src="assets/images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
-<img src="assets/images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
+<img src="../images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
+<img src="../images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
 
 ### User Testing Stories
 
 The third phase of my testing regime was to ensure that customer all user stories identified in the <a href="#Strategy">Strategy</a> plane have been acknowledged and achieved.<br><br>
 
 <em>"I want to know the purpose of the website as soon as I navigate to the home/landing page" & "I want to navigate the website quickly and effectively" & "I want to quickly find the relevant quiz I wish to attempt"</em><br>
-<img src="assets/images/readme-images/user1.png" alt="Screenshot of Title and nav area" width="70%"><br>
+<img src="../images/readme-images/user1.png" alt="Screenshot of Title and nav area" width="70%"><br>
 
 
 >I have tried to make the website as intuitive as possible. From the first time the customer navigates to the home page I have tried to make it so the customer is aware straight away of the function of the website by including a relevant website title and cover text to exaplain what the website is for. As soon as the customer navigates to the home page, the things they should see are as follows: The title: "Think you know Harry Potter?", "Take our quiz to find out...", The background image and the navigation links. All of these elements point towards the theme of the website - a Harry Potter Quiz. I feel I have succeeded in this area as I had a number of focus groups divided by age all of which found the site easy to navigate, highly intuitive and knew the exact function of the website at first navigation.<br><br>
 
 <em>"I want to have easiliy accessible social media platform links"</em><br>
-<img src="assets/images/readme-images/user3.png" alt="Screenshot social media links in footer"><br>
+<img src="../images/readme-images/user3.png" alt="Screenshot social media links in footer"><br>
 
 >The social media links in the footer of the main page would allow the user to navigate away from the Harry Potter Quiz website and to affiliated social media platforms, these could contain further information about the quiz, give people an opportunity to discuss questions and their answers, and perhaps allow users the opportunity to submit their own questions. This goal was met by placing the social media links within the footer and setting the position to fixed always at the bottom, that way it is always visible on top of other page elements.</em><br>
 
 
 <em>"I want to have a visual aid to confirm which answer I have chosen"</em><br>
-<img src="assets/images/readme-images/user4.png" alt="Screenshot of answer selection"><br>
-<img src="assets/images/readme-images/user4.gif" alt="Gif of answer hover"><br>
+<img src="../images/readme-images/user4.png" alt="Screenshot of answer selection"><br>
+<img src="../images/readme-images/user4.gif" alt="Gif of answer hover"><br>
 
 >When the user navigates to any of the quiz pages they will be greeting with 20 questions themed around a particular Harry Potter book (year 1 - 7), for each question there are 4 answer options. On click, the answer the user has selected will change colour to grey with a dark grey border around the edge. On hover, the answer will change colour to light grey (see video and image above). I feel that this goal was met as the user has a visual identifier to show which answer they have selected and which answer they could potential select. Having the neutral colour of grey keeps gives no idication of whether the answer is correct or incorrect.</em><br>
 
 
 <em>"I want to get a score at the end of each quiz to show how well I did"</em><br>
-<img src="assets/images/readme-images/user5.png" alt="Screenshot of score visualisation after 'get results' is pressed"><br>
+<img src="../images/readme-images/user5.png" alt="Screenshot of score visualisation after 'get results' is pressed"><br>
 
 >When the user clicks on 'get results' an alert box will appear with the user's score and a short personal message generated via the linked JavaScript file. The score will also appear below the 'get results' button. This goal has been met as users have two visual opportunities to know what they scored on the quiz. Ideally I would also have had a score on the index page for each quiz the user carries out, however I don't currently have the coding knowledge to be able to implement this feature - I still feel the goal has been achieved without this.</em><br>
 
 
 <em>"I want to have an option to show the correct answers in case I don't want to see them and want to retry, or want to retry with some help"</em><br>
-<img src="assets/images/readme-images/user6.png" alt="Screenshot of buttons that appear after click of 'get results'"><br>
+<img src="../images/readme-images/user6.png" alt="Screenshot of buttons that appear after click of 'get results'"><br>
 
 >When the user clicks on 'get results' three further buttons appear below the users score: 'reveal answers', 'home' and 'retry'. I wanted the correct answer being revealed to be an option, not a guarentee. User's may want to see their score and retry without seeing the correct answers t0 see if they can improve, and other may want to see the correct answers and then try a different quiz - I wanted this to be a choice for the user. As such I feel that this goal has definitely been met.</em><br>
 
 
 <em>"I want to have interesting and obscure questions about areas of Harry Potter that might not be well-known"</em><br>
-<img src="assets/images/readme-images/user7.png" alt="Screenshot of an interesting question"><br>
+<img src="../images/readme-images/user7.png" alt="Screenshot of an interesting question"><br>
 
 >As I have found, written and developed the questions myself, as well as generated all of the incorrect answers, I have been able to make questions harder by adding in answers that could also be percieved as correct. The image above shows one of the questions asking about the text on the Mirror of Erised. The correct answer looked to be written in a Latin based language, therefore the other 3 incorrect answers I also wrote in Latin to make them also seem plausable. I feel that this goal has been met as I have found all of the questions myself and have been able to pick out facts from the books that are less known. The only downside has been that I have had to re-read the books myself and a lot of the development time has been spent generating questions and answers.</em><br>
 
 
 <em>"I want to have straightforward and easily accessible instructions for the Quiz"</em><br>
-<img src="assets/images/readme-images/user2.png" alt="Screenshot of instructions" width="40%"><br>
+<img src="../images/readme-images/user2.png" alt="Screenshot of instructions" width="40%"><br>
 
 >On the main page there is an easily accessible button below the quiz links for the user to press which says 'how to play' the wording is straightforward and immediately lets the user know what the button does. The instructions will be brought up in a box (modal) on the index page with simple instructions explaining what the user has to do to be able to get a quiz score. I felt that having the instructions on the same page (in a modal) was better for user experience as they do not navigate away from the main page. Therefore I feel that this goal has been met.</em><br>
 
@@ -567,19 +567,19 @@ The third phase of my testing regime was to ensure that customer all user storie
 ### Code Validation
 Below are the validation reports for all HTML pages, the CSS file and two reports carried out on the JavaScript. All came back with no errors apart from the Beutify report on the JavaScript which states "'displayTicks' is defined but never used." however the displayTicks function is used but it is called from within the HTML file.<br><br>
 <strong>HTML</strong><br>
-<img src="assets/images/readme-images/indexhtmlval.png" alt="Code validation of index.html"><br><br>
-<img src="assets/images/readme-images/book1htmlval.png" alt="Code validation of book1.html"><br><br>
-<img src="assets/images/readme-images/book2htmlval.png" alt="Code validation of book2.html"><br><br>
-<img src="assets/images/readme-images/book3htmlval.png" alt="Code validation of book3.html"><br><br>
-<img src="assets/images/readme-images/book4htmlval.png" alt="Code validation of book4.html"><br><br>
-<img src="assets/images/readme-images/book5htmlval.png" alt="Code validation of book5.html"><br><br>
-<img src="assets/images/readme-images/book6htmlval.png" alt="Code validation of book6.html"><br><br>
-<img src="assets/images/readme-images/book7htmlval.png" alt="Code validation of book7.html"><br><br>
+<img src="../images/readme-images/indexhtmlval.png" alt="Code validation of index.html"><br><br>
+<img src="../images/readme-images/book1htmlval.png" alt="Code validation of book1.html"><br><br>
+<img src="../images/readme-images/book2htmlval.png" alt="Code validation of book2.html"><br><br>
+<img src="../images/readme-images/book3htmlval.png" alt="Code validation of book3.html"><br><br>
+<img src="../images/readme-images/book4htmlval.png" alt="Code validation of book4.html"><br><br>
+<img src="../images/readme-images/book5htmlval.png" alt="Code validation of book5.html"><br><br>
+<img src="../images/readme-images/book6htmlval.png" alt="Code validation of book6.html"><br><br>
+<img src="../images/readme-images/book7htmlval.png" alt="Code validation of book7.html"><br><br>
 <strong>CSS</strong><br>
-<img src="assets/images/readme-images/cssval.png" alt="Code validation of CSS"><br><br>
+<img src="../images/readme-images/cssval.png" alt="Code validation of CSS"><br><br>
 <strong>JS</strong><br>
-<img src="assets/images/readme-images/jshint.png" alt="Code check of JavaScript with Jshint"><br><br>
-<img src="assets/images/readme-images/beautify.png" alt="Code check of JavaScript with BeautifyTools"><br><br>
+<img src="../images/readme-images/jshint.png" alt="Code check of JavaScript with Jshint"><br><br>
+<img src="../images/readme-images/beautify.png" alt="Code check of JavaScript with BeautifyTools"><br><br>
 <a href="#Contents">Back to the top.</a>
 
 ### Peer Review
@@ -599,55 +599,55 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 </ol>
 
 #### index.html
-<img src="assets/images/readme-images/waveindex.png" alt="Accessibility report">
+<img src="../images/readme-images/waveindex.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>Contrast errors on page heading "Think you know Harry Potter? Take our quiz to find out..."<br>
 ><strong>HOW ERRORS FIXED: </strong> Set background colour to transparent dark grey and set width of heading to 100% so the background spans the full width of the users device screen.
 
 #### book1.html
-<img src="assets/images/readme-images/wave1.png" alt="Accessibility report">
+<img src="../images/readme-images/wave1.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.<br>
 ><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book2.html
-<img src="assets/images/readme-images/wave2.png" alt="Accessibility report">
+<img src="../images/readme-images/wave2.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. Color contrast errors in heading of page.<br>
 ><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. Difficult to fix contrast errors due to text being red and background being blue - set text to white with a red shadow to try and still tie in with the colour scheme.
 
 #### book3.html
-<img src="assets/images/readme-images/wave3.png" alt="Accessibility report">
+<img src="../images/readme-images/wave3.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.<br>
 ><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book4.html
-<img src="assets/images/readme-images/wave4.png" alt="Accessibility report">
+<img src="../images/readme-images/wave4.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.<br>
 ><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book5.html
-<img src="assets/images/readme-images/wave5.png" alt="Accessibility report">
+<img src="../images/readme-images/wave5.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons.<br>
 ><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button.
 
 #### book6.html
-<img src="assets/images/readme-images/wave6.png" alt="Accessibility report">
+<img src="../images/readme-images/wave6.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.<br>
-><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="assets/images/readme-images/wave6b.png" alt="Accessibility report">
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="../images/readme-images/wave6b.png" alt="Accessibility report">
 
 #### book7.html
-<img src="assets/images/readme-images/wave7.png" alt="Accessibility report">
+<img src="../images/readme-images/wave7.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No text within the 'reveal answers', 'back to home' or 'retry' buttons. 80 errors due to answers not being in place.<br>
-><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="assets/images/readme-images/wave7b.png" alt="Accessibility report">
+><strong>HOW ERRORS FIXED: </strong>Set aria-label to descibe the button. These errors will be rectified when all answers are put into the page, currently as all answers are the same, all ID's and form labels are also the same. (See below for updates accesibility report after questions and answers were inputted): <img src="../images/readme-images/wave7b.png" alt="Accessibility report">
 
 #### 404.html
-<img src="assets/images/readme-images/wave404.png" alt="Accessibility report">
+<img src="../images/readme-images/wave404.png" alt="Accessibility report">
 
 ><strong>BEFORE ERRORS FIXED: </strong>No errors.<br>
 ><strong>HOW ERRORS FIXED: </strong>No errors.
@@ -656,9 +656,9 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 
 ### Performance Testing
 Below is the report generated from lighthouse via Chrome DevTools for the desktop website, I am extremely happy with this result, and don't feel I need to make any changes.
-<br><br><img src="assets/images/readme-images/lighthouse.png" alt="Lighthouse performance report"><br><br>
+<br><br><img src="../images/readme-images/lighthouse.png" alt="Lighthouse performance report"><br><br>
 Below is the report generated from lighthouse via Chrome DevTools for the mobile website, I am also happy with this result, and don't feel I need to make any changes.
-<br><br><img src="assets/images/readme-images/lighthousemobile.png" alt="Lighthouse performance report"><br><br>
+<br><br><img src="../images/readme-images/lighthousemobile.png" alt="Lighthouse performance report"><br><br>
 
 ### Bugs (and their fixes)
 <ul>
@@ -775,19 +775,19 @@ The main image used throughout the website - the background image used for diffe
 <a href="#Contents">Back to the top.</a>
 
 # Screenshots
-<img src="assets/images/readme-images/screen1.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screenmodal.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen2.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen3.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen4.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen5.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen6.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen7.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen8.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen9.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen10.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen11.png" alt="Screenshot of finished website">
-<img src="assets/images/readme-images/screen12.png" alt="Screenshot of finished website"><br><br>
+<img src="../images/readme-images/screen1.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screenmodal.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen2.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen3.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen4.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen5.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen6.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen7.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen8.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen9.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen10.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen11.png" alt="Screenshot of finished website">
+<img src="../images/readme-images/screen12.png" alt="Screenshot of finished website"><br><br>
 <a href="#Contents">Back to the top.</a>
 
 # References
