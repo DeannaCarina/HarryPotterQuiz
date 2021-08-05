@@ -1,3 +1,5 @@
+<a href="https://github.com/DeannaCarina/HarryPotterQuiz">Back to README</a>
+
 # Deployment
 The following section was taken and edited from the README in my previous project for code institute:
 

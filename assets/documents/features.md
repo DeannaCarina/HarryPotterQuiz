@@ -1,6 +1,8 @@
+<a href="https://github.com/DeannaCarina/HarryPotterQuiz">Back to README</a>
+
 # Features
 ### Deciding what to implement
-Using the table from the Strategy Plane of the UX section, I was able to determine what could be implemented and what would be better being left out by using a viability/importance chart. Those features that were plotted in the graph in the pink area were those that were determined to be both important AND viable enough to be implemented.
+Using the table from the Strategy Plane of the UX section (which I have included at the bottom of this page), I was able to determine what could be implemented and what would be better being left out by using a viability/importance chart. Those features that were plotted in the graph in the pink area were those that were determined to be both important AND viable enough to be implemented.
 ### Implemented features
 From the table, I was able to recognise which features were more likely to have a positive impact on the website and implement the following:
 <ul>
@@ -24,5 +26,91 @@ Due to time constraints and limitations of coding knowledge I have chosen not to
     <li><em>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</em> - Throughout the design and implementation of the web-quiz I have found JavaScript a very difficult language to work with, and as such I have tried to make the website as simple as possible - this has meant that I have not followed 'dry' principles however given how much I have struggled with this project, I feel that trying to implement this particular feature would have been way beyond my comfort zone.</li>
     <li><em>A way for users to input their name/nickname for personalised alerts</em> - This feature (I think) would have been fairly easy to implement, however I feel that it wouldn't have added much to the game itself. Almost every quiz I have carried out online never ask for the users name, so I don't feel that the Harry Potter quiz would be at a disadvantage by not having this feature.</li>
     <li><em>A leaderboard showing the users name/nicknames (only shows their first attempt)</em> - I feel this feature is beyond my current coding knowledge as I would probably need to use databases? I wouldn't know where to start.</li>
-</ul>
+</ul><br><br>
+<table>
+    <tr>
+        <th>Opportunity/Feature</th>
+        <th>Feasibility/Viability (score out of 5)</th>
+        <th>Level of Importance (score out of 5)</th>
+        <th>In or out?</th>
+    </tr>
+    <tr>
+        <td>Obvious role of the website demonstrated with hero image and capture text</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Simple design with straightforward navigation to make it easier for the user to understand where to find information</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A highly visually interactive website to keep the user interested</td>
+        <td>5</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A Fully accessible website able to be experienced by customers with visual imparement</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see which answer they have selected</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see the score they have recieved for each quiz</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A way for users to see the correct answers should they wish</td>
+        <td>3</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A score table on the main page for users to see their score from each quiz on the same page</td>
+        <td>2</td>
+        <td>3</td>
+        <td>Out</td>
+    </tr>
+    <tr>
+        <td>A one-page site with all quizes on the same HTML page with changes made entirely via JavaScript</td>
+        <td>1</td>
+        <td>2</td>
+        <td>Out</td>
+    </tr>
+    <tr>
+        <td>A fully responsive website that works on a range of screen sizes and devices</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A range of questions from all Harry Potter books that would not usually feature in the standard Harry Potter quizes found online</td>
+        <td>3</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>For each question, a range of answers that would all make sense to the user (nothing obscure)</td>
+        <td>3</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Average Viability x number of features:<br>43</td>
+        <td>Sum of Importance:<br>50</td>
+        <td></td>
+    </tr>
+</table>
 <a href="#Contents">Back to the top.</a>
