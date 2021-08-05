@@ -1,6 +1,42 @@
 <a href="https://github.com/DeannaCarina/HarryPotterQuiz">Back to README</a>
 
 # Testing
+
+## Contents
+<ul>
+    <li>
+        <a href="#Introduction">Introduction</a>
+    </li>
+    <li>
+        <a href="#Functionality">Functionality</a>
+    </li>
+    <li>
+        <a href="#Compatibility">Compatibility</a>
+    </li>  
+    <li>
+        <a href="#user-testing-stories">User Testing Stories</a>
+    </li>    
+    <li>
+        <a href="#validation">Code Validation</a>
+    </li>        
+    <li>
+        <a href="#peer-review">Peer Review</a>
+    </li>
+    <li>
+        <a href="#dev-probs">Development Problems</a>
+    </li>
+    <li>
+        <a href="#Accessibility">Accessibility</a>
+    </li>
+    <li>
+        <a href="#perf-test">Performance Testing</a>
+    </li>
+    <li>
+        <a href="#bugs">Bugs & Fixes</a>
+    </li>
+</ul>
+<hr>
+
 ### Introduction
 As I did with my previous project, I am going to carry out thorough testing of my website, and I will follow the same method that I did with P1. The testing that I carry out will cover: Functionality, Compatibility, User Testing Stories, Code Validation, Peer Review, Development Problems, Accessibility and Performance Testing
 
@@ -122,7 +158,7 @@ The second phase of my testing regime for the website was to ensure that the web
 <img src="../images/readme-images/respons1.gif" alt="Gif showing responsiveness of index.html"><br><br>
 <img src="../images/readme-images/respons2.gif" alt="Gif showing responsiveness of quiz pages"><br><br>
 
-### User Testing Stories
+<h3 id="user-testing-stories">User Testing Stories</h3>
 
 The third phase of my testing regime was to ensure that customer all user stories identified in the <a href="#Strategy">Strategy</a> plane have been acknowledged and achieved.<br><br>
 
@@ -188,10 +224,10 @@ Below are the validation reports for all HTML pages, the CSS file and two report
 <img src="../images/readme-images/beautify.png" alt="Code check of JavaScript with BeautifyTools"><br><br>
 <a href="#Contents">Back to the top.</a>
 
-### Peer Review
+<h3 id="peer-review">Peer Review</h3>
 As a students of Code Instutute we have Slack as a resource to help and compliment our learning. We are able to post our web pages and GitHub repositories for other students to review. I would like to thank SuzyBee, John R and SimonV_alumni for taking the time to look at my website and for pointing out some of my mistakes and offering guidance and suggestions to improve the website. All problems identified by my peers were rectified straight away.
 
-### Development Problems
+<h3 id="dev-probs">Development Problems</h3>
 Due to the limitations of my own knowledge and coding ability, I found it quite difficult to make some of my ideas a reality - as identified in 'features left to implement' there were things that I would have implemented but my coding knowledge just wasn't high enough. Thoughout the development process, my lack of knowledge and (to a point) my lack of confidence meant that some of the ways I have written the code haven't been ideal. You will be able to see that I have eight separate JavaScript files - this is obviously not following the 'don't repeat yourself' principle and so is not industry standard, however I really struggled to condense my code and have it all work from a single JavaScript file. Please see 'bugs (and their fixes)' for more details on problems that occured during development.
 
 ### Accessibility
@@ -260,13 +296,13 @@ Due to the importance and necessity of accessibility on websites, I have chosen 
 
 <br><a href="#Contents">Back to the top.</a>
 
-### Performance Testing
+<h3 id="perf-test">Performance Testing</h3>
 Below is the report generated from lighthouse via Chrome DevTools for the desktop website, I am extremely happy with this result, and don't feel I need to make any changes.
 <br><br><img src="../images/readme-images/lighthouse.png" alt="Lighthouse performance report"><br><br>
 Below is the report generated from lighthouse via Chrome DevTools for the mobile website, I am also happy with this result, and don't feel I need to make any changes.
 <br><br><img src="../images/readme-images/lighthousemobile.png" alt="Lighthouse performance report"><br><br>
 
-### Bugs (and their fixes)
+<h3 id="bugs">Bugs & Fixes</h3>
 <ul>
     <li>Unable to duplicate answers within the same JS file due to using the answers themselves as selector ID's. In order to make the answers selectable, each one had to have a unique ID - I found the easiest way to generate these unique ID's was to make the answer themselves the ID, however I found that when I did this, if there were duplicate answers in the quiz, the duplicate answer would be selected when the orginal answer was selected. To minimise the risk of this happening, I chose to split the JavaScript files containing the questions and answers into seven separate files as the chances of duplicating answers over 20 questions is far less than the chances of duplicating them over 140. I am aware that I am not following the DRY (don't repeat yourself) priniciple when I do this, however to minimise bugs, and to fix bugs that arose in the development of the website, I found that I actually preferred having these separate JavaScript files as I knew exactly where the bug would be and how to fix it.</li>
     <li>User can scroll to the bottom of the quiz page as soon as they navigate to it, click on 'Get results' which will return a score of 0/20, then click on 'Reveal answers' which will reveal all the correct answers, the user can then change/select their answers and re-submitt for a top score. To fix this there is the option to disable interaction with the answers after the 'get results' button is clicked, however I feel that there's not much point in doing this as users can cheat regardless of whether they can re-submit or not. If the answers were disabled on click of 'get answers' then all the user would need to do is note down the questions they got wrong with the correct answers, then re-try the quiz. Unfortunately there will always be people that cheat, and there isn't much that we can do about this, however I am hoping that the people that this quiz is targetted towards would complete the quiz without cheating for the personal satisfaction of knowing they have top-knowledge of the Harry Potter books.</li>

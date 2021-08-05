@@ -3,7 +3,21 @@
 # Deployment
 The following section was taken and edited from the README in my previous project for code institute:
 
-### Project Creation
+## Contents
+<ul>
+    <li>
+        <a href="#PC">Project Creation</a>
+    </li>  
+    <li>
+        <a href="#PD">Project Deployment</a>
+    </li>  
+    <li>
+        <a href="#LD">Local Deployment</a>
+    </li> 
+</ul>
+<hr>
+
+<h3 id="PC">Project Creation</h3>
 This project was created on GitHub and Edited in GitPod by carrying out the following:
 <ol>
     <li>A new repository was created using 'Code-Instutute-Org/gitpod-full-template'</li>
@@ -21,7 +35,7 @@ This project was created on GitHub and Edited in GitPod by carrying out the foll
     </li>
 </ol>
 
-### Project Deployment
+<h3 id="PD">Project Creation</h3>
 This project was deployed via GitHub pages by carrying out the following:
 <ol>
     <li>Log in to GitHub</li>
@@ -34,7 +48,7 @@ This project was deployed via GitHub pages by carrying out the following:
 *It can take some time for the site to be deployed when the 'save' button is pressed and a URL created.<br>
 A live demo of the website can be found <a href="https://deannacarina.github.io/HarryPotterQuiz/" target="_blank">**HERE**</a>
 
-### Local Deployment
+<h3 id="LD">Project Creation</h3>
 There are many ways to deploy the project locally on your own device. The ways I will explain here are: Forking, Cloning, GitHub Desktop and Zip Exctraction, the steps in these processes are outlines below:
 
 #### Forking the GitHub repo

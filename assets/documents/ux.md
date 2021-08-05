@@ -1,6 +1,30 @@
 <a href="https://github.com/DeannaCarina/HarryPotterQuiz">Back to README</a>
 
 # UX
+
+## Contents
+<ul>
+    <li>
+        <a href="#Introcuction">Introduction</a>
+    </li>
+    <li>
+        <a href="#Strategy">Strategy</a>
+    </li>
+    <li>
+        <a href="#Scope">Scope</a>
+    </li>  
+    <li>
+        <a href="#Structure">Structure</a>
+    </li>    
+    <li>
+        <a href="#Skeleton">Skeleton</a>
+    </li>        
+    <li>
+        <a href="#Surface">Surface</a>
+    </li>
+</ul>
+<hr>
+
 ### Introduction
 The five planes provide a conceptual framework for breaking down the task of designing experiences into component elements so that we can understand the problem as a whole. I used this framework for my first Portfolio Project for Code Institute and found it to be structured, easy to follow and helped in breaking down the tasks needed to design and implement a user friendly and interactive website; therefore I will be using the same framework again to design and implement this project.
 ### Strategy

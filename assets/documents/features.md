@@ -1,9 +1,24 @@
 <a href="https://github.com/DeannaCarina/HarryPotterQuiz">Back to README</a>
 
 # Features
-### Deciding what to implement
-Using the table from the Strategy Plane of the UX section (which I have included at the bottom of this page), I was able to determine what could be implemented and what would be better being left out by using a viability/importance chart. Those features that were plotted in the graph in the pink area were those that were determined to be both important AND viable enough to be implemented.
-### Implemented features
+
+## Contents
+<ul>
+    <li>
+        <a href="#decisions">Deciding what to Implement</a>
+    </li>   
+    <li>
+        <a href="#implemented">Implemented Features</a>
+    </li> 
+    <li>
+        <a href="#features-left">Features Left to Implement</a>
+    </li> 
+</ul>
+<hr>
+
+<h3 id="decisions">Deciding what to implement</h3>
+Using the table from the Strategy Plane of the UX section (which I have included at the bottom of this page), I was able to determine what could be implemented and what would be better being left out by using a viability/importance chart. Those features that were plotted in the graph in the pink area were those that were determined to be both important AND viable enough to be implemented.<br>
+<h3 id="implemented">Implemented Features</h3>
 From the table, I was able to recognise which features were more likely to have a positive impact on the website and implement the following:
 <ul>
     <li><em>Obvious role of the website demonstrated with 'hero' image and capture text</em> - I have tried to make the landing page (catering for all screen sizes) as obvious as possible to identify the role and purpose of the website. The background image shows Harry Potter related items (his glasses, hogwarts letter and the marauder's map) which will be recognisable to any Harry Potter fan. The capture text at the top of the main page issues a challenge to the user "Think you know Harry Potter? Tak our quiz to find out" this states very clearly that the website is a quiz, and it's theme is Harry Potter - there shouldn't be any suprises when the user clicks on one of the quiz links The quiz links themselves feature each Harry Potter book title again enforcing the fact that this website is purely based around Harry Potter. This feature meets aims 2 and 6 identified in the Strategy section of UX</li>
@@ -19,7 +34,7 @@ From the table, I was able to recognise which features were more likely to have 
     <li><em>A way for users to view step-by-step instructions for the web-quiz</em> - This will allow the users to identify the best way to interact with the website and the steps they will need to take to gain their scores. This feature meets aim 1 identified in the Strategy section of UX</li>
 </ul>   
 
-### Features left to implement
+<h3 id="features-left">Features left to implement</h3>
 Due to time constraints and limitations of coding knowledge I have chosen not to try and implement the following features to the website at this time, however they have the potential to become features in the future:
 <ul>
     <li><em>A score table on the main page for users to see their score from each quiz on the same page</em> - at this current stage in my learning I feel that trying to incorporate this feature is beyond my skill set. I would need to learn about sessions and analytics, which for the moment are beyond my comfort zone.</li>
